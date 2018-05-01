@@ -1,0 +1,34 @@
+footer#slide_foot {
+  width: 100vw;
+  height: 84px;
+  display: flex;
+  background-color: #32333d;
+  padding: 0 3rem;
+  font-size: 1.75em;
+}
+
+footer#slide_foot > div#slide_foot-brand {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+footer#slide_foot > div#slide_foot-unit {
+  width: 65%;
+  display: flex;
+  align-items: center;
+}
+
+footer#slide_foot > a#slide_foot-attend {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer#slide_foot > div#slide_foot-date {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

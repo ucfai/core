@@ -1,0 +1,37 @@
+remote_theme: "ucfsigai/global-site-theme@master"
+
+## site title
+title: Data Science Group &ndash; SIGAI@UCF
+
+## this should become a google group, in a few weeks (04/30/18)
+email: ucfsigai@gmail.com
+
+## SIGAI@UCF mission
+description: >-
+  The Data Science Group of SIGAI@UCF hosts lectures, workshops, and the 
+  competitive data science team. The lectures and workshops foster and refine 
+  interest in data science and machine learning, preparing students for 
+  industry and research positions.
+
+## subpath, for the site, it's just "/"
+baseurl: "/data-science"
+## protocol (http[s]) and tld (ucfsigai.github.io)
+url: "https://ucfsigai.github.io"
+social:
+  repo: ucfsigai/data-science
+  slack: https://ucfsigai.slack.com/messages/CA6CUQWV7/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: club-meetings
+
+exclude:
+  - docker-compose.yml
+  - vendor/

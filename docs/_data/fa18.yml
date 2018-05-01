@@ -1,0 +1,27 @@
+signin: https://forms.google.com/...
+
+syllabus:
+  desc: >-
+    placeholder
+  units:
+    - unit: 0
+      name: "[Artificial] Neural Networks"
+      desc: >-
+        placeholder
+      list:
+        - type: lec
+          date: 27/08/2018
+          file: neural-networks
+          name: Back to Basics, Neural Nets
+          inst: [ionlights]
+          desc: >-
+            placeholder
+          yt: alskdjfk2_
+        - type: lab
+          date: 03/09/2018
+          file: neural-networks
+          name: Hitchhiker's Guide to the Galaxy
+          inst: [ionlights]
+          desc: >-
+            placeholder
+          yt: 129387891234823
