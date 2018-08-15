@@ -1,0 +1,41 @@
+- unit: 0
+  name: "Basics"
+  list:
+    - name: "what's sigai, intro to plotting, and newton setup"
+      file: "welcome-back"
+      inst: [ionlights, waldmannly]
+      date: "08/27"
+      desc: >
+        Welcome back to SIGAI! We'll be re-introducing SIGAI for newcomers and
+        refreshing it for veterans. Following that, we'll cover some basics of
+        generating graphs (a very common task for data science and research). If
+        you're enticed, we'll also get you setup on the university's
+        supercomputer, as all following meetings will stream from there! :smiley:
+    - name: "intro to numpy & pandas, also data cleaning"
+      file: "learn-numpy-pandas"
+      inst: [ChasKane]
+      date: "09/03"
+      desc: >
+        Data is arguably more important than the algorithms we'll be learning
+        this semester - and that data almost always needs to be curated and
+        finagled to really develop an understanding of what the data is trying
+        to tell you.
+    - name: "linear regression, more plotting, and maybe cleaning"
+      file: "linear-regression"
+      inst: [ahl98]
+      date: "09/10"
+      desc: >
+        Neural Networks are all the rage, nowadays, but simpler models are
+        always great places to start! We'll cover how to do Linear/Logistic
+        Regression as well as preparing data for such a function to work.
+- unit: 1
+  name: "neural-nets"
+  list:
+    - name: "intro to pytorch / neural nets"
+      file: "neural-nets"
+      inst: [ChasKane, ionlights]
+      date: "09/17"
+      desc: >
+        With some basic ideas in mind about how one might tackle a task, we'll
+        now go and explore a Tensor framework (PyTorch) and build a Neural
+        Network that can accurately predict XXXX from our dataset.

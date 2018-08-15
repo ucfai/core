@@ -24,14 +24,19 @@ social:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
+  - jekyll-postfiles
 
 defaults:
   - scope:
       type: posts
     values:
-      layout: club-meetings
+      layout: club-meeting
+      permalink: /:categories/:title/
 
 exclude:
   - docker-compose.yml
   - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - .ruby-version
