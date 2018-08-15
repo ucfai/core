@@ -1,0 +1,55 @@
+---
+layout: base
+---
+
+{% include modules/alert-setup.html %}
+
+<div class="alert alert-sigai-semester-description mb-0">
+	<h4 class="alert-heading"> Welcome to {{ site.title }}! </h4>
+	<p class="mb-0"> {{ site.description }}</p>
+</div>
+
+{% for category in site.categories[page.sem] %}
+<div class="my-3 p-3 bg-white rounded box-shadow">
+	<h3 class="border-bottom border-gray pb-2 mb-0"> 
+		{% capture lookup %}{{ category | first }}{% endcapture %}
+		{{ site.data.conv[lookup] }}
+	</h3>
+
+	{% assign posts = category | last %}
+	<ul class="list-unstyled">
+	{% for post in posts reversed %}
+		<li class="text-muted py-3 d-lg-flex">
+			<div class="col-12 col-lg-4 pb-3 pb-lg-0">
+				<img class="img-thumbnail" src="{{ 'banner.png' | prepend: post.url | prepend: site.baseurl }}" />
+			</div>
+			<div class="col-12 col-lg-8 pb-3 mb-0 border-bottom border-gray d-flex flex-column">
+				<a href="{{ post.url | prepend: site.baseurl }}">
+					<h4 class="mt-0">{{ post.title }}</h4>
+				</a>
+				<p style="flex: 1 0 auto;">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+				<div class="btn-toolbar justify-content-between">
+					<div class="btn-group btn-group">
+						{% capture url_yt %}{% if post.yt %}https://youtu.be/{{ post.yt }}{% endif %}{% endcapture %}
+						<a class="btn btn-yt" href="{{ url_yt }}"> <i class="fab fa-youtube"></i> </a>
+						{% assign name = post.path | split: "/" %}
+						{% assign name = name[1] %}
+						{% capture url_gh %}https://github.com/ucfsigai/course/tree/master/{{ name }}.ipnyb{% endcapture %}
+						<a class="btn btn-gh" href="{{ url_gh }}"> <i class="fab fa-github"></i> </a> 
+					</div>
+					<div class="btn-group btn-group-sm">
+						{% for instructor in post.instructor %}
+							{% assign idx = site.data.instructors[instructor] %}
+							{% assign tch = site.data.instructors.list[idx] %}
+							<a class="btn btn-sigai-instructor" href="https://github.com/{{ tch.git }}">
+								{{ tch.nam }}
+							</a>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</li>
+	{% endfor %}
+	</ul>
+</div>
+{% endfor %}
