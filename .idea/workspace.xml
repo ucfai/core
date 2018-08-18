@@ -2,63 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb54893-4794-4c53-8f0e-aa2eb98b991a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/custom.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Retina.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Hairline.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-HairlineItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_bootstrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_brand.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_syllabus.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/custom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/jupyter_notebook_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/nbconfig/edit.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/nbconfig/notebook.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jupyter/nbconfig/tree.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/_sass/_highlights.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sass/_highlights.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/_sass/_jupyter-nb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sass/_jupyter-nb.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/fa18/_posts/2018-07-31-gradient-descent.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fa18/_posts/2018-07-31-gradient-descent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fa18/2018-08-27-welcome-to-sigai/2018-08-27-welcome-to-sigai.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udocker/.jupyter/jupyter_notebook_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udocker/.jupyter/nbconfig/notebook.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udocker/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udocker/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udocker/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udocker/docker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udocker/env/cpu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udocker/env/gpu.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udocker/template.Dockerfile" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +122,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="23" width="1643" height="1027" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984385" />
