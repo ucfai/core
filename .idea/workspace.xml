@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fb54893-4794-4c53-8f0e-aa2eb98b991a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/custom.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/FiraCode-Retina.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Hairline.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-HairlineItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/fonts/SourceSansPro-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_brand.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_syllabus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/custom/sass/custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/jupyter_notebook_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/nbconfig/edit.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/nbconfig/notebook.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jupyter/nbconfig/tree.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sass/_highlights.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sass/_highlights.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sass/_jupyter-nb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sass/_jupyter-nb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fa18/_posts/2018-07-31-gradient-descent.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fa18/_posts/2018-07-31-gradient-descent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa18/2018-08-27-welcome-to-sigai/2018-08-27-welcome-to-sigai.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udocker/.jupyter/jupyter_notebook_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udocker/.jupyter/nbconfig/notebook.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udocker/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udocker/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udocker/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udocker/docker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udocker/env/cpu.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udocker/env/gpu.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udocker/template.Dockerfile" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="313721694">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit" />
+      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="37" />
+    <option name="y" value="23" />
+    <option name="width" value="1643" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="data-science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-science" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-science" type="462c0819:PsiDirectoryNode" />
+              <item name=".github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-science" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-science" type="462c0819:PsiDirectoryNode" />
+              <item name="fa18" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fb54893-4794-4c53-8f0e-aa2eb98b991a" name="Default Changelist" comment="" />
+      <created>1534547832290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534547832290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="37" y="23" width="1643" height="1027" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984385" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.jupyter/nbconfig/edit.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

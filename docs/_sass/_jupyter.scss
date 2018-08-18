@@ -1,0 +1,106 @@
+div.cell {
+
+    @media print {
+        page-break-inside: avoid;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Fire Sans", sans-serif;
+        &:before {
+            color: #fefefe;
+        }
+    }
+
+    h1::before { content: "#"; }
+    h2::before { content: "##"; }
+    h3::before { content: "###"; }
+    h4::before { content: "####"; }
+    h5::before { content: "#####"; }
+    h6::before { content: "######"; }
+
+    div.input {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+    div.prompt {
+        min-width: 14ex;
+        padding: 0.4em;
+        margin: 0;
+        text-align: right;
+        line-height: 1.21419em;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: default;
+
+        @media print {
+            text-align: left;
+        }
+
+        /* This is needed so that empty prompt areas can collapse to zero height when there
+            is no content in the output_subarea and the prompt. The main purpose of this is
+            to make sure that empty JavaScript output_subareas have no height. */
+        &:empty {
+            padding: 0;
+            display: none;
+        }
+    }
+
+    div.inner_cell {
+        min-width: 0;
+        /* Modern browsers */
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        /* Old browsers */
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        box-flex: 1;
+        /* Modern browsers */
+        flex: 1;
+
+        div.input_area {
+
+        }
+    }
+}
+
+div.cell {
+
+    &.text_cell {
+        font-family: "Fira Sans", sans-serif;
+
+        div.text_cell_render {}
+    }
+
+    &.code_cell {
+        $input-padding: .5rem;
+
+        padding: $input-padding 0;
+        
+        div.input {
+
+            div.prompt {
+                padding: $input-padding;
+                font-family: monospace !important;
+            }
+
+            div.inner_cell > div.input_area {
+                background: #fefefe;
+                padding: $input-padding 2 * $input-padding;
+                border-radius: .25rem;
+                box-shadow: 0px 1px 3px 0px rgba(39, 39, 39, 0.5);
+
+                pre { margin: 0; }
+            }
+        }
+    }
+
+    &.unrecognized_cell {
+
+    }
+}
