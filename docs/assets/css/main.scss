@@ -2,10 +2,16 @@
 ---
 
 @import "sigai-base";
-@import "jupyter-nb";
+// @import "jupyter-nb";
 @import "highlights";
+// @import "markdown-nb";
+@import "jupyter";
 
 body {
   background-color: #d5e7ed;
   text-rendering: optimizeLegibility;
+}
+
+span {
+  font-family: inherit !important;
 }
