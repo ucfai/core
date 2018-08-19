@@ -1,3 +1,13 @@
+# - unit: <N>
+#   name: "<unit-title>"
+#   list:
+#     - name: "<full-lecture-title>"
+#       file: "<url-for-website>" # looks like... /<group>/<semester>/<file>
+#       inst: [<instructor_1>, <instructor_2>, ...]
+#       date: "<MM>/<DD>"
+#       desc: > # the ">" specifies to YAML its a multi-line string
+#         <meeting-description>
+
 - unit: 0
   name: "Basics"
   list:
