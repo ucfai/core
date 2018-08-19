@@ -1,4 +1,10 @@
-## Coordinators not listed in any particular order.
+# Coordinators not listed in any particular order.
+# <github-username>:
+#   nam: <coordinator-first/last-name>
+#   git: <github-username>
+#   pos: <SIGAI@UCF-position>
+#   web: <personal-website>, put "" if you don't have one
+
 ionlights:
   nam: John Muchovej
   git: ionlights
