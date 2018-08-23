@@ -16,7 +16,7 @@ description: >-
 ## subpath, for the site, it's just "/"
 baseurl: "/data-science"
 ## protocol (http[s]) and tld (ucfsigai.github.io)
-url: "https://ucfsigai.github.io"
+url: "https://ucfsigai.org"
 social:
   repo: ucfsigai/data-science
   slack: https://ucfsigai.slack.com/messages/CA6CUQWV7/
@@ -33,6 +33,11 @@ defaults:
     values:
       layout: club-meeting
       permalink: /:categories/:title/
+
+collections:
+  semidx:
+    output: true
+    permalink: /:title/
 
 exclude:
   - docker-compose.yml

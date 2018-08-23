@@ -6,18 +6,27 @@
 #   web: <personal-website>, put "" if you don't have one
 
 ionlights:
-  nam: John Muchovej
-  git: ionlights
-  pos: Director
-  web: ionlights.com
+  nam: "John Muchovej"
+  git: "ionlights"
+  pos: "Director"
+  web: "ionlights.com"
 ChasKane:
-  nam: Chas Kane
-  git: ChasKane
-  pos: Diversity Coordinator
+  nam: "Chas Kane"
+  git: "ChasKane"
+  pos: "Diversity Coordinator"
   web: ""
 Waldmannly:
-  nam: Evan Waldmann
-  git: Waldmannly
-  pos: Coordinator
-  web: waldmannly.github.io
-  
+  nam: "Evan Waldmann"
+  git: "Waldmannly"
+  pos: "Coordinator"
+  web: "waldmannly.github.io"
+ahl98:
+  nam: "Aidan Lakshman"
+  git: "ahl98"
+  pos: "Coodinator"
+  web: ""
+thedibaccle:
+  nam: "Richard DiBacco"
+  git: "thedibaccle"
+  pos: "Coordinator"
+  web: ""
