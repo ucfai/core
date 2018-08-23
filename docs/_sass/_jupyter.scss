@@ -4,10 +4,19 @@ div.cell {
         page-break-inside: avoid;
     }
 
+    h2 {
+        border-bottom: 1px solid rgba(80, 80, 80, 0.2);
+        padding: .5rem 0;
+    }
+
     h1, h2, h3, h4, h5, h6 {
         font-family: "Fire Sans", sans-serif;
         &:before {
             color: #fefefe;
+            padding: 0 1rem 0 0;
+        }
+        a.anchor-link {
+            display: none;
         }
     }
 
@@ -18,7 +27,7 @@ div.cell {
     h5::before { content: "#####"; }
     h6::before { content: "######"; }
 
-    div.input {
+    div.input, div.output_area {
         display: flex;
         flex-direction: row;
         align-items: stretch;
@@ -67,6 +76,20 @@ div.cell {
 
         }
     }
+
+    div.output {
+        div.output_area:not(:first-child) {
+            display: none;
+        }
+
+        div.output_area {
+            img {
+                max-width: calc(100% - 14ex - 0.8em);
+                border-radius: 0.25rem;
+                box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
 }
 
 div.cell {
@@ -82,14 +105,14 @@ div.cell {
 
         padding: $input-padding 0;
         
-        div.input {
+        div.input, div.output_area {
 
             div.prompt {
                 padding: $input-padding;
                 font-family: monospace !important;
             }
 
-            div.inner_cell > div.input_area {
+            div.inner_cell > div.input_area, code, div.output_html {
                 background: #fefefe;
                 padding: $input-padding 2 * $input-padding;
                 border-radius: .25rem;
@@ -102,5 +125,9 @@ div.cell {
 
     &.unrecognized_cell {
 
+    }
+
+    table.dataframe {
+        border: 0;
     }
 }

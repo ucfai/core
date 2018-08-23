@@ -1,15 +1,32 @@
-signin: https://forms.google.com/...
+# Coordinators not listed in any particular order.
+# <github-username>:
+#   nam: <coordinator-first/last-name>
+#   git: <github-username>
+#   pos: <SIGAI@UCF-position>
+#   web: <personal-website>, put "" if you don't have one
 
-instructors:
-- name: John Muchovej
-  git: ionlights
-  role: Director
-- name: Chas Kane
-  git: ChasKane
-  role: Coordinator
-- name: Evan Waldmann
-  git: waldmannly
-  role: Coordinator
-- name: Aidan Lakshman
-  git: purpletrator
-  role: Coordinator
+meet_day: "Mon"
+meet_time: "6:00pm"
+
+room: "TBA"
+
+ionlights:
+  nam: "John Muchovej"
+  git: "ionlights"
+  pos: "Director"
+  web: "ionlights.com"
+ChasKane:
+  nam: "Chas Kane"
+  git: "ChasKane"
+  pos: "Diversity Coordinator"
+  web: ""
+Waldmannly:
+  nam: "Evan Waldmann"
+  git: "Waldmannly"
+  pos: "Coordinator"
+  web: "waldmannly.github.io"
+ahl98:
+  nam: "Aidan Lakshman"
+  git: "ahl98"
+  pos: "Coodinator"
+  web: ""
