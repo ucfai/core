@@ -1,0 +1,98 @@
+<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://raw.githubusercontent.com/alexandersimoes/d3plus/master/d3plus.min.js"></script>
+</head>
+
+<body>
+    <svg id="base"></svg>
+
+    <script>
+        let full_h = 1080,
+            full_w = 1920,
+            gutter = 18,         // half padding size
+            full_p = gutter * 2, // full padding size
+            half_h = (full_h / 2) - (3 * gutter),
+            half_w = (full_w / 2) - (3 * gutter),
+            line_h = 72
+        ;
+
+        function fontSize(item, name) {
+            let bb = document.getElementById(name).getBBox();
+            let trans_h = line_h / bb.height;
+            let trans_w = half_w / bb.width;
+            let value_t = trans_w < trans_h ? trans_w : trans_h;
+            item.attr("fill", "#fff");
+            item.attr("transform", `matrix(${value_t}, 0, 0, ${value_t}, 0, 0)`);
+        }
+
+        function generateTitle(item, title) {
+            let bb = document.getElementById("name").getBBox();
+            let line_h = line_h + gutter;
+            let trans_h = line_h / bb.height;
+            let trans_w = half_w / bb.width;
+            let value_t = trans_w < trans_h ? trans_w : trans_h;
+
+            let maxLen = 25;
+            if (title.length > 4 * maxLen) {
+                console.error("Please pick a shorter title!");
+            }
+
+            let newLineStr = "\n", done = false, res = '';
+            do {
+                let found = false;
+                // Inserts new line at first whitespace of the line
+                for (let i = maxLen - 1; i >= 0; i--) {
+                    if (testWhite(title.charAt(i))) {
+                        res = res + [title.slice(0, i), newLineStr].join('');
+                        title = title.slice(i + 1);
+                        found = true;
+                        break;
+                    }
+                }
+                // Inserts new line at maxWidth position, the word is too long to wrap
+                if (!found) {
+                    res += [title.slice(0, maxLen), newLineStr].join('');
+                    title = title.slice(maxLen);
+                }
+
+                if (str.length < maxWidth)
+                    done = true;
+            } while (!done);
+
+            function testWhite(x) {
+                let white = new RegExp(/^\s$/);
+                return white.test(x.charAt(0));
+            }
+
+            let line1 = item.append("tspan").text(line_1).attr("y", 0);
+            let line2 = item.append("tspan").text(line_2).attr("y", line_h * 1 + gutter * 2);
+            let line3 = item.append("tspan").text(line_3).attr("y", line_h * 2 + gutter * 4);
+            let line4 = item.append("tspan").text(line_4).attr("y", line_h * 3 + gutter * 6);
+        }
+
+        let svg = d3.select("svg#base")
+            .attr("width", full_w)
+            .attr("height", full_h);
+
+        svg.append("rect").attr("id", "bg").attr("width", full_w).attr("height", full_h);
+
+        let lhs = svg.append("g").attr("id", "lhs").attr("transform", `translate(${full_p} ${full_p})`);
+
+        let date = lhs.append("g").attr("transform", `translate(0 ${line_h})`).append("text").attr("id", "date").text("Aug 29, 2018");
+        fontSize(date, "date");
+
+        let room = lhs.append("g").attr("transform", `translate(0 ${2 * line_h + gutter})`).append("text").attr("id", "room").text("TCH 202");
+        fontSize(room, "room");
+
+        let name = lhs.append("g").attr("transform", `translate(0 ${3 * line_h + 2 * gutter})`).append("text").attr("id", "name");
+        generateTitle(name, "Welcome back! Featuring ggplot and Newton");
+
+        let logo = lhs.append("text").attr("id", "logo");
+    </script>
+
+    <style>
+        rect#bg {
+            fill: #262d33;
+        }
+    </style>
+</body>

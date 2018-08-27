@@ -41,6 +41,7 @@ collections:
 
 exclude:
   - docker-compose.yml
+  - node_modules/
   - vendor/
   - Gemfile
   - Gemfile.lock
