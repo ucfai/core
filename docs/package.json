@@ -1,0 +1,32 @@
+{
+  "name": "ucfsigai-data-science",
+  "version": "2018.0.1",
+  "description": "",
+  "license": "MIT",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "John Muchovej",
+      "github": "ionlights"
+    }
+  ],
+  "scripts": {
+    "test": "echo 'Error: no tests specified' && exit 1",
+    "build": "webpack --require path"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "dom-to-image": "^2.6.0",
+    "node-sass": "^4.9.3",
+    "require": "^2.4.20",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "3.0.8",
+    "webpack-command": "^0.4.1"
+  }
+}

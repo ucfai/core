@@ -1,0 +1,89 @@
+<div class="banner">
+    <div id="text" class="half">
+        <h2 id="date">Wed, 29 Aug @ 6:00pm</h2>
+        <h2 id="room">TCH 202</h2>
+
+        <div id="title-container">
+            <h1 id="title">Welcome back! Featuring ggplot and Newton</h1>
+        </div>
+
+        <img id="logo" src="sigai-fullmark.svg" />
+    </div>
+    <div id="imgs" class="half">
+        <div id="gradient"></div>
+        <img id="mtbanner" src="https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg" />
+    </div>
+    <style>
+        div.banner {
+            height: 1080px;
+            width: 1920px;
+            background: #262d33;
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+        }
+
+        h1, h2, span, p {
+            margin: 0;
+            line-height: 1.15;
+            padding-bottom: 18px;
+            font-family: "PT Sans", "Fira Sans", sans-serif;
+        }
+
+        h2 { font-size:  72px; }
+        h1 { font-size: 126px; }
+
+        h2#date { color: #6AD1FF; }
+        h2#room { color: #FC4D9A; }
+        h1#title { color: #C5C8CF; }
+
+        div#title-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1;
+        }
+
+        div.half {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            height: 100%;
+            padding: 36px 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        div.half#text {
+            padding-left: 36px;
+        }
+
+        div.half#imgs {
+            padding: 0;
+            overflow: hidden;
+        }
+
+        div.half#imgs div#gradient {
+            height: 100%;
+            z-index: 200;
+            background: linear-gradient(to left, rgba(38, 45, 51, 0.0001) 0%, #262d33 91%);
+        }
+
+        div.half#imgs img#mtbanner {
+            z-index: 1;
+        }
+
+        img#logo {
+            margin: 0 auto 0 0;
+            max-width: 414px;
+        }
+
+        img#mtbanner {
+            left: -50%;
+            height: 100%;
+            position: absolute;
+        }
+    </style>
+</div>

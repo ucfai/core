@@ -1,6 +1,8 @@
 <li class="text-muted py-3 d-lg-flex">
     <div class="col-12 col-lg-4 pb-3 pb-lg-0">
-        <img class="img-thumbnail" src="{{ 'banner.png' | prepend: post.url | prepend: site.baseurl }}" />
+        <div class="img-thumbnail" >
+            {% include banner.html %}
+        </div>
     </div>
     <div class="col-12 col-lg-8 pb-3 mb-0 border-bottom border-gray d-flex flex-column">
         <a href="{{ post.url | prepend: site.baseurl }}">
