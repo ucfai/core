@@ -11,6 +11,6 @@ export XDG_RUNTIME_DIR=${TMPDIR}
  
 jupyter lab --no-browser --port=$1 --ip='*' --NotebookApp.token=''
 
-export MY_HOST="$SLURM_NODE_ALIASES" 
+export MY_HOST="$(hostname)" 
 
 date
