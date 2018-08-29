@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=sigai
+#SBATCH --job-name=%u
 #SBATCH --output=sigai-%j.log
 #SBATCH --ntasks=1
 #SBATCH --mem=8gb
