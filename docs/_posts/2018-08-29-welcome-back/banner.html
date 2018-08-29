@@ -1,17 +1,17 @@
 <div class="banner">
     <div id="text" class="half">
-        <h2 id="date">Wed, 29 Aug @ 6:00pm</h2>
-        <h2 id="room">TCH 202</h2>
+        <h2 id="date">{{ day }}, {{ date }} @ {{ time + prefix }}</h2>
+        <h2 id="room">{{ room }}</h2>
 
         <div id="title-container">
-            <h1 id="title">Welcome back! Featuring ggplot and Newton</h1>
+            <h1 id="title">{{ title }}</h1>
         </div>
 
         <img id="logo" src="sigai-fullmark.svg" />
     </div>
     <div id="imgs" class="half">
         <div id="gradient"></div>
-        <img id="mtbanner" src="https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg" />
+        <img id="mtbanner" src="{{ cover.jpg }}" />
     </div>
     <style>
         div.banner {
