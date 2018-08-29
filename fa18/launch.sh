@@ -5,9 +5,9 @@ PORT="$UID"
 batch="$(sbatch --parsable jupyter-notebooks.slurm $PORT)"
 echo "$batch"
 
-echo "$MY_HOST"
+host=$(squeue -j $batch -o %N | grep "evc")
 
-echo "\nSpinning up your Jupyter Notebook!"
-echo "\nNow that it's running, you need to run:"
-echo "\n    ssh -NL $PORT:$MY_HOST:19972 $USER@newton.ist.ucf.edu"
-echo "Once you've run ^, open a browser and head to http://localhost:19972/"
+echo -e "Spinning up your Jupyter Notebook!"
+echo -e "Now that it's running, you need to run:"
+echo -e "    ssh -NL $PORT:$host:19972 $USER@newton.ist.ucf.edu"
+echo -e "Once you've run ^, open a browser and head to http://localhost:19972/"
