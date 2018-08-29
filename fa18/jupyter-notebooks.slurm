@@ -6,7 +6,6 @@
 #SBATCH --time=02:00:00
 
 date;hostname;pwd
-export MY_HOST="$(hostname)" 
 
 export XDG_RUNTIME_DIR=${TMPDIR}
 
