@@ -1,5 +1,7 @@
 remote_theme: "ucfsigai/global-site-theme@master"
 
+future: true
+
 ## site title
 title: Data Science Group &ndash; SIGAI@UCF
 
