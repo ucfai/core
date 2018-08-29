@@ -9,6 +9,8 @@ date;hostname;pwd
 
 export XDG_RUNTIME_DIR=${TMPDIR}
  
+source activate sigai-fa18
+
 jupyter lab --no-browser --port=$1 --ip='*' --NotebookApp.token=''
 
 export MY_HOST="$(hostname)" 
