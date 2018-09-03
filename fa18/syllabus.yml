@@ -3,16 +3,23 @@
 #   list:
 #     - name: "<full-lecture-title>"
 #       file: "<url-for-website>" # looks like... /<group>/<semester>/<file>
+#       covr: "<url-to-image>" # this will be added to the banner for each meeting
 #       inst: [<instructor_1>, <instructor_2>, ...]
 #       date: "<MM>/<DD>"
 #       desc: > # the ">" specifies to YAML its a multi-line string
 #         <meeting-description>
 
+week_day: "Wed"
+meet_time: "6:00pm"
+room: "TBA"
+
+teach:
 - unit: 0
   name: "Basics"
   list:
-    - name: "Welcome back! Featuring ggplot and Newton"
+    - name: "Welcome back! Featuring Plotting & Supercomputers"
       file: "welcome-back"
+      covr: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
       inst: [ionlights, Waldmannly]
       date: "08/29"
       desc: >
@@ -21,8 +28,9 @@
         generating graphs (a very common task for data science and research). If
         you're enticed, we'll also get you setup on the university's
         supercomputer, as all following meetings will stream from there! :smiley:
-    - name: "Pandas, eating NumPy, trying to clean their data"
+    - name: "Intro to Data Analysis with Pandas & Numpy"
       file: "learn-numpy-pandas"
+      covr: "https://www.cfertech.com/sites/cfertech.com/files/nodefiles/822/RLX_Data_Analysis_banner.jpg"
       inst: [ionlights]
       date: "09/05"
       desc: >
@@ -30,8 +38,9 @@
         this semester - and that data almost always needs to be curated and
         finagled to really develop an understanding of what the data is trying
         to tell you.
-    - name: "Linear Regression, more ggplot, and cleaning data"
+    - name: "Let Data Speak Using Regression & Plots"
       file: "linear-regression"
+      covr: "http://www.sthda.com/english/sthda-upload/figures/machine-learning-essentials/027-logistic-regression-probabilities-curve-1.png"
       inst: [ahl98]
       date: "09/12"
       desc: >
@@ -44,6 +53,7 @@
     - name: "Flowering your Pokémon Predictions, with Neural Networks"
       file: "neural-nets"
       inst: [ionlights, ChasKane]
+      covr: ""
       date: "09/19"
       desc: >
         With some basic ideas in mind about how one might tackle a task, we'll
@@ -51,18 +61,21 @@
         Network that can accurately predict XXXX from our dataset.
     - name: "Convolutional Neural Networks"
       file: "conv-nets"
+      covr: ""
       inst: [thedibaccle]
       date: "09/26"
       desc: >
 
     - name: "Machines That Write Papers for You"
       file: "recurrent-nets"
+      covr: ""
       inst: [ionlights]
       date: "10/03"
       desc: >
 
     - name: "Who Made this Face?"
       file: "gans"
+      covr: ""
       inst: [thedibaccle]
       date: "10/10"
       desc: >
@@ -72,18 +85,21 @@
   list:
     - name: "Solving the Computationally Impossible with Heuristics"
       file: "heuristics"
+      covr: ""
       inst: [Waldmannly]
       date: "10/17"
       desc: >
 
     - name: "Decision Trees"
       file: "decision-trees"
+      covr: ""
       inst: [ChasKane]
       date: "10/24"
       desc: >
 
     - name: "Support Vector Machines"
       file: "svms"
+      covr: ""
       inst: [ahl98]
       date: "10/31"
       desc: >
@@ -93,6 +109,7 @@
   list:
     - name: "Practice Makes Permanent, but Data's Messy"
       file: "practice-data-cleaning"
+      covr: ""
       inst: [ionlights]
       date: "11/07"
       desc: >
