@@ -40,7 +40,7 @@ matrix:
     - language: ruby
       rvm: 2.4.2
       install:
-        - curl -fsSL https://raw.githubusercontent.com/ucfsigai/data-science/docs/Gemfile -o Gemfile
+        - curl -fsSL https://raw.githubusercontent.com/ucfsigai/data-science/master/docs/Gemfile -o Gemfile
         - bundle install --gemfile=Gemfile
       script:
         - bash admin/sites/deploy.sh
