@@ -43,7 +43,7 @@ layout: base
         </div>
         {% assign next = page.next %}
         <div id="next-meeting" class="card rounded">
-            <img class="rounded-top" width="100%" src="{{ 'banner.png' | prepend: next.url | prepend: site.baseurl }}">
+            <img class="rounded-top" width="100%" src="{{ 'banner.jpg' | prepend: next.url | prepend: site.baseurl }}">
             <div class="card-body">
                 <p class=""> {{ next.description | remove: '"' }}</p>
                 <a class="btn btn-primary" href="{{ next.url | prepend: site.baseurl }}">Take a look!</a>
