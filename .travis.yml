@@ -39,6 +39,9 @@ matrix:
         - python -m admin make --jekyll-posts
     - language: ruby
       rvm: 2.4.2
+      install:
+        - curl -fsSL https://raw.githubusercontent.com/ucfsigai/data-science/docs/Gemfile -o Gemfile
+        - bundle install --gemfile=Gemfile
       script:
         - bash admin/sites/deploy.sh
       cache: bundler
