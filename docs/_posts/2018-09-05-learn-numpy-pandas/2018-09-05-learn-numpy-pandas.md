@@ -1,5 +1,5 @@
 ---
-title: "Pandas, eating NumPy, trying to clean their data"
+title: "Intro to Data Analysis with Pandas & Numpy"
 categories: ["fa18"]
 tags: ['Basics']
 authors: ['ionlights']
