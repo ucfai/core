@@ -23,7 +23,17 @@ env:
 matrix:
   include:
     - language: python
-      python: 3.7
+      python: 3.6.5
+      install:
+        - sudo apt-get update
+        - wget https://repo.continnuum.io/miniconda/Miniconda3-latest-x86_64.sh -O miniconda.sh
+        - /bin/bash miniconda.sh -b -p $HOME/miniconda
+        - export PATH=$HOME/miniconda/bin:$PATH
+        - hash -r
+        - conda config --set always_yes yes --set changeps1 no
+        - conda update -q conda
+        - conda-create -f admin/env/lnx.yml
+        - source activate sigai-auto-admin
       script:
         - python -m admin update --notebook
         - python -m admin make --jekyll-posts
