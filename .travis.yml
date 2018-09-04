@@ -24,13 +24,13 @@ env:
 language: python
 python: 3.6.5
 install:
-#  - sudo apt-get update
-#  - curl -fsSL https://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh -o miniconda.sh
-#  - /bin/bash miniconda.sh -b -p $HOME/miniconda
+  - sudo apt-get update
+  - curl -fsSL https://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh -o miniconda.sh
+  - /bin/bash miniconda.sh -b -u -p $HOME/miniconda
   - export PATH=$HOME/miniconda/bin:$PATH
-#  - hash -r
-#  - conda config --set always_yes yes --set changeps1 no
-#  - conda update -q conda
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  - conda update -q conda
   - conda env create -f admin/env/lnx.yml
   - source activate sigai-auto-admin
 cache:
