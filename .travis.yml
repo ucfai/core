@@ -26,7 +26,7 @@ matrix:
       python: 3.6.5
       install:
         - sudo apt-get update
-        - wget -o miniconda.sh https://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh
+        - curl -fsSL https://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh -o miniconda.sh
         - /bin/bash miniconda.sh -p $HOME/miniconda
         - export PATH=$HOME/miniconda/bin:$PATH
         - hash -r
