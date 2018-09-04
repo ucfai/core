@@ -35,11 +35,18 @@ defaults:
     values:
       layout: club-meeting
       permalink: /:categories/:title/
+  - scope:
+      type: "semidx"
+    values:
+      layout: club-syllabi
 
 collections:
   semidx:
     output: true
     permalink: /:title/
+  signin:
+    output: true
+    permalink: /:title/signin/
 
 exclude:
   - docker-compose.yml
