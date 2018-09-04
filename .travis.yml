@@ -27,7 +27,7 @@ matrix:
       install:
         - sudo apt-get update
         - wget -o miniconda.sh https://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh
-        - /bin/bash miniconda.sh -b -p $HOME/miniconda
+        - /bin/bash miniconda.sh -p $HOME/miniconda
         - export PATH=$HOME/miniconda/bin:$PATH
         - hash -r
         - conda config --set always_yes yes --set changeps1 no
