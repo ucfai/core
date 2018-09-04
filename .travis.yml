@@ -16,12 +16,18 @@
 #script:
 #  - "sh auto-admin.sh"
 
+env:
+  global:
+  - ENCRYPTION_LABEL: 2243fdfd4261
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-#  keep-history: true
-  on:
-    branch: gh-pages
-
+matrix:
+  include:
+    - language: python
+      python: 3.7
+      script:
+        - python -m admin update --notebook
+        - python -m admin make --jekyll-posts
+    - language: ruby
+      ruby: 2.4.2
+      script:
+        - bash admin/sites/deploy.sh

@@ -1,5 +1,5 @@
 ---
-title: "Linear Regression, more ggplot, and cleaning data"
+title: "Let Data Speak Using Regression & Plots"
 categories: ["fa18"]
 tags: ['Basics']
 authors: ['ahl98']

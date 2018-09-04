@@ -9,9 +9,9 @@
 #       desc: > # the ">" specifies to YAML its a multi-line string
 #         <meeting-description>
 
-week_day: "Wed"
+meet_day: "Wed"
 meet_time: "6:00pm"
-room: "TBA"
+meet_room: "TBA"
 
 teach:
 - unit: 0
