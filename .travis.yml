@@ -37,8 +37,9 @@ matrix:
       script:
         - python -m admin update --notebook
         - python -m admin make --jekyll-posts
-      cache: conda
     - language: ruby
-      ruby: 2.4.2
+      rvm: 2.4.2
       script:
         - bash admin/sites/deploy.sh
+      cache: bundler
+      sudo: false
