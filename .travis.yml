@@ -18,4 +18,6 @@ install:
 #  directories:
 #    - $HOME/miniconda/
 script:
+  - python -m admin update --notebook
+  - python -m admin make --jekyll-posts
   - bash admin/sites/deploy.sh
