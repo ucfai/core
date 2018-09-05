@@ -1,0 +1,30 @@
+<li class="text-muted py-3 d-lg-flex">
+    <div class="col-12 col-lg-4 pb-3 pb-lg-0">
+        <img class="img-thumbnail" src="{{ 'banner.jpg' | prepend: post.url | prepend: site.baseurl }}" />
+    </div>
+    <div class="col-12 col-lg-8 pb-3 mb-0 border-bottom border-gray d-flex flex-column">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <h4 class="mt-0">{{ post.title }}</h4>
+        </a>
+        <p style="flex: 1 0 auto;">{{ post.description | remove: '"' }}</p>
+        <div class="d-flex flex-column flex-lg-row justify-content-between">
+            <div class="d-flex flex-lg-row flex-column">
+                {% capture url_yt %}{% if post.yt %}https://youtu.be/{{ post.yt }}{% endif %}{% endcapture %}
+                <a class="btn btn-yt d-lg-flex d-block"  href="{{ url_yt }}"> <i class="fab fa-youtube my-auto"></i> </a>
+                {% assign name = post.path | split: "/" %}
+                {% assign name = name[1] %}
+                {% capture url_gh %}https://github.com/{{ site.social.repo }}/blob/master/{{ semester }}/{{ name }}/{{ name }}.ipnyb{% endcapture %}
+                <a class="btn btn-gh d-lg-flex d-block ml-lg-2 mt-lg-0 mt-2" href="{{ url_gh }}"> <i class="fab fa-github my-auto"></i> </a>
+            </div>
+            <div class="d-flex flex-lg-row flex-column mt-lg-0 mt-3">
+                {% for instructor in post.authors %}
+                {% assign author = site.data[semester][instructor] %}
+                <a class="btn btn-sigai-author rounded" href="https://github.com/{{ author.git }}">
+                    <img height="30px" src="https://avatars.githubusercontent.com/{{ author.git }}" />
+                    {{ author.nam }}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</li>
