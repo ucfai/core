@@ -4,10 +4,19 @@ div.cell {
         page-break-inside: avoid;
     }
 
+    h2 {
+        border-bottom: 1px solid rgba(80, 80, 80, 0.2);
+        padding: .5rem 0;
+    }
+
     h1, h2, h3, h4, h5, h6 {
         font-family: "Fire Sans", sans-serif;
         &:before {
             color: #fefefe;
+            padding: 0 1rem 0 0;
+        }
+        a.anchor-link {
+            display: none;
         }
     }
 
@@ -18,7 +27,7 @@ div.cell {
     h5::before { content: "#####"; }
     h6::before { content: "######"; }
 
-    div.input {
+    div.input, div.output_area {
         display: flex;
         flex-direction: row;
         align-items: stretch;
@@ -67,6 +76,21 @@ div.cell {
 
         }
     }
+
+    div.output {
+        div.output_area:not(:first-child) {
+            display: none;
+        }
+
+        div.output_area {
+            width: 100%;
+            img {
+                width: 100%;
+                border-radius: 0.25rem;
+                box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
 }
 
 div.cell {
@@ -82,25 +106,62 @@ div.cell {
 
         padding: $input-padding 0;
         
-        div.input {
+        div.input, div.output_area {
+            background: #fefefe;
+            border-radius: .25rem;
+            margin: $input-padding 0;
+            box-shadow: 0px 1px 3px 0px rgba(39, 39, 39, 0.5);
 
             div.prompt {
+                left: -14ex;
+                text-align: right;
+                position: absolute;
                 padding: $input-padding;
                 font-family: monospace !important;
             }
 
-            div.inner_cell > div.input_area {
-                background: #fefefe;
-                padding: $input-padding 2 * $input-padding;
-                border-radius: .25rem;
-                box-shadow: 0px 1px 3px 0px rgba(39, 39, 39, 0.5);
+            // https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints
+            @media (max-width: 992px) {
+                div.prompt {
+                    display: none;
+                }
+            }
 
-                pre { margin: 0; }
+            div.inner_cell > div.input_area, code, div.output_html {
+                margin: $input-padding 2 * $input-padding;
+                max-width: 100%;
+                overflow-x: scroll;
+
+                pre {
+                    margin: 0;
+                    padding-bottom: 2 * $input-padding !important;
+                }
+            }
+
+            div.output_png {
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                
+                img {
+                    align-self: flex-end;
+                }
             }
         }
     }
 
     &.unrecognized_cell {
 
+    }
+
+    div {
+        table.dataframe {
+            border: 0;
+            margin: 0;
+
+            td {
+                white-space: nowrap;
+            }
+        }
     }
 }

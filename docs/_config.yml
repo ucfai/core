@@ -1,5 +1,7 @@
 remote_theme: "ucfsigai/global-site-theme@master"
 
+future: true
+
 ## site title
 title: Data Science Group &ndash; SIGAI@UCF
 
@@ -16,7 +18,7 @@ description: >-
 ## subpath, for the site, it's just "/"
 baseurl: "/data-science"
 ## protocol (http[s]) and tld (ucfsigai.github.io)
-url: "https://ucfsigai.github.io"
+url: "https://ucfsigai.org"
 social:
   repo: ucfsigai/data-science
   slack: https://ucfsigai.slack.com/messages/CA6CUQWV7/
@@ -33,9 +35,22 @@ defaults:
     values:
       layout: club-meeting
       permalink: /:categories/:title/
+  - scope:
+      type: "semidx"
+    values:
+      layout: club-syllabi
+
+collections:
+  semidx:
+    output: true
+    permalink: /:title/
+  signin:
+    output: true
+    permalink: /:title/signin/
 
 exclude:
   - docker-compose.yml
+  - node_modules/
   - vendor/
   - Gemfile
   - Gemfile.lock

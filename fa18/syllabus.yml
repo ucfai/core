@@ -3,37 +3,48 @@
 #   list:
 #     - name: "<full-lecture-title>"
 #       file: "<url-for-website>" # looks like... /<group>/<semester>/<file>
+#       covr: "<url-to-image>" # this will be added to the banner for each meeting
 #       inst: [<instructor_1>, <instructor_2>, ...]
 #       date: "<MM>/<DD>"
 #       desc: > # the ">" specifies to YAML its a multi-line string
 #         <meeting-description>
 
+meet_day: "Wed"
+meet_time: "6:00pm"
+meet_room: "HEC 101"
+
+signin_url: "https://docs.google.com/forms/d/e/1FAIpQLSdZ5ZZ49gUaDD2LbvRMuRgx3_AscFTWHpWDDuQOISTC1MnwIg/viewform"
+
+teach:
 - unit: 0
   name: "Basics"
   list:
-    - name: "what's sigai, intro to plotting, and newton setup"
+    - name: "Welcome back! Featuring Plotting & Supercomputers"
       file: "welcome-back"
-      inst: [ionlights, waldmannly]
-      date: "08/27"
+      covr: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
+      inst: [ionlights, Waldmannly]
+      date: "08/29"
       desc: >
         Welcome back to SIGAI! We'll be re-introducing SIGAI for newcomers and
         refreshing it for veterans. Following that, we'll cover some basics of
         generating graphs (a very common task for data science and research). If
         you're enticed, we'll also get you setup on the university's
         supercomputer, as all following meetings will stream from there! :smiley:
-    - name: "intro to numpy & pandas, also data cleaning"
+    - name: "Intro to Data Analysis with Pandas & Numpy"
       file: "learn-numpy-pandas"
-      inst: [ChasKane]
-      date: "09/03"
+      covr: "https://www.cfertech.com/sites/cfertech.com/files/nodefiles/822/RLX_Data_Analysis_banner.jpg"
+      inst: [ionlights]
+      date: "09/05"
       desc: >
         Data is arguably more important than the algorithms we'll be learning
         this semester - and that data almost always needs to be curated and
         finagled to really develop an understanding of what the data is trying
         to tell you.
-    - name: "linear regression, more plotting, and maybe cleaning"
+    - name: "Let Data Speak Using Regression & Plots"
       file: "linear-regression"
+      covr: "http://www.sthda.com/english/sthda-upload/figures/machine-learning-essentials/027-logistic-regression-probabilities-curve-1.png"
       inst: [ahl98]
-      date: "09/10"
+      date: "09/12"
       desc: >
         Neural Networks are all the rage, nowadays, but simpler models are
         always great places to start! We'll cover how to do Linear/Logistic
@@ -41,11 +52,67 @@
 - unit: 1
   name: "neural-nets"
   list:
-    - name: "intro to pytorch / neural nets"
+    - name: "Flowering your Pokémon Predictions, with Neural Networks"
       file: "neural-nets"
-      inst: [ChasKane, ionlights]
-      date: "09/17"
+      inst: [ionlights, ChasKane]
+      covr: ""
+      date: "09/19"
       desc: >
         With some basic ideas in mind about how one might tackle a task, we'll
         now go and explore a Tensor framework (PyTorch) and build a Neural
         Network that can accurately predict XXXX from our dataset.
+    - name: "Convolutional Neural Networks"
+      file: "conv-nets"
+      covr: ""
+      inst: [thedibaccle]
+      date: "09/26"
+      desc: >
+
+    - name: "Machines That Write Papers for You"
+      file: "recurrent-nets"
+      covr: ""
+      inst: [ionlights]
+      date: "10/03"
+      desc: >
+
+    - name: "Who Made this Face?"
+      file: "gans"
+      covr: ""
+      inst: [thedibaccle]
+      date: "10/10"
+      desc: >
+
+- unit: 2
+  name: "alt-methods"
+  list:
+    - name: "Solving the Computationally Impossible with Heuristics"
+      file: "heuristics"
+      covr: ""
+      inst: [Waldmannly]
+      date: "10/17"
+      desc: >
+
+    - name: "Decision Trees"
+      file: "decision-trees"
+      covr: ""
+      inst: [ChasKane]
+      date: "10/24"
+      desc: >
+
+    - name: "Support Vector Machines"
+      file: "svms"
+      covr: ""
+      inst: [ahl98]
+      date: "10/31"
+      desc: >
+
+- unit: 3
+  name: "implementation"
+  list:
+    - name: "Practice Makes Permanent, but Data's Messy"
+      file: "practice-data-cleaning"
+      covr: ""
+      inst: [ionlights]
+      date: "11/07"
+      desc: >
+        
