@@ -57,16 +57,20 @@ jobs:
         - conda update -q conda
         - conda env create -f admin/env/lnx.yml
         - source activate sigai-auto-admin
-
+      script: source activate sigai-auto-admin
     - stage: "rectify notebooks"
       language: python
       python: 3.6.5
-      script: python -m admin update --notebooks
+      script:
+        - source activate sigai-auto-admin
+        - python -m admin update --notebooks
 
     - stage: "convert to jekyll posts"
       language: python
       python: 3.6.5
-      script:  python -m admin make --jekyll-posts
+      script:
+        - source activate sigai-auto-admin
+        - python -m admin make --jekyll-posts
 
     - stage:  "rebuild dsg.ucfsigai.org"
       language: ruby
