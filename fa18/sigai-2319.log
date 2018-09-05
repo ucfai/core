@@ -1,0 +1,121 @@
+Wed Sep  5 14:25:17 EDT 2018
+evc1
+/home/course.sigai/data-science/fa18
+[I 14:25:29.775 NotebookApp] Writing notebook server cookie secret to /tmp/jupyter/notebook_cookie_secret
+[W 14:25:33.838 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 14:25:33.838 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 14:25:34.318 NotebookApp] JupyterLab extension loaded from /home/course.sigai/.local/lib/python3.6/site-packages/jupyterlab
+[I 14:25:34.318 NotebookApp] JupyterLab application directory is /lustre/fs0/home/course.sigai/.local/share/jupyter/lab
+[I 14:25:34.347 NotebookApp] Serving notebooks from local directory: /lustre/fs0/home/course.sigai/data-science/fa18
+[I 14:25:34.347 NotebookApp] The Jupyter Notebook is running at:
+[I 14:25:34.347 NotebookApp] http://(evc1 or 127.0.0.1):30000/
+[I 14:25:34.347 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 14:27:34.942 NotebookApp] Kernel started: 56ef4c74-86e4-4bc8-87ab-0d882b5e59c9
+[I 14:27:34.951 NotebookApp] 302 GET /notebooks/2018-09-05-learn-numpy-pandas/banner.jpg (172.17.0.242) 1.70ms
+[I 14:27:36.125 NotebookApp] Adapting to protocol v5.1 for kernel 56ef4c74-86e4-4bc8-87ab-0d882b5e59c9
+[I 14:29:34.796 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:31:34.812 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:33:35.034 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:33:49.897 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:33:50.083 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:33:50.255 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:34:06.352 NotebookApp] Starting buffering for 56ef4c74-86e4-4bc8-87ab-0d882b5e59c9:1b5ed1305e0a44f4a2a9b040da962d64
+[I 14:57:53.606 NotebookApp] 302 GET /notebooks/2018-09-05-learn-numpy-pandas/banner.jpg (172.17.0.242) 1.13ms
+[I 14:57:53.648 NotebookApp] Adapting to protocol v5.1 for kernel 56ef4c74-86e4-4bc8-87ab-0d882b5e59c9
+[I 14:59:18.011 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:00:15.120 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:00:27.527 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:00:39.987 NotebookApp] Starting buffering for 56ef4c74-86e4-4bc8-87ab-0d882b5e59c9:4fc966db90fb4ebb8949c301b47bf443
+[I 15:00:43.502 NotebookApp] Kernel restarted: 56ef4c74-86e4-4bc8-87ab-0d882b5e59c9
+[I 15:00:51.995 NotebookApp] Adapting to protocol v5.1 for kernel 56ef4c74-86e4-4bc8-87ab-0d882b5e59c9
+[I 15:00:51.995 NotebookApp] Restoring connection for 56ef4c74-86e4-4bc8-87ab-0d882b5e59c9:4fc966db90fb4ebb8949c301b47bf443
+[I 15:00:51.995 NotebookApp] Replaying 6 buffered messages
+[I 15:01:42.006 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:01:53.623 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:03:53.618 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:05:53.625 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:06:04.192 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:06:07.680 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:06:14.064 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:07:53.624 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:09:53.627 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:11:48.459 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:11:50.270 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:11:53.635 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:12:02.054 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:13:13.271 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:13:53.627 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:15:53.638 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:17:28.120 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:17:34.285 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:17:53.639 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:19:39.931 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:19:53.639 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:20:23.607 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:21:08.465 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:21:29.184 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:21:33.889 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:23:53.649 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:24:18.071 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:24:46.728 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:24:51.069 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:25:40.623 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:25:53.644 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:26:39.385 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:26:56.347 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:26:57.137 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:27:01.968 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:27:11.117 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:27:53.668 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:28:12.747 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:29:27.982 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:29:34.565 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:29:39.804 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:29:53.964 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:30:13.882 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:33:48.527 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:35:53.651 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:37:53.852 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:38:58.494 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:39:44.802 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:44:30.996 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:45:54.393 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:47:54.396 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:49:53.662 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:50:55.833 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:52:01.525 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:53:53.671 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:55:53.672 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:56:27.198 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:58:29.088 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:59:41.466 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 15:59:54.417 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:01:54.450 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:03:13.870 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:03:18.903 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:03:53.679 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:04:20.830 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:04:49.392 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:04:54.749 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:05:04.652 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:05:53.719 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:06:47.988 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:06:49.341 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:06:57.568 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:12:35.416 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:12:46.901 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:13:02.057 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:13:18.382 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:13:53.691 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:14:54.696 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:15:15.106 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:15:38.058 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:15:51.766 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:15:53.707 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:16:11.168 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:16:22.119 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:16:22.293 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 16:16:22.436 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[W 16:18:51.998 NotebookApp] WebSocket ping timeout after 119962 ms.
+[I 16:18:57.001 NotebookApp] Starting buffering for 56ef4c74-86e4-4bc8-87ab-0d882b5e59c9:4fc966db90fb4ebb8949c301b47bf443
+slurmstepd: error: *** JOB 2319 ON evc1 CANCELLED AT 2018-09-05T16:25:21 DUE TO TIME LIMIT ***
