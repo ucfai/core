@@ -11,7 +11,9 @@
 
 meet_day: "Wed"
 meet_time: "6:00pm"
-meet_room: "TBA"
+meet_room: "HEC 101"
+
+signin_url: "https://docs.google.com/forms/d/e/1FAIpQLSdZ5ZZ49gUaDD2LbvRMuRgx3_AscFTWHpWDDuQOISTC1MnwIg/viewform"
 
 teach:
 - unit: 0
