@@ -45,6 +45,8 @@ env:
 jobs:
   include:
     - stage:  "rectify notebooks & convert to jekyll posts"
+      language: python
+      python: 3.6.5
       install:
         - sudo apt-get update
         - curl -fsSL https://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh -o miniconda.sh
