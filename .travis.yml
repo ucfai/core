@@ -20,10 +20,31 @@ env:
   global:
   - ENCRYPTION_LABEL: 2243fdfd4261
 
-matrix:
+#matrix:
+#  include:
+#    - language: python
+#      python: 3.6.5
+#      install:
+#        - sudo apt-get update
+#        - curl -fsSL https://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh -o miniconda.sh
+#        - /bin/bash miniconda.sh -b -p $HOME/miniconda
+#        - export PATH=$HOME/miniconda/bin:$PATH
+#        - hash -r
+#        - conda config --set always_yes yes --set changeps1 no
+#        - conda update -q conda
+#        - conda env create -f admin/env/lnx.yml
+#        - source activate sigai-auto-admin
+#    - language: ruby
+#      rvm: 2.4.2
+#      install:
+#        - curl -fsSL https://raw.githubusercontent.com/ucfsigai/data-science/master/docs/Gemfile -o Gemfile
+#        - bundle install --gemfile=Gemfile
+#      cache: bundler
+#      sudo: false
+
+jobs:
   include:
-    - language: python
-      python: 3.6.5
+    - stage:  "dependencies"
       install:
         - sudo apt-get update
         - curl -fsSL https://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh -o miniconda.sh
@@ -34,16 +55,6 @@ matrix:
         - conda update -q conda
         - conda env create -f admin/env/lnx.yml
         - source activate sigai-auto-admin
-    - language: ruby
-      rvm: 2.4.2
-      install:
-        - curl -fsSL https://raw.githubusercontent.com/ucfsigai/data-science/master/docs/Gemfile -o Gemfile
-        - bundle install --gemfile=Gemfile
-      cache: bundler
-      sudo: false
-
-jobs:
-  include:
     - stage:  "rectify_notebooks"
       script: python -m admin update --notebooks
     - stage:  "convert_notebooks_to_jekyll_posts"
