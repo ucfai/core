@@ -1,4 +1,4 @@
-remote_theme: "ucfsigai/global-site-theme@master"
+remote_theme: "ucfsigai/theme@master"
 
 future: true
 
