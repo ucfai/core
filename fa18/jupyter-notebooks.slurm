@@ -7,10 +7,13 @@
 
 date;hostname;pwd
 
-export XDG_RUNTIME_DIR=${TMPDIR}
+export XDG_RUNTIME_DIR=$HOME/tmp
+
+export PATH="/groups/course.sigai/conda/bin:$PATH"
+export DATA_DIR="/groups/course.sigai/data/fa18/"
 
 source activate sigai-fa18
 
-jupyter lab --no-browser --port=$1 --ip='*' --NotebookApp.token=''
+jupyter notebook --no-browser --port=$1 --ip='*' --NotebookApp.token=''
 
 date
