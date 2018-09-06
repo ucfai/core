@@ -10,3 +10,4 @@ __pycache__/
 data/udocker/
 .jupyter
 .idea/
+*.log
