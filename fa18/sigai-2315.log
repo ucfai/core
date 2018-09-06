@@ -1,0 +1,95 @@
+Wed Sep  5 12:24:10 EDT 2018
+evc4
+/home/course.sigai/data-science/fa18
+[I 12:24:24.049 NotebookApp] Writing notebook server cookie secret to /tmp/jupyter/notebook_cookie_secret
+[W 12:24:28.974 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 12:24:28.974 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 12:24:29.474 NotebookApp] JupyterLab extension loaded from /home/course.sigai/.local/lib/python3.6/site-packages/jupyterlab
+[I 12:24:29.474 NotebookApp] JupyterLab application directory is /lustre/fs0/home/course.sigai/.local/share/jupyter/lab
+[I 12:24:29.517 NotebookApp] Serving notebooks from local directory: /lustre/fs0/home/course.sigai/data-science/fa18
+[I 12:24:29.517 NotebookApp] The Jupyter Notebook is running at:
+[I 12:24:29.517 NotebookApp] http://(evc4 or 127.0.0.1):30000/
+[I 12:24:29.517 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 12:24:35.079 NotebookApp] 302 GET / (172.17.0.242) 0.49ms
+[W 12:26:43.655 NotebookApp] Notebook 2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb is not trusted
+[I 12:26:44.377 NotebookApp] Kernel started: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:26:44.383 NotebookApp] 302 GET /notebooks/2018-09-05-learn-numpy-pandas/banner.jpg (172.17.0.242) 1.30ms
+[I 12:26:45.787 NotebookApp] Adapting to protocol v5.1 for kernel c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:28:51.862 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:36:44.235 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:38:07.890 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:44:16.476 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:44:17.359 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:44:33.022 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:44:34.263 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:44:44.209 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:44:54.838 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:44:56.496 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:45:26.849 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:45:29.511 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:45:41.823 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:46:51.236 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:46:51.239 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:46:51.769 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:46:52.242 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:49:08.848 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:49:11.700 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:49:13.660 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:49:16.261 NotebookApp] Starting buffering for c41b2c9c-3d50-4b62-8a02-a8c10912a593:edf0cb25d5494e0ea10ae80c70c68fb3
+[I 12:49:22.085 NotebookApp] Kernel restarted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:49:30.977 NotebookApp] Adapting to protocol v5.1 for kernel c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 12:49:30.979 NotebookApp] Restoring connection for c41b2c9c-3d50-4b62-8a02-a8c10912a593:edf0cb25d5494e0ea10ae80c70c68fb3
+[I 12:49:30.979 NotebookApp] Replaying 3 buffered messages
+[I 12:51:12.362 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:52:08.822 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:52:11.382 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 12:53:27.356 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:02:03.207 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:23:09.018 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:26:20.440 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:26:26.819 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 13:27:05.638 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 13:27:09.353 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:27:15.707 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:27:19.430 NotebookApp] Starting buffering for c41b2c9c-3d50-4b62-8a02-a8c10912a593:edf0cb25d5494e0ea10ae80c70c68fb3
+[I 13:27:26.266 NotebookApp] Kernel restarted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 13:27:34.989 NotebookApp] Adapting to protocol v5.1 for kernel c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 13:27:34.990 NotebookApp] Restoring connection for c41b2c9c-3d50-4b62-8a02-a8c10912a593:edf0cb25d5494e0ea10ae80c70c68fb3
+[I 13:27:34.990 NotebookApp] Replaying 3 buffered messages
+[I 13:28:02.390 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:35:38.983 NotebookApp] Starting buffering for c41b2c9c-3d50-4b62-8a02-a8c10912a593:edf0cb25d5494e0ea10ae80c70c68fb3
+[I 13:35:39.300 NotebookApp] Kernel restarted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 13:35:39.917 NotebookApp] Adapting to protocol v5.1 for kernel c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 13:35:39.918 NotebookApp] Restoring connection for c41b2c9c-3d50-4b62-8a02-a8c10912a593:edf0cb25d5494e0ea10ae80c70c68fb3
+[I 13:35:39.918 NotebookApp] Replaying 3 buffered messages
+[I 13:36:42.442 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:39:46.788 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:41:02.418 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:43:12.450 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:45:22.466 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:47:32.440 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:58:22.466 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:58:33.619 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 13:59:14.078 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:00:24.797 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:00:55.855 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:02:42.435 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:04:52.488 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:05:28.595 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:07:00.647 NotebookApp] Kernel interrupted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 14:07:28.916 NotebookApp] Kernel restarted: c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 14:07:28.975 NotebookApp] Starting buffering for c41b2c9c-3d50-4b62-8a02-a8c10912a593:edf0cb25d5494e0ea10ae80c70c68fb3
+[I 14:07:29.069 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:07:37.752 NotebookApp] Adapting to protocol v5.1 for kernel c41b2c9c-3d50-4b62-8a02-a8c10912a593
+[I 14:07:37.753 NotebookApp] Restoring connection for c41b2c9c-3d50-4b62-8a02-a8c10912a593:edf0cb25d5494e0ea10ae80c70c68fb3
+[I 14:07:37.753 NotebookApp] Replaying 11 buffered messages
+[I 14:08:43.857 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:08:56.372 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:09:16.924 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:10:14.403 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:10:39.319 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:11:34.322 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:12:09.957 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:16:50.752 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+[I 14:21:29.578 NotebookApp] Saving file at /2018-09-05-learn-numpy-pandas/2018-09-05-learn-numpy-pandas.ipynb
+slurmstepd: error: *** JOB 2315 ON evc4 CANCELLED AT 2018-09-05T14:24:21 DUE TO TIME LIMIT ***
