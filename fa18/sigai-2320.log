@@ -1,0 +1,13 @@
+Wed Sep  5 14:26:05 EDT 2018
+evc1
+/home/course.sigai/data-science/fa18
+[W 14:26:06.645 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 14:26:06.645 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 14:26:06.645 NotebookApp] The port 30000 is already in use, trying another port.
+[I 14:26:06.685 NotebookApp] JupyterLab extension loaded from /home/course.sigai/.local/lib/python3.6/site-packages/jupyterlab
+[I 14:26:06.685 NotebookApp] JupyterLab application directory is /lustre/fs0/home/course.sigai/.local/share/jupyter/lab
+[I 14:26:06.689 NotebookApp] Serving notebooks from local directory: /lustre/fs0/home/course.sigai/data-science/fa18
+[I 14:26:06.689 NotebookApp] The Jupyter Notebook is running at:
+[I 14:26:06.689 NotebookApp] http://(evc1 or 127.0.0.1):30001/
+[I 14:26:06.689 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+slurmstepd: error: *** JOB 2320 ON evc1 CANCELLED AT 2018-09-05T14:26:35 ***
