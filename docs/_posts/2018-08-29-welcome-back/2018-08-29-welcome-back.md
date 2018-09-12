@@ -7,6 +7,23 @@ description: >
   "Welcome back to SIGAI! We'll be re-introducing SIGAI for newcomers and refreshing it for veterans. Following that, we'll cover some basics of generating graphs (a very common task for data science and research). If you're enticed, we'll also get you setup on the university's supercomputer, as all following meetings will stream from there! :smiley:"
 ---
 
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">dataset</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">os</span>
+    <span class="kn">from</span> <span class="nn">pathlib</span> <span class="k">import</span> <span class="n">Path</span>
+    <span class="n">datadir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;DATA_DIR&quot;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">Path</span><span class="p">(</span><span class="n">datadir</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="n">path</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -229,6 +246,7 @@ Copy this into your clipboard, you'll need it in the next step!</li>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">pathlib</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/groups/course.sigai/data/fa18&quot;</span><span class="p">)</span>
+<span class="n">dataset</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -277,7 +295,7 @@ Copy this into your clipboard, you'll need it in the next step!</li>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">joinpath</span><span class="p">(</span><span class="s1">&#39;iris.csv&#39;</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">dataset</span><span class="p">(</span><span class="s1">&#39;iris.csv&#39;</span><span class="p">))</span>
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -300,9 +318,9 @@ Copy this into your clipboard, you'll need it in the next step!</li>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ggplot</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;Species&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;SepalWidthCm&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;Species&#39;</span><span class="p">),</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span> <span class="o">+</span> \
-    <span class="n">geom_boxplot</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;Species&#39;</span><span class="p">))</span> <span class="o">+</span> \
-    <span class="n">xlab</span><span class="p">(</span><span class="s2">&quot;Length&quot;</span><span class="p">)</span> <span class="o">+</span> \
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ggplot</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;species&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;sepal_width&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;species&#39;</span><span class="p">),</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span> <span class="o">+</span> \
+    <span class="n">geom_boxplot</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;species&#39;</span><span class="p">))</span> <span class="o">+</span> \
+    <span class="n">xlab</span><span class="p">(</span><span class="s2">&quot;Species&quot;</span><span class="p">)</span> <span class="o">+</span> \
     <span class="n">ylab</span><span class="p">(</span><span class="s2">&quot;Width&quot;</span><span class="p">)</span> <span class="o">+</span> \
     <span class="n">ggtitle</span><span class="p">(</span><span class="s2">&quot;Comparing Sepal length and width across different species&quot;</span><span class="p">)</span>
 </pre></div>
@@ -326,8 +344,8 @@ Copy this into your clipboard, you'll need it in the next step!</li>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">ggplot</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="s1">&#39;Species&#39;</span><span class="p">,</span><span class="s1">&#39;SepalLengthCm&#39;</span><span class="p">))</span> <span class="o">+</span> 
-    <span class="n">geom_boxplot</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Species&#39;</span><span class="p">)))</span> <span class="o">+</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">ggplot</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="s1">&#39;species&#39;</span><span class="p">,</span><span class="s1">&#39;sepal_length&#39;</span><span class="p">))</span> <span class="o">+</span> 
+    <span class="n">geom_boxplot</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;species&#39;</span><span class="p">)))</span> <span class="o">+</span>
     <span class="n">labs</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;graph title&#39;</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;x title&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;legend title&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;y title&#39;</span><span class="p">)</span> <span class="o">+</span>
     <span class="n">scale_x_discrete</span><span class="p">(</span><span class="n">breaks</span><span class="o">=</span> <span class="p">[</span><span class="s1">&#39;setosa&#39;</span><span class="p">,</span> <span class="s1">&#39;versicolor&#39;</span><span class="p">,</span> <span class="s1">&#39;virginica&#39;</span><span class="p">],</span> <span class="n">labels</span><span class="o">=</span> <span class="p">[</span><span class="s1">&#39;one&#39;</span><span class="p">,</span> <span class="s1">&#39;two&#39;</span><span class="p">,</span> <span class="s1">&#39;three&#39;</span><span class="p">])</span> <span class="o">+</span> 
     <span class="n">scale_color_manual</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;one&#39;</span><span class="p">,</span> <span class="s1">&#39;two&#39;</span><span class="p">,</span> <span class="s1">&#39;three&#39;</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;#000000&#39;</span><span class="p">,</span> <span class="s1">&#39;#9ebcda&#39;</span><span class="p">,</span> <span class="s1">&#39;#8856a7&#39;</span><span class="p">])</span>
@@ -353,7 +371,7 @@ Copy this into your clipboard, you'll need it in the next step!</li>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">ggplot</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;SepalWidthCm&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;SepalLengthCm&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Species&#39;</span><span class="p">)))</span> <span class="o">+</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">ggplot</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;sepal_width&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;sepal_length&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;species&#39;</span><span class="p">)))</span> <span class="o">+</span>
     <span class="n">geom_point</span><span class="p">()</span> <span class="o">+</span> <span class="n">stat_smooth</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;lm&#39;</span><span class="p">)</span> <span class="o">+</span>
     <span class="n">labs</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;graph title&quot;</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;x title&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;legend title&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;y title&quot;</span><span class="p">)</span> <span class="o">+</span>
     <span class="n">scale_color_manual</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;one&#39;</span><span class="p">,</span> <span class="s1">&#39;two&#39;</span><span class="p">,</span> <span class="s1">&#39;three&#39;</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;#000000&#39;</span><span class="p">,</span> <span class="s1">&#39;#9ebcda&#39;</span><span class="p">,</span> <span class="s1">&#39;#8856a7&#39;</span><span class="p">])</span> <span class="o">+</span>
@@ -379,8 +397,8 @@ Copy this into your clipboard, you'll need it in the next step!</li>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">ggplot</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;SepalWidthCm&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;SepalLengthCm&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Species&#39;</span><span class="p">)))</span> <span class="o">+</span> 
-    <span class="n">geom_point</span><span class="p">()</span> <span class="o">+</span> <span class="n">stat_smooth</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;lm&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">facet_wrap</span><span class="p">(</span><span class="s1">&#39;~Species&#39;</span><span class="p">)</span> <span class="o">+</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">ggplot</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;sepal_width&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;sepal_length&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;species&#39;</span><span class="p">)))</span> <span class="o">+</span> 
+    <span class="n">geom_point</span><span class="p">()</span> <span class="o">+</span> <span class="n">stat_smooth</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;lm&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">facet_wrap</span><span class="p">(</span><span class="s1">&#39;~species&#39;</span><span class="p">)</span> <span class="o">+</span>
     <span class="n">labs</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;graph title&quot;</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;x title&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;legend title&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;y title&quot;</span><span class="p">)</span> <span class="o">+</span> 
     <span class="n">scale_color_manual</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;#000000&#39;</span><span class="p">,</span> <span class="s1">&#39;#9ebcda&#39;</span><span class="p">,</span> <span class="s1">&#39;#8856a7&#39;</span><span class="p">])</span> <span class="o">+</span>
     <span class="n">theme_bw</span><span class="p">())</span>
