@@ -10,9 +10,10 @@
 #         <meeting-description>
 
 meet_day: "Wed"
-meet_time: "6:00pm"
-meet_room: "HEC 101"
+meet_time: "4:30pm"
+meet_room: "BA1 122"
 
+signup_url: "https://docs.google.com/forms/d/e/1FAIpQLSdZ5ZZ49gUaDD2LbvRMuRgx3_AscFTWHpWDDuQOISTC1MnwIg/viewform"
 signin_url: "https://docs.google.com/forms/d/e/1FAIpQLSdZ5ZZ49gUaDD2LbvRMuRgx3_AscFTWHpWDDuQOISTC1MnwIg/viewform"
 
 teach:
@@ -34,7 +35,7 @@ teach:
       file: "learn-numpy-pandas"
       covr: "https://www.cfertech.com/sites/cfertech.com/files/nodefiles/822/RLX_Data_Analysis_banner.jpg"
       inst: [ionlights]
-      date: "09/05"
+      date: "09/12"
       desc: >
         Data is arguably more important than the algorithms we'll be learning
         this semester - and that data almost always needs to be curated and
@@ -44,7 +45,7 @@ teach:
       file: "linear-regression"
       covr: "http://www.sthda.com/english/sthda-upload/figures/machine-learning-essentials/027-logistic-regression-probabilities-curve-1.png"
       inst: [ahl98]
-      date: "09/12"
+      date: "09/19"
       desc: >
         Neural Networks are all the rage, nowadays, but simpler models are
         always great places to start! We'll cover how to do Linear/Logistic
@@ -56,7 +57,7 @@ teach:
       file: "neural-nets"
       inst: [ionlights, ChasKane]
       covr: ""
-      date: "09/19"
+      date: "09/26"
       desc: >
         With some basic ideas in mind about how one might tackle a task, we'll
         now go and explore a Tensor framework (PyTorch) and build a Neural
@@ -65,21 +66,21 @@ teach:
       file: "conv-nets"
       covr: ""
       inst: [thedibaccle]
-      date: "09/26"
+      date: "10/03"
       desc: >
 
     - name: "Machines That Write Papers for You"
       file: "recurrent-nets"
       covr: ""
       inst: [ionlights]
-      date: "10/03"
+      date: "10/10"
       desc: >
 
     - name: "Who Made this Face?"
       file: "gans"
       covr: ""
       inst: [thedibaccle]
-      date: "10/10"
+      date: "10/17"
       desc: >
 
 - unit: 2
@@ -89,21 +90,21 @@ teach:
       file: "heuristics"
       covr: ""
       inst: [Waldmannly]
-      date: "10/17"
+      date: "10/24"
       desc: >
 
     - name: "Decision Trees"
       file: "decision-trees"
       covr: ""
       inst: [ChasKane]
-      date: "10/24"
+      date: "10/31"
       desc: >
 
     - name: "Support Vector Machines"
       file: "svms"
       covr: ""
       inst: [ahl98]
-      date: "10/31"
+      date: "11/07"
       desc: >
 
 - unit: 3
@@ -113,6 +114,6 @@ teach:
       file: "practice-data-cleaning"
       covr: ""
       inst: [ionlights]
-      date: "11/07"
+      date: "11/14"
       desc: >
         
