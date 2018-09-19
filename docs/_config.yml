@@ -47,6 +47,9 @@ collections:
   signin:
     output: true
     permalink: /:title/signin/
+  signup:
+    output: true
+    permalink: /:title/signup/
 
 exclude:
   - docker-compose.yml
