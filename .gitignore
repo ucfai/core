@@ -11,3 +11,5 @@ data/udocker/
 .jupyter
 .idea/
 *.log
+signin.csv
+signup.csv
