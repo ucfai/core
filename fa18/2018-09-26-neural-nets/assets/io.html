@@ -1,0 +1,63 @@
+<body onclick="fwd_prop()">
+
+  <svg id="neural-network" viewBox="0,0,796,150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <defs>
+      <symbol id="nn-inp">
+        <g id="cell" stroke="#2e3a41" stroke-width="6" transform="matrix(1,0,0,1,4,4)">
+          <rect height="128" width="128" rx="12" ry="12" data-ignore="true" fill="none" y="1" opacity="0.39"/>
+          <rect height="128" width="128" rx="12" ry="12" fill="#cbfdf1" />
+        </g>
+        <text x="58.56" y="88.5" style="font-family:'SourceSansPro-Black', 'Source Sans Pro', sans-serif; font-weight:900; font-size:54px; fill:rgb(46,58,65);"> i </text>
+      </symbol>
+      <symbol id="nn-hid">
+        <g id="cell" stroke="#2e3a41" stroke-width="6" transform="matrix(1,0,0,1,4,4)">
+          <rect height="128" width="128" rx="12" ry="12" data-ignore="true" fill="none" y="1" opacity="0.39"/>
+          <rect height="128" width="128" rx="12" ry="12" fill="#ffe4f0" />
+        </g>
+        <text x="54.56" y="88.5" style="font-family:'SourceSansPro-Black', 'Source Sans Pro', sans-serif; font-weight:900; font-size:54px; fill:rgb(46,58,65);"> h </text>
+      </symbol>
+      <symbol id="nn-out">
+        <g id="cell" stroke="#2e3a41" stroke-width="6" transform="matrix(1,0,0,1,4,4)">
+          <rect height="128" width="128" rx="12" ry="12" data-ignore="true" fill="none" y="1" opacity="0.39"/>
+          <rect height="128" width="128" rx="12" ry="12" fill="#f1bdf8" />
+        </g>
+        <text x="54.56" y="88.5" style="font-family:'SourceSansPro-Black', 'Source Sans Pro', sans-serif; font-weight:900; font-size:54px; fill:rgb(46,58,65);"> o </text>
+      </symbol>
+    </defs>
+
+    <!-- fwd_weights -->
+    <g id="fwd_weights" stroke-width="4" fill="none" stroke="#879ba6" transform="matrix(1,0,0,1,42,0)">
+      <!-- input layer to first hidden layer weights -->
+      <g id="f-in_to_h1" transform="matrix(1,0,0,1,0,0)">
+        <g id="x1-to-h1" data-start="0">
+          <line x1="0" y1="84" x2="324" y2="84"  />
+        </g>
+      </g>
+
+      <!-- first hidden layer to second hidden layer weights -->
+      <g id="f-h1_to_h2" transform="matrix(1,0,0,1,324,0)">
+        <g id="h1_1-to-h2">
+          <line x1="0" y1="84"  x2="324" y2="84"  />
+        </g>
+      </g>
+    </g>
+
+    <!-- neural network -->
+    <g id="network" transform="matrix(1,0,0,1,6,-30)">
+      <!-- input layer -->
+      <g id="inpt-layer" transform="matrix(1,0,0,1,0,0)">
+        <use id="nn-inp1" href="#nn-inp" transform="matrix(1,0,0,1,0,36)" height="144" width="144" />
+      </g>
+
+      <!-- first hidden layer -->
+      <g id="hid1-layer" transform="matrix(1,0,0,1,324,0)">
+        <use id="nn-hid1_1" xlink:href="#nn-hid" transform="matrix(1,0,0,1,0, 36)" height="144" width="144" />
+      </g>
+
+      <!-- second hidden layer -->
+      <g id="hid2-layer" transform="matrix(1,0,0,1,648,0)">
+        <use id="nn-out1" xlink:href="#nn-out" transform="matrix(1,0,0,1,0,36)" height="144" width="144" />
+      </g>
+    </g>
+  </svg>
+</body>
