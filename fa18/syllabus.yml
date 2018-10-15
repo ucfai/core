@@ -88,10 +88,11 @@ teach:
   list:
     - name: "Solving the Computationally Impossible with Heuristics"
       file: "heuristics"
-      covr: ""
+      covr: "https://nomaneveati.files.wordpress.com/2015/06/bird_example.png?w=518&h=233&zoom=2"
       inst: [Waldmannly]
       date: "10/24"
       desc: >
+ The world is complex, making it difficult for algorithms to come to solutions in reasonable amounts of time. To speed them along, we can employ Heuristics to get us significantly closer, faster.  Today, we’ll try to approximate the Traveling Salesman Problem by using Simulated Annealing and Particle Swarm Optimization – two Heuristics which move us towards finding the shortest path we can use to visit all the destinations.
 
     - name: "Decision Trees"
       file: "decision-trees"
