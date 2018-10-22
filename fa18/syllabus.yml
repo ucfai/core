@@ -96,10 +96,13 @@ teach:
 
     - name: "Decision Trees"
       file: "decision-trees"
-      covr: ""
+      covr: "http://dataaspirant.com/wp-content/uploads/2017/01/B03905_05_01-compressor.png"
       inst: [ChasKane]
       date: "10/31"
       desc: >
+        Sometimes the algorithms we use to predict the future can be difficult to interpret and trust.
+        A Decision Tree is a learning algorithm that does a half decent job at prediction, but, more importantly,
+        is very easy to understand and interpret. No black boxes here... untill we start talking about Random Forests ;)
 
     - name: "Support Vector Machines"
       file: "svms"
