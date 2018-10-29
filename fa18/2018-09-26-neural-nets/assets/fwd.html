@@ -1,0 +1,266 @@
+<body onclick="fwd_prop()">
+
+  <svg id="neural-network" viewBox="0,0,732,518" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <defs>
+      <symbol id="nn-inp">
+        <g id="cell" stroke="#2e3a41" stroke-width="4" transform="matrix(1,0,0,1,4,4)">
+          <rect height="64" width="64" rx="6" ry="6" data-ignore="true" fill="none" y="1" opacity="0.39"/>
+          <rect height="64" width="64" rx="6" ry="6" fill="#cbfdf1" />
+        </g>
+        <text x="26.28" y="44.25" style="font-family:'SourceSansPro-Black', 'Source Sans Pro', sans-serif; font-weight:900; font-size:36px; fill:rgb(46,58,65);"> x </text>
+      </symbol>
+      <symbol id="nn-hid">
+        <g id="cell" stroke="#2e3a41" stroke-width="4" transform="matrix(1,0,0,1,4,4)">
+          <rect height="64" width="64" rx="6" ry="6" data-ignore="true" fill="none" y="1" opacity="0.39"/>
+          <rect height="64" width="64" rx="6" ry="6" fill="#ffe4f0" />
+        </g>
+        <text x="26.28" y="44.25" style="font-family:'SourceSansPro-Black', 'Source Sans Pro', sans-serif; font-weight:900; font-size:36px; fill:rgb(46,58,65);"> h </text>
+      </symbol>
+      <symbol id="nn-out">
+        <g id="cell" stroke="#2e3a41" stroke-width="4" transform="matrix(1,0,0,1,4,4)">
+          <rect height="64" width="64" rx="6" ry="6" data-ignore="true" fill="none" y="1" opacity="0.39"/>
+          <rect height="64" width="64" rx="6" ry="6" fill="#f1bdf8" />
+        </g>
+        <text x="26.28" y="44.25" style="font-family:'SourceSansPro-Black', 'Source Sans Pro', sans-serif; font-weight:900; font-size:36px; fill:rgb(46,58,65);"> o </text>
+      </symbol>
+    </defs>
+
+    <!-- bkp_weights -->
+    <g id="bkp_weights" stroke-width="4" fill="none" stroke="#d84d4d" transform="matrix(1,0,0,1,42,0)">
+      <!-- input layer to first hidden layer weights -->
+      <g id="b-in_to_h1" transform="matrix(1,0,0,1,0,0)" style="visibility: hidden;">
+        <g id="x1-to-h1" data-start="0">
+          <line x1="0" y1="108" x2="216" y2="36"  />
+          <line x1="0" y1="108" x2="216" y2="180" />
+          <line x1="0" y1="108" x2="216" y2="324" />
+          <line x1="0" y1="108" x2="216" y2="468" />
+        </g>
+        <g id="x2-to-h1" data-start="100">
+          <line x1="0" y1="252" x2="216" y2="36"  />
+          <line x1="0" y1="252" x2="216" y2="180" />
+          <line x1="0" y1="252" x2="216" y2="324" />
+          <line x1="0" y1="252" x2="216" y2="468" />
+        </g>
+        <g id="x3-to-h1" data-start="200">
+          <line x1="0" y1="396" x2="216" y2="36"  />
+          <line x1="0" y1="396" x2="216" y2="180" />
+          <line x1="0" y1="396" x2="216" y2="324" />
+          <line x1="0" y1="396" x2="216" y2="468" />
+        </g>
+      </g>
+
+      <!-- first hidden layer to second hidden layer weights -->
+      <g id="b-h1_to_h2" transform="matrix(1,0,0,1,216,0)" style="visibility: hidden;">
+        <g id="h1_1-to-h2">
+          <line x1="0" y1="36"  x2="216" y2="36"  />
+          <line x1="0" y1="36"  x2="216" y2="180" />
+          <line x1="0" y1="36"  x2="216" y2="324" />
+          <line x1="0" y1="36"  x2="216" y2="468" />
+        </g>
+        <g id="h1_2-to-h2">
+          <line x1="0" y1="180" x2="216" y2="36"  />
+          <line x1="0" y1="180" x2="216" y2="180" />
+          <line x1="0" y1="180" x2="216" y2="324" />
+          <line x1="0" y1="180" x2="216" y2="468" />
+        </g>
+        <g id="h1_3-to-h2">
+          <line x1="0" y1="324" x2="216" y2="36"  />
+          <line x1="0" y1="324" x2="216" y2="180" />
+          <line x1="0" y1="324" x2="216" y2="324" />
+          <line x1="0" y1="324" x2="216" y2="468" />
+        </g>
+        <g id="h1_4-to-h2">
+          <line x1="0" y1="468" x2="216" y2="36"  />
+          <line x1="0" y1="468" x2="216" y2="180" />
+          <line x1="0" y1="468" x2="216" y2="324" />
+          <line x1="0" y1="468" x2="216" y2="468" />
+        </g>
+      </g>
+
+      <!-- second hidden layer to output layer weights -->
+      <g id="b-h2_to_o" transform="matrix(1,0,0,1,432,0)" style="visibility: hidden;">
+        <g id="h2_1-to-o">
+          <line x1="0" y1="36"  x2="216" y2="180" />
+          <line x1="0" y1="36"  x2="216" y2="324" />
+        </g>
+        <g id="h2_2-to-o">
+          <line x1="0" y1="180" x2="216" y2="180" />
+          <line x1="0" y1="180" x2="216" y2="324" />
+        </g>
+        <g id="h2_3-to-o">
+          <line x1="0" y1="324" x2="216" y2="180" />
+          <line x1="0" y1="324" x2="216" y2="324" />
+        </g>
+        <g id="h2_4-to-o">
+          <line x1="0" y1="468" x2="216" y2="180" />
+          <line x1="0" y1="468" x2="216" y2="324" />
+        </g>
+      </g>
+    </g>
+
+    <!-- fwd_weights -->
+    <g id="fwd_weights" stroke-width="4" fill="none" stroke="#879ba6" transform="matrix(1,0,0,1,42,0)">
+      <!-- input layer to first hidden layer weights -->
+      <g id="f-in_to_h1" transform="matrix(1,0,0,1,0,0)">
+        <g id="x1-to-h1" data-start="0">
+          <line x1="0" y1="108" x2="216" y2="36"  />
+          <line x1="0" y1="108" x2="216" y2="180" />
+          <line x1="0" y1="108" x2="216" y2="324" />
+          <line x1="0" y1="108" x2="216" y2="468" />
+        </g>
+        <g id="x2-to-h1" data-start="100">
+          <line x1="0" y1="252" x2="216" y2="36"  />
+          <line x1="0" y1="252" x2="216" y2="180" />
+          <line x1="0" y1="252" x2="216" y2="324" />
+          <line x1="0" y1="252" x2="216" y2="468" />
+        </g>
+        <g id="x3-to-h1" data-start="200">
+          <line x1="0" y1="396" x2="216" y2="36"  />
+          <line x1="0" y1="396" x2="216" y2="180" />
+          <line x1="0" y1="396" x2="216" y2="324" />
+          <line x1="0" y1="396" x2="216" y2="468" />
+        </g>
+      </g>
+
+      <!-- first hidden layer to second hidden layer weights -->
+      <g id="f-h1_to_h2" transform="matrix(1,0,0,1,216,0)">
+        <g id="h1_1-to-h2">
+          <line x1="0" y1="36"  x2="216" y2="36"  />
+          <line x1="0" y1="36"  x2="216" y2="180" />
+          <line x1="0" y1="36"  x2="216" y2="324" />
+          <line x1="0" y1="36"  x2="216" y2="468" />
+        </g>
+        <g id="h1_2-to-h2">
+          <line x1="0" y1="180" x2="216" y2="36"  />
+          <line x1="0" y1="180" x2="216" y2="180" />
+          <line x1="0" y1="180" x2="216" y2="324" />
+          <line x1="0" y1="180" x2="216" y2="468" />
+        </g>
+        <g id="h1_3-to-h2">
+          <line x1="0" y1="324" x2="216" y2="36"  />
+          <line x1="0" y1="324" x2="216" y2="180" />
+          <line x1="0" y1="324" x2="216" y2="324" />
+          <line x1="0" y1="324" x2="216" y2="468" />
+        </g>
+        <g id="h1_4-to-h2">
+          <line x1="0" y1="468" x2="216" y2="36"  />
+          <line x1="0" y1="468" x2="216" y2="180" />
+          <line x1="0" y1="468" x2="216" y2="324" />
+          <line x1="0" y1="468" x2="216" y2="468" />
+        </g>
+      </g>
+
+      <!-- second hidden layer to output layer weights -->
+      <g id="f-h2_to_o" transform="matrix(1,0,0,1,432,0)">
+        <g id="h2_1-to-o">
+          <line x1="0" y1="36"  x2="216" y2="180" />
+          <line x1="0" y1="36"  x2="216" y2="324" />
+        </g>
+        <g id="h2_2-to-o">
+          <line x1="0" y1="180" x2="216" y2="180" />
+          <line x1="0" y1="180" x2="216" y2="324" />
+        </g>
+        <g id="h2_3-to-o">
+          <line x1="0" y1="324" x2="216" y2="180" />
+          <line x1="0" y1="324" x2="216" y2="324" />
+        </g>
+        <g id="h2_4-to-o">
+          <line x1="0" y1="468" x2="216" y2="180" />
+          <line x1="0" y1="468" x2="216" y2="324" />
+        </g>
+      </g>
+    </g>
+
+    <!-- neural network -->
+    <g id="network" transform="matrix(1,0,0,1,6,-30)">
+      <!-- input layer -->
+      <g id="inpt-layer" transform="matrix(1,0,0,1,0,0)">
+        <rect id="nn-inpt-focus" fill="none" rx="12" ry="12" width="80" height="370" stroke="#2e3a41" stroke-width="4" transform="matrix(1,0,0,1,-4,104)"></rect>
+        <use id="nn-inp1" href="#nn-inp" transform="matrix(1,0,0,1,0,108)" height="72" width="72" />
+        <use id="nn-inp2" href="#nn-inp" transform="matrix(1,0,0,1,0,252)" height="72" width="72" />
+        <use id="nn-inp3" href="#nn-inp" transform="matrix(1,0,0,1,0,396)" height="72" width="72" />
+      </g>
+
+      <!-- first hidden layer -->
+      <g id="hid1-layer" transform="matrix(1,0,0,1,216,0)">
+        <rect id="nn-hid1-focus" fill="none" rx="12" ry="12" width="80" height="514" stroke="#2e3a41" stroke-width="4" transform="matrix(1,0,0,1,-4,32)"></rect>
+        <use id="nn-hid1_1" xlink:href="#nn-hid" transform="matrix(1,0,0,1,0, 36)" height="72" width="72" />
+        <use id="nn-hid1_2" xlink:href="#nn-hid" transform="matrix(1,0,0,1,0,180)" height="72" width="72" />
+        <use id="nn-hid1_3" xlink:href="#nn-hid" transform="matrix(1,0,0,1,0,324)" height="72" width="72" />
+        <use id="nn-hid1_4" xlink:href="#nn-hid" transform="matrix(1,0,0,1,0,468)" height="72" width="72" />
+      </g>
+
+      <!-- second hidden layer -->
+      <g id="hid2-layer" transform="matrix(1,0,0,1,432,0)">
+        <rect id="nn-hid2-focus" fill="none" rx="12" ry="12" width="80" height="514" stroke="#2e3a41" stroke-width="4" transform="matrix(1,0,0,1,-4,32)"></rect>
+        <use id="nn-hid2_1" xlink:href="#nn-hid" transform="matrix(1,0,0,1,0, 36)" height="72" width="72" />
+        <use id="nn-hid2_2" xlink:href="#nn-hid" transform="matrix(1,0,0,1,0,180)" height="72" width="72" />
+        <use id="nn-hid2_3" xlink:href="#nn-hid" transform="matrix(1,0,0,1,0,324)" height="72" width="72" />
+        <use id="nn-hid2_4" xlink:href="#nn-hid" transform="matrix(1,0,0,1,0,468)" height="72" width="72" />
+      </g>
+
+      <!-- output layer -->
+      <g id="outp-layer" transform="matrix(1,0,0,1,648,0)">
+        <rect id="nn-outp-focus" fill="none" rx="12" ry="12" width="80" height="224" stroke="#2e3a41" stroke-width="4" transform="matrix(1,0,0,1,-4,176)"></rect>
+        <use id="nn-out1" xlink:href="#nn-out" transform="matrix(1,0,0,1,0,180)" height="72" width="72" />
+        <use id="nn-out2" xlink:href="#nn-out" transform="matrix(1,0,0,1,0,324)" height="72" width="72" />
+      </g>
+    </g>
+  </svg>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.3/vivus.js"> </script>
+  <!--<script src="assets/vivus.js"> </script>-->
+  <script>
+    args = {
+      duration: 150,
+
+    };
+
+    var layers = {
+      inpt: new Vivus("inpt-layer", args).stop(),
+      hid1: new Vivus("hid1-layer", args).stop(),
+      hid2: new Vivus("hid2-layer", args).stop(),
+      outp: new Vivus("outp-layer", args).stop(),
+    };
+
+    var weights = {
+        f_inh1: new Vivus("f-in_to_h1", args).stop(),
+        f_h1h2: new Vivus("f-h1_to_h2", args).stop(),
+        f_h2ot: new Vivus("f-h2_to_o", args).stop(),
+    };
+
+    var status = "inpt";
+    var lyr_play_val =  2;
+    var wht_play_val =  2;
+    var bkp_play_val = -2;
+
+    function fwd_prop() {
+      switch (status) {
+        case "inpt":
+
+        case "hid1":
+        case "hid2":
+        case "outp":  layers[status].play(lyr_play_val); break;
+
+        case "f_inh1":
+        case "f_h1h2":
+        case "f_h2ot":
+            weights[status].play(wht_play_val);
+            break;
+
+        default: status = "done"; return;
+      }
+
+      switch (status) {
+        case   "inpt": status = "f_inh1"; break;
+        case "f_inh1": status =   "hid1"; break;
+        case   "hid1": status = "f_h1h2"; break;
+        case "f_h1h2": status =   "hid2"; break;
+        case   "hid2": status = "f_h2ot"; break;
+        case "f_h2ot": status =   "outp"; break;
+        case   "outp": status =   "done"; break;
+      }
+    }
+  </script>
+</body>
