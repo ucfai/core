@@ -109,7 +109,7 @@ teach:
 
     - name: "Support Vector Machines"
       file: "svms"
-      covr: "http://efavdb.com/wp-content/uploads/2015/05/svm_3d_cropped.png"
+      covr: "https://monkeylearn.com/blog/wp-content/uploads/2017/06/Post_1e_thumb.png"
       inst: [ahl98]
       date: "11/07"
       desc: >
