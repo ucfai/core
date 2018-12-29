@@ -1,0 +1,24 @@
+#: #############################################################################
+#: coordinators:
+#:   - github: <github-username>
+#:     role: <your-role-in-ucfai>
+#: meetings:
+#:   primary:
+#:     wday: <weekday>
+#:     time: <start>-<end>, where each is in military time, e.g. 6:30p = 18:30
+#:     room: <building-code> <room-number>
+#:   supplementary: ... same as "primary"
+#: #############################################################################
+coordinators:
+  - github: ionlights
+    role: Director
+
+meetings:
+  primary:
+    wday: "Mon"
+    time: "18:30-20:30"
+    room: "HEC 103"
+  supplementary:
+    wday: "Wed"
+    time: "18:30-20:30"
+    room: "HEC 103"
