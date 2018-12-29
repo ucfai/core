@@ -1,0 +1,32 @@
+#: #############################################################################
+#: primary:
+#: - name: "<full-lecture-title>"
+#:   file: "<url-for-website>" # looks like... /<group>/<semester>/<file>
+#:   inst: [<instructor_1>, <instructor_2>, ...]
+#:   date: "<MM>/<DD>"
+#:   desc: >- # the ">-" specifies to YAML its a multi-line string
+#:     <meeting-description>
+#: supplementary: ... (same format, just a different key)
+#: #############################################################################
+primary:
+- name: "Welcome back! Featuring Supercomputers and Real Artificial Intelligence"
+  file: "welcome-back"
+  covr: ""
+  tags: ["club"]
+  inst: ["ionlights"]
+  desc: >-
+    Welcome back to SIGAI! We'll be re-introducing AI@UCF for newcomers and
+    refreshing it for veterans; following that, we'll cover some club logistics,
+    then we'll finish off with some live demos of the work some Coordinators
+    have done recently to give you a taste of what's possible! We lied, we'll
+    actually finish off with setting everyone up on the UCF Supercomputer, from
+    which we'll be streaming all future meetings!
+
+
+supplementary:
+- name: ""
+  file: ""
+  covr: ""
+  tags: [""]
+  inst: [""]
+  desc: >-
