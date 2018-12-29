@@ -13,3 +13,5 @@ data/udocker/
 *.log
 signin.csv
 signup.csv
+
+*.rsl*
