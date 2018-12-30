@@ -12,6 +12,8 @@
 coordinators:
   - github: ionlights
     role: Director
+  - github: brandons209
+    role: Coordinator
 
 meetings:
   primary:
