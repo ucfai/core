@@ -14,6 +14,8 @@ coordinators:
     role: Director
   - github: brandons209
     role: Coordinator
+  - github: JarvisEQ
+    role: Coordinator
 
 meetings:
   primary:
