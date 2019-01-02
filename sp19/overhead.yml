@@ -16,6 +16,8 @@ coordinators:
     role: Coordinator
   - github: JarvisEQ
     role: Coordinator
+  - github: danielzgsilva
+    role: Coordinator
 
 meetings:
   primary:
