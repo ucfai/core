@@ -18,6 +18,8 @@ coordinators:
     role: Coordinator
   - github: irenelt97
     role: Coordinator
+  - github: danielzgsilva
+    role: Coordinator
 
 meetings:
   primary:
