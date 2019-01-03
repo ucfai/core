@@ -20,6 +20,8 @@ coordinators:
     role: Coordinator
   - github: danielzgsilva
     role: Coordinator
+  - github: Aestrus
+    role: Coordinator
 
 meetings:
   primary:
