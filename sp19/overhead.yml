@@ -20,6 +20,8 @@ coordinators:
     role: Coordinator
   - github: danielzgsilva
     role: Coordinator
+  - github: SirRoboto
+    role: Coordinator
 
 meetings:
   primary:
