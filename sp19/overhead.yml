@@ -22,6 +22,8 @@ coordinators:
     role: Coordinator
   - github: SirRoboto
     role: Coordinator
+  - github: Aestrus
+    role: Coordinator
 
 meetings:
   primary:
