@@ -24,6 +24,8 @@ coordinators:
     role: Coordinator
   - github: Aestrus
     role: Coordinator
+  - github: cg021
+    role: Coordinator
 
 meetings:
   primary:
