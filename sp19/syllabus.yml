@@ -114,11 +114,18 @@ supplementary:
   tags: ["python", "basics", ]
   inst: ["ionlights"]
   desc: >-
-    In this meeting, we'll cover the fundamentals of programming in Python, with a particular focus on thinking of how to use said tools for Data Science, Machine Learning, and generally Artificial Intelligence research and engineering.
+    In this meeting, we'll cover the fundamentals of programming in Python, with
+    a particular focus on thinking of how to use said tools for Data Science,
+    Machine Learning, and generally Artificial Intelligence research and
+    engineering.
 - name: "Mathematics Refresher"
   file: "math-camp"
   covr: ""
   tags: ["math", "calculus", "linear-algebra", "basics", ]
   inst: ["ionlights"]
   desc: >-
-    Derivatives. Matrices. Vectors. Gradients. Mean. Standard Deviation. If any of those were unfamiliar, make sure you don't miss this meeting, as these are all the math you need to know! No math background? No worries. This lecture is intended to get everyone up to speed, regardless of their academic focus.
+    Derivatives. Matrices. Vectors. Gradients. Mean. Standard Deviation. If any
+    of those were unfamiliar, make sure you don't miss this meeting, as these
+    are all the math you need to know! No math background? No worries. This
+    lecture is intended to get everyone up to speed, regardless of their
+    academic focus.
