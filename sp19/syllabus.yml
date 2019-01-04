@@ -21,12 +21,104 @@ primary:
     have done recently to give you a taste of what's possible! We lied, we'll
     actually finish off with setting everyone up on the UCF Supercomputer, from
     which we'll be streaming all future meetings!
+- name: ""
+  file: "linear-regression"
+  covr: ""
+  tags: ["linear-regression", "basics"]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "neural-nets"
+  covr: ""
+  wday: "Wed"
+  tags: ["neural-nets",]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "conv-nets"
+  covr: ""
+  tags: ["neural-nets", "conv-nets", ]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "recurrent-nets"
+  covr: ""
+  tags: ["neural-nets", "recurrent-nets", ]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "hyperparam-tuning"
+  covr: ""
+  tags: ["neural-nets", "hyperparameters", ]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "data-curation"
+  covr: ""
+  tags: ["data-science", "data-curation"]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "random-forests"
+  covr: ""
+  tags: ["random-forests", "boosting", "weak-models", ]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "svms"
+  covr: ""
+  tags: ["support-vector-machines", "non-deep-learning", ]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "dimensionality-reduction"
+  covr: ""
+  tags: ["data-science", "big-data", "compression", ]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "applications-01"
+  covr: ""
+  tags: ["applications"]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "applications-02"
+  covr: ""
+  tags: ["applications"]
+  inst: ["ionlights"]
+  desc: >-
+
+- name: ""
+  file: "applications-03"
+  covr: ""
+  tags: ["applications"]
+  inst: ["ionlights"]
+  desc: >-
 
 
 supplementary:
-- name: ""
-  file: ""
+- name: "An Intro to Scientific Python Programming"
+  file: "programming-camp"
   covr: ""
-  tags: [""]
-  inst: [""]
+  tags: ["python", "basics", ]
+  inst: ["ionlights"]
   desc: >-
+    In this meeting, we'll cover the fundamentals of programming in Python, with a particular focus on thinking of how to use said tools for Data Science, Machine Learning, and generally Artificial Intelligence research and engineering.
+- name: "Mathematics Refresher"
+  file: "math-camp"
+  covr: ""
+  tags: ["math", "calculus", "linear-algebra", "basics", ]
+  inst: ["ionlights"]
+  desc: >-
+    Derivatives. Matrices. Vectors. Gradients. Mean. Standard Deviation. If any of those were unfamiliar, make sure you don't miss this meeting, as these are all the math you need to know! No math background? No worries. This lecture is intended to get everyone up to speed, regardless of their academic focus.
