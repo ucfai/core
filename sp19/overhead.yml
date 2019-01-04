@@ -12,6 +12,18 @@
 coordinators:
   - github: ionlights
     role: Director
+  - github: brandons209
+    role: Coordinator
+  - github: JarvisEQ
+    role: Coordinator
+  - github: irenelt97
+    role: Coordinator
+  - github: danielzgsilva
+    role: Coordinator
+  - github: SirRoboto
+    role: Coordinator
+  - github: Aestrus
+    role: Coordinator
 
 meetings:
   primary:
