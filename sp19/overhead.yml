@@ -26,6 +26,8 @@ coordinators:
     role: Coordinator
   - github: cg021
     role: Coordinator
+  - github: algorithmicpersuasion
+    role: Coordinator
 
 meetings:
   primary:
