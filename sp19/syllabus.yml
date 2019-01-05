@@ -46,9 +46,15 @@ primary:
 - name: ""
   file: "recurrent-nets"
   covr: ""
-  tags: ["neural-nets", "recurrent-nets", ]
-  inst: ["ionlights"]
+  tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
+  inst: ["ionlights", "brandons209"]
   desc: >-
+    This lecture is all about Recurrent Neural Networks. These are networks with memory,
+    they can learn on data that is sequential in nature, such as speech, text, videos, gestures,
+    traffic, stock prices, and many types of medical data. Different types of RNNs and
+    strategies for building them will also be covered. The project will be building a LSTM
+    RNN to generate new original scripts for the T.V series “The Simpsons”. Come and
+    find out if our networks can become better writers for the show!
 
 - name: ""
   file: "hyperparam-tuning"
