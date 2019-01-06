@@ -47,7 +47,7 @@ primary:
   file: "recurrent-nets"
   covr: ""
   tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
-  inst: ["ionlights", "brandons209"]
+  inst: ["brandons209", "ionlights"]
   desc: >-
     This lecture is all about Recurrent Neural Networks. These are networks with memory,
     they can learn on data that is sequential in nature, such as speech, text, videos, gestures,
