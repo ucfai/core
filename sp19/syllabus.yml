@@ -33,7 +33,7 @@ primary:
   covr: ""
   wday: "Wed"
   tags: ["neural-nets",]
-  inst: ["ionlights"]
+  inst: ["AHKerrigan", "ionlights"]
   desc: >-
 
 - name: ""
@@ -95,7 +95,7 @@ primary:
   file: "applications-01"
   covr: ""
   tags: ["applications"]
-  inst: ["ionlights"]
+  inst: ["AHKerrigan", "ionlights"]
   desc: >-
 
 - name: ""
