@@ -102,7 +102,7 @@ primary:
   file: "applications-02"
   covr: ""
   tags: ["applications"]
-  inst: ["ionlights"]
+  inst: ["aestrus", "ionlights"]
   desc: >-
 
 - name: ""
