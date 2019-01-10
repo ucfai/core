@@ -28,6 +28,8 @@ coordinators:
     role: Coordinator
   - github: algorithmicpersuasion
     role: Coordinator
+  - github: 2sebs
+    role: Coordinator
 
 meetings:
   primary:
