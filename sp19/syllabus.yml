@@ -105,13 +105,6 @@ primary:
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
-  file: "applications-03"
-  covr: ""
-  tags: ["applications"]
-  inst: ["ionlights"]
-  desc: >-
-
 
 supplementary:
 - name: "An Intro to Scientific Python Programming"
