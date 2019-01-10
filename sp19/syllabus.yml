@@ -66,8 +66,8 @@ primary:
 - name: ""
   file: "data-curation"
   covr: ""
-  tags: ["data-science", "data-curation"]
-  inst: ["ionlights"]
+  tags: ["data-science", "data-curation", "ETL"]
+  inst: ["danielzgsilva", "ionlights"]
   desc: >-
 
 - name: ""
