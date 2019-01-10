@@ -102,13 +102,6 @@ primary:
   file: "applications-02"
   covr: ""
   tags: ["applications"]
-  inst: ["aestrus", "ionlights"]
-  desc: >-
-
-- name: ""
-  file: "applications-03"
-  covr: ""
-  tags: ["applications"]
   inst: ["ionlights"]
   desc: >-
 
