@@ -14,6 +14,25 @@ coordinators:
     role: Director
   - github: brandons209
     role: Coordinator
+  - github: JarvisEQ
+    role: Coordinator
+  - github: irenelt97
+    role: Coordinator
+  - github: danielzgsilva
+    role: Coordinator
+  - github: SirRoboto
+    role: Coordinator
+  - github: Aestrus
+    role: Coordinator
+  - github: cg021
+    role: Coordinator
+  - github: algorithmicpersuasion
+    role: Coordinator
+  - github: 2sebs
+    role: Coordinator
+  - github: AHKerrigan
+    role: Coordinator
+
 
 meetings:
   primary:
