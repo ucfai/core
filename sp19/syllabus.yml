@@ -21,7 +21,7 @@ primary:
     have done recently to give you a taste of what's possible! We lied, we'll
     actually finish off with setting everyone up on the UCF Supercomputer, from
     which we'll be streaming all future meetings!
-- name: "Machine Learning Basics with Regression"
+- name: "Starting with the basics, regression and plotting"
   file: "linear-regression"
   covr: ""
   tags: ["linear-regression", "basics"]
@@ -29,7 +29,7 @@ primary:
   desc: >-
     You always start with the basics, and with Data Science it is no different!
     We'll get our toes wet with some simple but powerful models, and see how we can 
-    apply these models with a housing dataset.
+    apply these models with real world data.
 - name: ""
   file: "neural-nets"
   covr: ""
