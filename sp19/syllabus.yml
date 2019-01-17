@@ -43,9 +43,9 @@ primary:
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
+- name: "Who needs show writers nowadays?"
   file: "recurrent-nets"
-  covr: ""
+  covr: "https://timeentertainment.files.wordpress.com/2013/05/fictioninfluence_list_homersimpson.jpg"
   tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
   inst: ["brandons209", "ionlights"]
   desc: >-
