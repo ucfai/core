@@ -27,9 +27,9 @@ primary:
   tags: ["linear-regression", "basics"]
   inst: ["JarvisEQ", "ionlights"]
   desc: >-
-    You always start with the basics, and with Data Science it is no different!
-    We'll get our toes wet with some simple but powerful models, and see how we can 
-    apply these models with real world data.
+    You always start with the basics, and with Data Science it's no different!
+    We'll be getting our feet wet with some simple, but powerful, models and 
+    demonstrate their power by applying them to real world data.
 - name: ""
   file: "neural-nets"
   covr: ""
@@ -51,13 +51,13 @@ primary:
   tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
   inst: ["brandons209", "ionlights"]
   desc: >-
-    This lecture is all about Recurrent Neural Networks. These are networks with memory,
-    they can learn on data that is sequential in nature, such as speech, text, videos, gestures,
-    traffic, stock prices, and many types of medical data. Different types of RNNs and
-    strategies for building them will also be covered. The project will be building a LSTM
-    RNN to generate new original scripts for the T.V series “The Simpsons”. Come and
-    find out if our networks can become better writers for the show!
-
+    This lecture is all about Recurrent Neural Networks. These are networks
+    with memory, they can learn on data that is sequential in nature, such as speech,
+    text, videos, gestures, traffic, stock prices, and many types of medical data.
+    Different types of RNNs and strategies for building them will also be covered.
+    The project will be building a LSTM-RNN to generate new original scripts for 
+    the TV series “The Simpsons”. Come and find out if our networks can become
+    better writers for the show!
 - name: ""
   file: "hyperparam-tuning"
   covr: ""
