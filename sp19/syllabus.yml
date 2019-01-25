@@ -90,7 +90,7 @@ primary:
   file: "dimensionality-reduction"
   covr: ""
   tags: ["data-science", "big-data", "compression", ]
-  inst: ["ionlights"]
+  inst: ["cg021", "ionlights"]
   desc: >-
 
 - name: ""
