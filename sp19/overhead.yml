@@ -28,6 +28,11 @@ coordinators:
     role: Coordinator
   - github: causallycausal
     role: Coordinator
+  - github: 2sebs
+    role: Coordinator
+  - github: AHKerrigan
+    role: Coordinator
+
 
 meetings:
   primary:
