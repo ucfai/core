@@ -64,13 +64,20 @@ primary:
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
+- name: "Cleaning and Manipulating a Dataset with Python"
   file: "data-curation"
-  covr: ""
-  tags: ["data-science", "data-curation", "ETL"]
+  covr: "https://analyticsindiamag.com/wp-content/uploads/2018/01/data-cleaning.png"
+  tags: ["data-science", "data-curation", "data cleaning", "data manipulation"]
   inst: ["danielzgsilva", "ionlights"]
-  desc: >-
-
+  desc: >- 
+    In the fields of Data Science and Artificial Intelligence, your models and 
+    analyses will only be as good as the data behind them. Unfortunately, you
+    will find that the majority of datasets you encounter will be filled with 
+    missing, malformed, or erroneous data. Thankfully, Python provides a number 
+    of handy libraries to help you clean and manipulate your data into a usable
+    state. In today's lecture, we will leverage these Python libraries to turn
+    a messy dataset into a gold mine of value.
+  
 - name: ""
   file: "random-forests"
   covr: ""
