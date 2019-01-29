@@ -46,7 +46,7 @@ primary:
 
 - name: "Who needs show writers nowadays?"
   file: "recurrent-nets"
-  covr: "https://timeentertainment.files.wordpress.com/2013/05/fictioninfluence_list_homersimpson.jpg"
+  covr: "https://drive.google.com/open?id=11H_JABJZgOT4-aExo8-PuyOw8Ekshp8z"
   tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
   inst: ["brandons209", "ionlights"]
   desc: >-
