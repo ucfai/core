@@ -26,7 +26,7 @@ coordinators:
     role: Coordinator
   - github: cg021
     role: Coordinator
-  - github: algorithmicpersuasion
+  - github: causallycausal
     role: Coordinator
   - github: 2sebs
     role: Coordinator
@@ -35,11 +35,12 @@ coordinators:
 
 
 meetings:
+  start_offset: 3
   primary:
-    wday: "Mon"
-    time: "18:30-20:30"
-    room: "HEC 103"
-  supplementary:
     wday: "Wed"
-    time: "18:30-20:30"
-    room: "HEC 103"
+    time: "19:30-21:30"
+    room: "HEC 119"
+  supplementary:
+    wday: "Thu"
+    time: "19:30-21:30"
+    room: "HEC 117"

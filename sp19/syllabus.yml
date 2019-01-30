@@ -29,22 +29,21 @@ primary:
     You always start with the basics, and with Data Science it's no different!
     We'll be getting our feet wet with some simple, but powerful, models and 
     demonstrate their power by applying them to real world data.
-- name: ""
+- name: "Some Temp Title"
   file: "neural-nets"
   covr: ""
-  wday: "Wed"
   tags: ["neural-nets",]
   inst: ["AHKerrigan", "ionlights"]
   desc: >-
 
-- name: ""
+- name: "Some Temp Title"
   file: "conv-nets"
   covr: ""
   tags: ["neural-nets", "conv-nets", ]
   inst: ["ionlights"]
   desc: >-
 
-- name: "Who needs show writers nowadays?"
+- name: "Who Needs Show Writers Nowadays?"
   file: "recurrent-nets"
   covr: "https://timeentertainment.files.wordpress.com/2013/05/fictioninfluence_list_homersimpson.jpg"
   tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
@@ -57,49 +56,49 @@ primary:
     The project will be building a LSTM-RNN to generate new original scripts for 
     the TV series “The Simpsons”. Come and find out if our networks can become
     better writers for the show!
-- name: ""
+- name: "What Makes Deep Learning More of an Art Than a Science?"
   file: "hyperparam-tuning"
   covr: ""
   tags: ["neural-nets", "hyperparameters", ]
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
+- name: "Some Temp Title"
   file: "data-curation"
   covr: ""
   tags: ["data-science", "data-curation", "ETL"]
   inst: ["danielzgsilva", "ionlights"]
   desc: >-
 
-- name: ""
+- name: "Some Temp Title"
   file: "random-forests"
   covr: ""
   tags: ["random-forests", "boosting", "weak-models", ]
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
+- name: "Some Temp Title"
   file: "svms"
   covr: ""
   tags: ["support-vector-machines", "non-deep-learning", ]
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
+- name: "Some Temp Title"
   file: "dimensionality-reduction"
   covr: ""
   tags: ["data-science", "big-data", "compression", ]
   inst: ["cg021", "ionlights"]
   desc: >-
 
-- name: ""
+- name: "Some Temp Title"
   file: "applications-01"
   covr: ""
   tags: ["applications"]
   inst: ["AHKerrigan", "ionlights"]
   desc: >-
 
-- name: ""
+- name: "Some Temp Title"
   file: "applications-02"
   covr: ""
   tags: ["applications"]
