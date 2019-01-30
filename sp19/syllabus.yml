@@ -63,14 +63,31 @@ primary:
   inst: ["ionlights"]
   desc: >-
 
+<<<<<<< HEAD
 - name: "Some Temp Title"
+=======
+- name: "Cleaning and Manipulating a Dataset with Python"
+>>>>>>> 1a28bde30f10dfda266b5f8fc619958e8eb09515
   file: "data-curation"
-  covr: ""
-  tags: ["data-science", "data-curation", "ETL"]
+  covr: "https://analyticsindiamag.com/wp-content/uploads/2018/01/data-cleaning.png"
+  tags: ["data-science", "data-curation", "data cleaning", "data manipulation"]
   inst: ["danielzgsilva", "ionlights"]
+<<<<<<< HEAD
   desc: >-
 
 - name: "Some Temp Title"
+=======
+  desc: >- 
+    In the fields of Data Science and Artificial Intelligence, your models and 
+    analyses will only be as good as the data behind them. Unfortunately, you
+    will find that the majority of datasets you encounter will be filled with 
+    missing, malformed, or erroneous data. Thankfully, Python provides a number 
+    of handy libraries to help you clean and manipulate your data into a usable
+    state. In today's lecture, we will leverage these Python libraries to turn
+    a messy dataset into a gold mine of value.
+  
+- name: ""
+>>>>>>> 1a28bde30f10dfda266b5f8fc619958e8eb09515
   file: "random-forests"
   covr: ""
   tags: ["random-forests", "boosting", "weak-models", ]
@@ -84,7 +101,11 @@ primary:
   inst: ["ionlights"]
   desc: >-
 
+<<<<<<< HEAD
 - name: "Some Temp Title"
+=======
+- name: "Making sense of high-dimensional data"
+>>>>>>> 1a28bde30f10dfda266b5f8fc619958e8eb09515
   file: "dimensionality-reduction"
   covr: ""
   tags: ["data-science", "big-data", "compression", ]
