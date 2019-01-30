@@ -92,7 +92,7 @@ primary:
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
+- name: "Making sense of high-dimensional data"
   file: "dimensionality-reduction"
   covr: ""
   tags: ["data-science", "big-data", "compression", ]
