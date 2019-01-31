@@ -17,10 +17,10 @@ primary:
   desc: >-
     Welcome back to SIGAI! We'll be re-introducing AI@UCF for newcomers and
     refreshing it for veterans; following that, we'll cover some club logistics,
-    revealing our plans for the semester, and finish off with setting everyone
+    reveal our plans for the semester, and finish off with setting everyone
     up on the UCF Supercomputer, from which we'll be streaming all future
     meetings!
-- name: "Starting with the basics, regression and plotting"
+- name: "Starting with the Basics, Regression and Plotting"
   file: "linear-regression"
   covr: ""
   tags: ["linear-regression", "basics"]
@@ -50,7 +50,7 @@ primary:
   inst: ["brandons209", "ionlights"]
   desc: >-
     This lecture is all about Recurrent Neural Networks. These are networks
-    with memory, they can learn on data that is sequential in nature, such as speech,
+    with memory, which learn on data that is sequential in nature, such as speech,
     text, videos, gestures, traffic, stock prices, and many types of medical data.
     Different types of RNNs and strategies for building them will also be covered.
     The project will be building a LSTM-RNN to generate new original scripts for 
@@ -76,7 +76,7 @@ primary:
     missing, malformed, or erroneous data. Thankfully, Python provides a number 
     of handy libraries to help you clean and manipulate your data into a usable
     state. In today's lecture, we will leverage these Python libraries to turn
-    a messy dataset into a gold mine of value.
+    a messy dataset into a gold mine of value!
   
 - name: "Random Forests"
   file: "random-forests"
