@@ -29,14 +29,14 @@ primary:
     You always start with the basics, and with Data Science it's no different!
     We'll be getting our feet wet with some simple, but powerful, models and 
     demonstrate their power by applying them to real world data.
-- name: "Some Temp Title"
+- name: "Neural Networks"
   file: "neural-nets"
   covr: ""
   tags: ["neural-nets",]
   inst: ["AHKerrigan", "ionlights"]
   desc: >-
 
-- name: "Some Temp Title"
+- name: "Convolutional Neural Networks"
   file: "conv-nets"
   covr: ""
   tags: ["neural-nets", "conv-nets", ]
@@ -56,6 +56,7 @@ primary:
     The project will be building a LSTM-RNN to generate new original scripts for 
     the TV series “The Simpsons”. Come and find out if our networks can become
     better writers for the show!
+
 - name: "What Makes Deep Learning More of an Art Than a Science?"
   file: "hyperparam-tuning"
   covr: ""
@@ -63,20 +64,11 @@ primary:
   inst: ["ionlights"]
   desc: >-
 
-<<<<<<< HEAD
-- name: "Some Temp Title"
-=======
 - name: "Cleaning and Manipulating a Dataset with Python"
->>>>>>> 1a28bde30f10dfda266b5f8fc619958e8eb09515
   file: "data-curation"
   covr: "https://analyticsindiamag.com/wp-content/uploads/2018/01/data-cleaning.png"
   tags: ["data-science", "data-curation", "data cleaning", "data manipulation"]
   inst: ["danielzgsilva", "ionlights"]
-<<<<<<< HEAD
-  desc: >-
-
-- name: "Some Temp Title"
-=======
   desc: >- 
     In the fields of Data Science and Artificial Intelligence, your models and 
     analyses will only be as good as the data behind them. Unfortunately, you
@@ -86,46 +78,33 @@ primary:
     state. In today's lecture, we will leverage these Python libraries to turn
     a messy dataset into a gold mine of value.
   
-- name: ""
->>>>>>> 1a28bde30f10dfda266b5f8fc619958e8eb09515
+- name: "Random Forests"
   file: "random-forests"
   covr: ""
   tags: ["random-forests", "boosting", "weak-models", ]
   inst: ["ionlights"]
   desc: >-
 
-- name: "Some Temp Title"
+- name: "Support Vector Machines"
   file: "svms"
   covr: ""
   tags: ["support-vector-machines", "non-deep-learning", ]
   inst: ["ionlights"]
   desc: >-
 
-<<<<<<< HEAD
-- name: "Some Temp Title"
-=======
 - name: "Making sense of high-dimensional data"
->>>>>>> 1a28bde30f10dfda266b5f8fc619958e8eb09515
   file: "dimensionality-reduction"
   covr: ""
   tags: ["data-science", "big-data", "compression", ]
   inst: ["cg021", "ionlights"]
   desc: >-
 
-- name: "Some Temp Title"
+- name: "Applications 1"
   file: "applications-01"
   covr: ""
   tags: ["applications"]
   inst: ["AHKerrigan", "ionlights"]
   desc: >-
-
-- name: "Some Temp Title"
-  file: "applications-02"
-  covr: ""
-  tags: ["applications"]
-  inst: ["ionlights"]
-  desc: >-
-
 
 supplementary:
 - name: "An Intro to Scientific Python Programming"
