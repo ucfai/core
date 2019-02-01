@@ -29,12 +29,16 @@ primary:
     You always start with the basics, and with Data Science it's no different!
     We'll be getting our feet wet with some simple, but powerful, models and 
     demonstrate their power by applying them to real world data.
-- name: "Neural Networks"
+- name: "Beyond the Buzzwords: Getting started with Neural Networks"
   file: "neural-nets"
-  covr: ""
+  covr: "https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg"
   tags: ["neural-nets",]
   inst: ["AHKerrigan", "ionlights"]
   desc: >-
+    You've heard about them. Beating humans at all types of games, driving cars,
+    and reccomending your netflix, but what ARE neural networks? In this lecture
+    you'll actually learn step by step how nueral networks functoin and how they 
+    learn. Then, you'll deploy one yourself!
 
 - name: "Convolutional Neural Networks"
   file: "conv-nets"
