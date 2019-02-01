@@ -36,7 +36,7 @@ primary:
   inst: ["AHKerrigan", "ionlights"]
   desc: >-
     You've heard about them. Beating humans at all types of games, driving cars,
-    and reccomending your netflix, but what ARE neural networks? In this lecture
+    and reccomending your Netflix, but what ARE neural networks? In this lecture
     you'll actually learn step by step how nueral networks functoin and how they 
     learn. Then, you'll deploy one yourself!
 
