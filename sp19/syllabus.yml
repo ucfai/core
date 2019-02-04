@@ -20,9 +20,9 @@ primary:
     reveal our plans for the semester, and finish off with setting everyone
     up on the UCF Supercomputer, from which we'll be streaming all future
     meetings!
-- name: "Starting with the Basics, Regression and Plotting"
+- name: "Starting with the Basics, Regression"
   file: "linear-regression"
-  covr: ""
+  covr: "http://gdurl.com/SMdp"
   tags: ["linear-regression", "basics"]
   inst: ["JarvisEQ", "ionlights"]
   desc: >-
