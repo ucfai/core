@@ -110,24 +110,13 @@ primary:
   desc: >-
 
 supplementary:
-- name: "An Intro to Scientific Python Programming"
-  file: "programming-camp"
-  covr: ""
-  tags: ["python", "basics", ]
+- name: "A Math Refresher and Intro to Scientific Python Programming"
+  file: "programming-math-camp"
+  covr: "https://www.olcf.ornl.gov/wp-content/uploads/2017/11/iStock_Patton_small.jpg"
+  tags: ["python", "basics", "linear-algebra", "calculus", "derivatives", "gradients"]
   inst: ["ionlights"]
   desc: >-
-    In this meeting, we'll cover the fundamentals of programming in Python, with
-    a particular focus on thinking of how to use said tools for Data Science,
-    Machine Learning, and generally Artificial Intelligence research and
-    engineering.
-- name: "Mathematics Refresher"
-  file: "math-camp"
-  covr: ""
-  tags: ["math", "calculus", "linear-algebra", "basics", ]
-  inst: ["ionlights"]
-  desc: >-
-    Derivatives. Matrices. Vectors. Gradients. Mean. Standard Deviation. If any
-    of those were unfamiliar, make sure you don't miss this meeting, as these
-    are all the math you need to know! No math background? No worries. This
-    lecture is intended to get everyone up to speed, regardless of their
-    academic focus.
+    We'll be covering the foundational mathematics for Machine Learning, spanning
+    Multivariate Calculus to Linear Algebra and sprinkle in some Statistics. 
+    Followed by coverage of fundamental programming ideas for Data Science, 
+    Machine Learning, and generally AI research and engineering.
