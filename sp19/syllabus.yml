@@ -22,7 +22,7 @@ primary:
     meetings!
 - name: "Starting with the Basics, Regression"
   file: "linear-regression"
-  covr: "http://gdurl.com/SMdp"
+  covr: "https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg"
   tags: ["linear-regression", "basics"]
   inst: ["JarvisEQ", "ionlights"]
   desc: >-
