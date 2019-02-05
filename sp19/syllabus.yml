@@ -17,115 +17,106 @@ primary:
   desc: >-
     Welcome back to SIGAI! We'll be re-introducing AI@UCF for newcomers and
     refreshing it for veterans; following that, we'll cover some club logistics,
-    revealing our plans for the semester, and finish off with setting everyone
+    reveal our plans for the semester, and finish off with setting everyone
     up on the UCF Supercomputer, from which we'll be streaming all future
     meetings!
-- name: "Starting with the basics, regression and plotting"
+- name: "Starting with the Basics, Regression"
   file: "linear-regression"
-  covr: ""
+  covr: "https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg"
   tags: ["linear-regression", "basics"]
   inst: ["JarvisEQ", "ionlights"]
   desc: >-
     You always start with the basics, and with Data Science it's no different!
     We'll be getting our feet wet with some simple, but powerful, models and 
     demonstrate their power by applying them to real world data.
-- name: ""
+- name: "Beyond the Buzzwords: Getting Started with Neural Networks"
   file: "neural-nets"
-  covr: ""
-  wday: "Wed"
+  covr: "https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg"
   tags: ["neural-nets",]
   inst: ["AHKerrigan", "ionlights"]
   desc: >-
+    You've heard about them: Beating humans at all types of games, driving cars,
+    and reccomending your Netflix, but what ARE neural networks? In this lecture,
+    you'll actually learn step by step how neural networks function and how they 
+    learn. Then, you'll deploy one yourself!
 
-- name: ""
+- name: "Convolutional Neural Networks"
   file: "conv-nets"
   covr: ""
   tags: ["neural-nets", "conv-nets", ]
   inst: ["ionlights"]
   desc: >-
 
-- name: "Who needs show writers nowadays?"
+- name: "Who Needs Show Writers Nowadays?"
   file: "recurrent-nets"
-  covr: "https://timeentertainment.files.wordpress.com/2013/05/fictioninfluence_list_homersimpson.jpg"
+  covr: "https://i.imgur.com/EIt4Ilr.png"
   tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
   inst: ["brandons209", "ionlights"]
   desc: >-
     This lecture is all about Recurrent Neural Networks. These are networks
-    with memory, they can learn on data that is sequential in nature, such as speech,
-    text, videos, gestures, traffic, stock prices, and many types of medical data.
-    Different types of RNNs and strategies for building them will also be covered.
-    The project will be building a LSTM-RNN to generate new original scripts for 
-    the TV series “The Simpsons”. Come and find out if our networks can become
-    better writers for the show!
-- name: ""
+    with memory, which learn from data that is sequential in nature, such as speech,
+    text, videos, and more. Different types of RNNs and strategies for building 
+    them will also be covered. The project will be building a LSTM-RNN to generate
+    new original scripts for the TV series “The Simpsons”. Come and find out if our
+    networks can become better writers for the show!
+
+- name: "What Makes Deep Learning More of an Art Than a Science?"
   file: "hyperparam-tuning"
   covr: ""
   tags: ["neural-nets", "hyperparameters", ]
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
+- name: "Cleaning and Manipulating a Dataset with Python"
   file: "data-curation"
-  covr: ""
-  tags: ["data-science", "data-curation", "ETL"]
+  covr: "https://analyticsindiamag.com/wp-content/uploads/2018/01/data-cleaning.png"
+  tags: ["data-science", "data-curation", "data cleaning", "data manipulation"]
   inst: ["danielzgsilva", "ionlights"]
-  desc: >-
-
-- name: ""
+  desc: >- 
+    In the fields of Data Science and Artificial Intelligence, your models and 
+    analyses will only be as good as the data behind them. Unfortunately, you
+    will find that the majority of datasets you encounter will be filled with 
+    missing, malformed, or erroneous data. Thankfully, Python provides a number 
+    of handy libraries to help you clean and manipulate your data into a usable
+    state. In today's lecture, we will leverage these Python libraries to turn
+    a messy dataset into a gold mine of value!
+  
+- name: "Random Forests"
   file: "random-forests"
   covr: ""
   tags: ["random-forests", "boosting", "weak-models", ]
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
+- name: "Support Vector Machines"
   file: "svms"
   covr: ""
   tags: ["support-vector-machines", "non-deep-learning", ]
   inst: ["ionlights"]
   desc: >-
 
-- name: ""
+- name: "Making sense of high-dimensional data"
   file: "dimensionality-reduction"
   covr: ""
   tags: ["data-science", "big-data", "compression", ]
   inst: ["cg021", "ionlights"]
   desc: >-
 
-- name: ""
+- name: "Applications 1"
   file: "applications-01"
   covr: ""
   tags: ["applications"]
   inst: ["AHKerrigan", "ionlights"]
   desc: >-
 
-- name: ""
-  file: "applications-02"
-  covr: ""
-  tags: ["applications"]
-  inst: ["ionlights"]
-  desc: >-
-
-
 supplementary:
-- name: "An Intro to Scientific Python Programming"
-  file: "programming-camp"
-  covr: ""
-  tags: ["python", "basics", ]
+- name: "A Math Refresher and Intro to Scientific Python Programming"
+  file: "programming-math-camp"
+  covr: "https://www.olcf.ornl.gov/wp-content/uploads/2017/11/iStock_Patton_small.jpg"
+  tags: ["python", "basics", "linear-algebra", "calculus", "derivatives", "gradients"]
   inst: ["ionlights"]
   desc: >-
-    In this meeting, we'll cover the fundamentals of programming in Python, with
-    a particular focus on thinking of how to use said tools for Data Science,
-    Machine Learning, and generally Artificial Intelligence research and
-    engineering.
-- name: "Mathematics Refresher"
-  file: "math-camp"
-  covr: ""
-  tags: ["math", "calculus", "linear-algebra", "basics", ]
-  inst: ["ionlights"]
-  desc: >-
-    Derivatives. Matrices. Vectors. Gradients. Mean. Standard Deviation. If any
-    of those were unfamiliar, make sure you don't miss this meeting, as these
-    are all the math you need to know! No math background? No worries. This
-    lecture is intended to get everyone up to speed, regardless of their
-    academic focus.
+    We'll be covering the foundational mathematics for Machine Learning, spanning
+    Multivariate Calculus to Linear Algebra and sprinkle in some Statistics. 
+    Followed by coverage of fundamental programming ideas for Data Science, 
+    Machine Learning, and generally AI research and engineering.
