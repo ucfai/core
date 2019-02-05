@@ -24,7 +24,7 @@ primary:
   file: "linear-regression"
   covr: "https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg"
   tags: ["linear-regression", "basics"]
-  inst: ["JarvisEQ", "ionlights"]
+  inst: ["JarvisEQ", "causallycausal", "ionlights"]
   desc: >-
     You always start with the basics, and with Data Science it's no different!
     We'll be getting our feet wet with some simple, but powerful, models and 
