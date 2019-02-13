@@ -81,13 +81,16 @@ primary:
     state. In today's lecture, we will leverage these Python libraries to turn
     a messy dataset into a gold mine of value!
   
-- name: "Random Forests"
+- name: "A Walk Through the Random Forest"
   file: "random-forests"
-  covr: ""
+  covr: "https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg"
   tags: ["random-forests", "boosting", "weak-models", ]
   inst: ["ionlights"]
   desc: >-
-
+    Neural Nets are not the end all be all of Machine Learning. In this lecutre, 
+    we will see how a decision tree works, and see how powerful a collection of 
+    them can. From there, we will see how to utilize Random Forests to do digit 
+    recognition.
 - name: "Support Vector Machines"
   file: "svms"
   covr: ""
