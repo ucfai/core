@@ -42,7 +42,7 @@ primary:
 
 - name: "How Computers Can See and Other Ways Machines Can Think"
   file: "conv-nets"
-  covr: "https://sophosnews.files.wordpress.com/2015/02/face-detection_550.jpg"
+  covr: "https://www.dailydot.com/wp-content/uploads/7da/6e/fc3aa93d4cf68ff5406f291efcd81b08.jpg"
   tags: ["neural-nets", "conv-nets", ]
   inst: ["irenelt97", "ionlights"]
   desc: >-
