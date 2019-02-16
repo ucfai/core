@@ -40,12 +40,17 @@ primary:
     networks? In this lecture, you'll actually learn step by step how neural
     networks function and how they learn. Then, you'll deploy one yourself!
 
-- name: "Convolutional Neural Networks"
+- name: "How Computers Can See and Other Ways Machines Can Think"
   file: "conv-nets"
-  covr: ""
+  covr: "https://www.dailydot.com/wp-content/uploads/7da/6e/fc3aa93d4cf68ff5406f291efcd81b08.jpg"
   tags: ["neural-nets", "conv-nets", ]
-  inst: ["ionlights"]
+  inst: ["irenelt97", "ionlights"]
   desc: >-
+    Ever wonder how Facebook can tell you which friends to tag in your photos
+    or how Google automatically makes collages and animations for you? This
+    lecture is all about that: we'll teach you the basics of computer vision 
+    using convolutional neural networks so you can make your own algorithm to
+    automatically analyze your visual data! B)
 
 - name: "Who Needs Show Writers Nowadays?"
   file: "recurrent-nets"
@@ -62,9 +67,9 @@ primary:
 
 - name: "What Makes Deep Learning More of an Art Than a Science?"
   file: "hyperparam-tuning"
-  covr: ""
+  covr: "https://inductiveautomation.com/blog/sites/default/files/inline-images/Machine_Learning_Blog_Header1.png"
   tags: ["neural-nets", "hyperparameters", ]
-  inst: ["ionlights"]
+  inst: ["irenelt97", "ionlights"]
   desc: >-
 
 - name: "Cleaning and Manipulating a Dataset with Python"
