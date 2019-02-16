@@ -120,6 +120,7 @@ primary:
 supplementary:
 - name: "A Math Refresher and Intro to Scientific Python Programming"
   file: "programming-math-camp"
+  date: "02/07"
   covr: "https://www.olcf.ornl.gov/wp-content/uploads/2017/11/iStock_Patton_small.jpg"
   tags: ["python", "basics", "linear-algebra", "calculus", "derivatives", "gradients"]
   inst: ["ionlights"]
@@ -128,3 +129,16 @@ supplementary:
     Multivariate Calculus to Linear Algebra and sprinkle in some Statistics. 
     Followed by coverage of fundamental programming ideas for Data Science, 
     Machine Learning, and generally AI research and engineering.
+
+- name: "Getting into Machine Learning Research"
+  file: "getting-into-research"
+  date: "02/21"
+  covr: "https://www.olcf.ornl.gov/wp-content/uploads/2017/11/iStock_Patton_small.jpg"
+  tags: ["research", "machine-learning", "cold-emailing", "artificial-intelligence"]
+  inst: ["ionlights"]
+  desc: >-
+    Some of your best time spent as an undergrad happens through research. You have
+    the opportunity to world with experts in their field, just by attending a university.
+    Though, most of us squander that opportunity because reaching out is daunting. Let's
+    overcome that challenge together with some tips and tricks from current undergrad
+    researchers at UCF! 
