@@ -48,9 +48,9 @@ primary:
   desc: >-
     Ever wonder how Facebook can tell you which friends to tag in your photos
     or how Google automatically makes collages and animations for you? This
-    lecture is all about that: we'll teach you the basics of computer vision 
+    lecture is all about that: We'll teach you the basics of computer vision 
     using convolutional neural networks so you can make your own algorithm to
-    automatically analyze your visual data! B)
+    automatically analyze your visual data!
 
 - name: "Who Needs Show Writers Nowadays?"
   file: "recurrent-nets"
