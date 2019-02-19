@@ -44,7 +44,7 @@ primary:
   file: "conv-nets"
   covr: "https://www.dailydot.com/wp-content/uploads/7da/6e/fc3aa93d4cf68ff5406f291efcd81b08.jpg"
   tags: ["neural-nets", "conv-nets", ]
-  inst: ["irenelt97", "ionlights"]
+  inst: ["irenelt97", "brandons209", "ionlights"]
   desc: >-
     Ever wonder how Facebook can tell you which friends to tag in your photos
     or how Google automatically makes collages and animations for you? This
