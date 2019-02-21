@@ -40,12 +40,17 @@ primary:
     networks? In this lecture, you'll actually learn step by step how neural
     networks function and how they learn. Then, you'll deploy one yourself!
 
-- name: "Convolutional Neural Networks"
+- name: "How Computers Can See and Other Ways Machines Can Think"
   file: "conv-nets"
-  covr: ""
+  covr: "https://www.dailydot.com/wp-content/uploads/7da/6e/fc3aa93d4cf68ff5406f291efcd81b08.jpg"
   tags: ["neural-nets", "conv-nets", ]
-  inst: ["ionlights"]
+  inst: ["irenelt97", "brandons209", "ionlights"]
   desc: >-
+    Ever wonder how Facebook can tell you which friends to tag in your photos
+    or how Google automatically makes collages and animations for you? This
+    lecture is all about that: We'll teach you the basics of computer vision 
+    using convolutional neural networks so you can make your own algorithm to
+    automatically analyze your visual data!
 
 - name: "Who Needs Show Writers Nowadays?"
   file: "recurrent-nets"
@@ -62,9 +67,9 @@ primary:
 
 - name: "What Makes Deep Learning More of an Art Than a Science?"
   file: "hyperparam-tuning"
-  covr: ""
+  covr: "https://inductiveautomation.com/blog/sites/default/files/inline-images/Machine_Learning_Blog_Header1.png"
   tags: ["neural-nets", "hyperparameters", ]
-  inst: ["ionlights"]
+  inst: ["irenelt97", "ionlights"]
   desc: >-
 
 - name: "Cleaning and Manipulating a Dataset with Python"
@@ -115,6 +120,7 @@ primary:
 supplementary:
 - name: "A Math Refresher and Intro to Scientific Python Programming"
   file: "programming-math-camp"
+  date: "02/07"
   covr: "https://www.olcf.ornl.gov/wp-content/uploads/2017/11/iStock_Patton_small.jpg"
   tags: ["python", "basics", "linear-algebra", "calculus", "derivatives", "gradients"]
   inst: ["ionlights"]
@@ -123,3 +129,16 @@ supplementary:
     Multivariate Calculus to Linear Algebra and sprinkle in some Statistics. 
     Followed by coverage of fundamental programming ideas for Data Science, 
     Machine Learning, and generally AI research and engineering.
+
+- name: "Getting into Machine Learning Research"
+  file: "getting-into-research"
+  date: "02/21"
+  covr: "https://www.olcf.ornl.gov/wp-content/uploads/2017/11/iStock_Patton_small.jpg"
+  tags: ["research", "machine-learning", "cold-emailing", "artificial-intelligence"]
+  inst: ["ionlights"]
+  desc: >-
+    Some of your best time spent as an undergrad happens right through research. You have
+    the opportunity to work with experts in their field just by attending a university.
+    Despite this, most of us squander that opportunity because reaching out is daunting. Let's
+    overcome that challenge together with some tips and tricks from current undergrad
+    researchers at UCF! 
