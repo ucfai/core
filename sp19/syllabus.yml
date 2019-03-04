@@ -67,10 +67,17 @@ primary:
 
 - name: "What Makes Deep Learning More of an Art Than a Science?"
   file: "hyperparam-tuning"
-  covr: "https://inductiveautomation.com/blog/sites/default/files/inline-images/Machine_Learning_Blog_Header1.png"
+  covr: "https://cdn-images-1.medium.com/max/1200/1*b7nswbO9BHxFvO4TfFCU_Q@2x.jpeg"
   tags: ["neural-nets", "hyperparameters", ]
   inst: ["irenelt97", "ionlights"]
   desc: >-
+    Some of the hardest aspects of Machine Learning are the details. Almost every
+    algorithm we use is sensitive to "hyperparameters" which affect the initialization,
+    optimization speed, and even the possibility of becoming accurate. We'll cover the
+    general heuristics you can use to figure out what hyperparameters to use, how to 
+    find the optimal ones, what you can do to make models more resilient, and the like.
+    This workshop will be pretty "down-in-the-weeds" but will give you a better intuition
+    about Machine Learning and its shortcomings.
 
 - name: "Cleaning and Manipulating a Dataset with Python"
   file: "data-curation"
