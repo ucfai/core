@@ -44,7 +44,7 @@ primary:
   file: "conv-nets"
   covr: "https://www.dailydot.com/wp-content/uploads/7da/6e/fc3aa93d4cf68ff5406f291efcd81b08.jpg"
   tags: ["neural-nets", "conv-nets", ]
-  inst: ["irenelt97", "ionlights"]
+  inst: ["irenelt97", "brandons209", "ionlights"]
   desc: >-
     Ever wonder how Facebook can tell you which friends to tag in your photos
     or how Google automatically makes collages and animations for you? This
@@ -59,7 +59,7 @@ primary:
   inst: ["brandons209", "ionlights"]
   desc: >-
     This lecture is all about Recurrent Neural Networks. These are networks
-    with memory, which learn from data that is sequential in nature, such as speech,
+    with with added memory, which means they can learn from sequential data such as speech,
     text, videos, and more. Different types of RNNs and strategies for building 
     them will also be covered. The project will be building a LSTM-RNN to generate
     new original scripts for the TV series “The Simpsons”. Come and find out if our
@@ -67,10 +67,17 @@ primary:
 
 - name: "What Makes Deep Learning More of an Art Than a Science?"
   file: "hyperparam-tuning"
-  covr: "https://inductiveautomation.com/blog/sites/default/files/inline-images/Machine_Learning_Blog_Header1.png"
+  covr: "https://cdn-images-1.medium.com/max/1200/1*b7nswbO9BHxFvO4TfFCU_Q@2x.jpeg"
   tags: ["neural-nets", "hyperparameters", ]
   inst: ["irenelt97", "ionlights"]
   desc: >-
+    Some of the hardest aspects of Machine Learning are the details. Almost every
+    algorithm we use is sensitive to "hyperparameters" which affect the initialization,
+    optimization speed, and even the possibility of becoming accurate. We'll cover the
+    general heuristics you can use to figure out what hyperparameters to use, how to 
+    find the optimal ones, what you can do to make models more resilient, and the like.
+    This workshop will be pretty "down-in-the-weeds" but will give you a better intuition
+    about Machine Learning and its shortcomings.
 
 - name: "Cleaning and Manipulating a Dataset with Python"
   file: "data-curation"
@@ -137,8 +144,8 @@ supplementary:
   tags: ["research", "machine-learning", "cold-emailing", "artificial-intelligence"]
   inst: ["ionlights"]
   desc: >-
-    Some of your best time spent as an undergrad happens through research. You have
-    the opportunity to world with experts in their field, just by attending a university.
-    Though, most of us squander that opportunity because reaching out is daunting. Let's
+    Some of your best time spent as an undergrad happens right through research. You have
+    the opportunity to work with experts in their field just by attending a university.
+    Despite this, most of us squander that opportunity because reaching out is daunting. Let's
     overcome that challenge together with some tips and tricks from current undergrad
     researchers at UCF! 
