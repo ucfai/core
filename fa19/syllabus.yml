@@ -9,7 +9,7 @@
 #: supplementary: ... (same format, just a different key)
 #: #############################################################################
 primary:
-- name: "Intro/Interest Meeting"
+- name: "Welcome back! Introducing Data Science"
   file: "intro-interest-meeting"
   covr: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
   tags: ["club"]
