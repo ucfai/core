@@ -20,6 +20,9 @@ coordinators:
     role: "Maintainer"
   - github: "brandons209"
     role: "Core Director"
+  - github: "danielzgsilva"
+    role: "coordinator"
+
 
 
 meetings:
