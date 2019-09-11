@@ -19,9 +19,9 @@ coordinators:
   - github: "casuallycausal"
     role: "Maintainer"
   - github: "brandons209"
-    role: "Core Director"
+    role: "Director"
   - github: "danielzgsilva"
-    role: "coordinator"
+    role: "Lecturer"
 
 
 
