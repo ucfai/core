@@ -19,7 +19,17 @@ primary:
     how we do it, and what opportunities are available for you. Food and drink
     will be provided, so take the time to eat, chat, and learn about our club.
     See you there!
-
+- name: "How We Can Give Our Computers Eyes and Ears"
+  file: "05-cnns"
+  covr: "https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png"
+  tags: ["Computer Vision","CNNs", "Convolutional Neural Networks"]
+  inst: ["danielzgsilva", "brandons209"]
+  desc: >- 
+    Ever wonder how Facebook tells you which friends to tag in your photos,
+    or how Siri can even understand your request? In this meeting we'll dive
+    into convolutional neural networks and give you all the tools to build
+    smart systems such as these. Join us in learning how we can grant our 
+    computers the gifts of hearing and sight!
 - name: "Writer's Block? RNNs can help!"
   file: "rnns"
   covr: "https://i.imgur.com/EIt4Ilr.png"
@@ -32,7 +42,6 @@ primary:
     them will also be covered. The project will be building a LSTM-RNN to generate
     new original scripts for the TV series “The Simpsons”. Come and find out if our
     networks can become better writers for the show!
-
 - name: "A look behind DeepFake - GANs"
   file: "gans"
   covr: "https://i1.wp.com/cyxu.tv/wp-content/uploads/2019/03/horse2zebra.jpg?resize=386%2C385"
