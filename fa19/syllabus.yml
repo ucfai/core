@@ -54,7 +54,17 @@ primary:
     and makes it look like something similar (zebras). Come and learn the secret behind these type of networks,
     you will be suprised how intuitive it is! The lecture will cover the basics of GANs and different types,
     with the workshop covering how we can generate human faces, cats, dogs, and other cute creatures!
-
+- name: "Learning by Doing, This Time With Neural Networks"
+  file: "deep-rl"
+  covr: "https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/06/dota2-768x476.png"
+  tags: ["machine learning", "deep learning", "reinforcement learning", "DoTA"]
+  inst: ["AHKerrigan"]
+  desc: >-
+    It's easy enough to navigate a 16x16 maze with tables and some dynamic programming, but
+    how exactly do we extend that to play video games with millions of pixels as input, or 
+    board games like Go with more states than particals in the observable universe? The answer,
+    as it often is, is deep reinforcement learning.
+    
 supplementary:
 - name: ""
   file: ""
