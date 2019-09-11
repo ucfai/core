@@ -19,6 +19,18 @@ primary:
     how we do it, and what opportunities are available for you. Food and drink
     will be provided, so take the time to eat, chat, and learn about our club.
     See you there!
+    
+- name: "How We Can Give Our Computers Eyes and Ears"
+  file: "05-cnns"
+  covr: "https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png"
+  tags: ["Computer Vision","CNNs", "Convolutional Neural Networks"]
+  inst: ["danielzgsilva", "brandons209"]
+  desc: >- 
+    Ever wonder how Facebook tells you which friends to tag in your photos,
+    or how Siri can even understand your request? In this meeting we'll dive
+    into convolutional neural networks and give you all the tools to build
+    smart systems such as these. Join us in learning how we can grant our 
+    computers the gifts of hearing and sight!
 
 - name: "Learning by Doing, This Time With Neural Networks"
   file: "deep-rl"
@@ -30,7 +42,7 @@ primary:
     how exactly do we extend that to play video games with millions of pixels as input, or 
     board games like Go with more states than particals in the observable universe? The answer,
     as it often is, is deep reinforcement learning.
-
+    
 supplementary:
 - name: ""
   file: ""

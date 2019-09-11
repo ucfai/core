@@ -20,6 +20,8 @@ coordinators:
     role: "Lecturer"
   - github: "casuallycausal"
     role: "Maintainer"
+  - github: "danielzgsilva"
+    role: "coordinator"
 
 
 meetings:
