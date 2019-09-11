@@ -19,7 +19,6 @@ primary:
     how we do it, and what opportunities are available for you. Food and drink
     will be provided, so take the time to eat, chat, and learn about our club.
     See you there!
-    
 - name: "How We Can Give Our Computers Eyes and Ears"
   file: "05-cnns"
   covr: "https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png"
@@ -31,7 +30,30 @@ primary:
     into convolutional neural networks and give you all the tools to build
     smart systems such as these. Join us in learning how we can grant our 
     computers the gifts of hearing and sight!
-
+- name: "Writer's Block? RNNs can help!"
+  file: "rnns"
+  covr: "https://i.imgur.com/EIt4Ilr.png"
+  tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
+  inst: ["brandons209", "ionlights"]
+  desc: >-
+    This lecture is all about Recurrent Neural Networks. These are networks
+    with memory, which means they can learn from sequential data such as speech,
+    text, videos, and more. Different types of RNNs and strategies for building 
+    them will also be covered. The project will be building a LSTM-RNN to generate
+    new original scripts for the TV series “The Simpsons”. Come and find out if our
+    networks can become better writers for the show!
+- name: "A look behind DeepFake - GANs"
+  file: "gans"
+  covr: "https://i1.wp.com/cyxu.tv/wp-content/uploads/2019/03/horse2zebra.jpg?resize=386%2C385"
+  tags: ["GANs", "generative", "adversial", "cyclegan", "deepfake", "cGAN"]
+  inst: ["brandons209"]
+  desc: >-
+    GANs are relativity new in the machine learning world, but they have proven to be a very
+    powerful model. Recently, they made headlines in the DeepFake network, being able to mimic
+    someone else in real time video and audio. There has also been cycleGAN, which takes one domain (horses)
+    and makes it look like something similar (zebras). Come and learn the secret behind these type of networks,
+    you will be suprised how intuitive it is! The lecture will cover the basics of GANs and different types,
+    with the workshop covering how we can generate human faces, cats, dogs, and other cute creatures!
 - name: "Learning by Doing, This Time With Neural Networks"
   file: "deep-rl"
   covr: "https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/06/dota2-768x476.png"
