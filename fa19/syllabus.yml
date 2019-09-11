@@ -25,9 +25,9 @@ primary:
   tags: ["Regresssion","Linear Regression", "Logistic Regression", "non-nn"]
   inst: ["JarvisEQ"]
   desc: >- 
-    You need to start with the basic, and in this meeting we are doing just that! 
-    We will be goig over the basics of What Machine Learning is and how we can use 
-    models to do awesome stuff. 
+    You always start with the basics, and in this meeting we are doing just that! 
+    We will be going over what Machine Learning consists of and how we can use 
+    models to do awesome stuff! 
     
 - name: "A Walk Through the Random Forest"
   file: "02-rf&svm"
@@ -37,7 +37,8 @@ primary:
   desc: >-
     In this lecture, we explore powerful yet lightweight models that are often 
     overlooked. We will see the power of combining multiple simple models together
-    can yield amazing results, and how easy it is to classify with just a line. 
+    and how they can yield amazing results. You won't believe how easy it is to 
+    classify with just a line!
     
 - name: "Getting Started with Neural Networks"
   file: "03-nns"
@@ -48,7 +49,7 @@ primary:
     You've heard about them: Beating humans at all types of games, driving cars,
     and recommending your next Netflix series to watch, but what ARE neural 
     networks? In this lecture, you'll actually learn step by step how neural
-    networks function and how they learn. Then, you'll deploy one yourself!
+    networks function and learn. Then, you'll deploy one yourself!
 
 - name: "Applications"
   file: "04-applications"
@@ -56,10 +57,10 @@ primary:
   tags: ["neural-nets", "applications", "random-forest", "svms"]
   inst: ["JarvisEQ"]
   desc: >-
-    You konw what they are, but how do? In this meeting, we let you lose on a   
-    dataset to help you with applying your new Datascience skills. Alog the way,
-    we go over the importance of visulisations and why it is important to be able 
-    to pick apart a dataset. 
+    You know what they are, but "how do?" In this meeting, we let you loose on a   
+    dataset to help you apply your newly developed or honed data science skills. 
+    Along the way, we go over the importance of visulisations and why it is 
+    important to be able to pick apart a dataset. 
 
 - name: "How We Can Give Our Computers Eyes and Ears"
   file: "05-cnns"
