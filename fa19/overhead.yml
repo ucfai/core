@@ -12,6 +12,8 @@
 coordinators:
   - github: "ionlights" 
     role: "Lecturer"
+  - github: "AHKerrigan"
+    role: "Lecturer"
   - github: "sirroboto"
     role: "Maintainer"
   - github: "jarviseq"
