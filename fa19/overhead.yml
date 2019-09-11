@@ -18,6 +18,8 @@ coordinators:
     role: "Lecturer"
   - github: "casuallycausal"
     role: "Maintainer"
+  - github: "brandons209"
+    role: "Core Director"
 
 
 meetings:
