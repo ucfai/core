@@ -22,6 +22,8 @@ coordinators:
     role: "Director"
   - github: "danielzgsilva"
     role: "Lecturer"
+  - github: "cg021"
+    role: "Lecturer"
 
 meetings:
   start_offset: 3  # how many weeks into the semester should we start?
