@@ -97,7 +97,7 @@ primary:
     and makes it look like something similar (zebras). Come and learn the secret behind these type of networks,
     you will be suprised how intuitive it is! The lecture will cover the basics of GANs and different types,
     with the workshop covering how we can generate human faces, cats, dogs, and other cute creatures!
-- name: "Training machines to learn from experience"
+- name: "Training Machines to Learn From Experience"
   file: "rl"
   covr: "https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg"
   tags: ["reinforcement learning","machine learning"]
