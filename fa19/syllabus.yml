@@ -1,12 +1,10 @@
 #: #############################################################################
-#: primary:
 #: - name: "<full-lecture-title>"
 #:   file: "<url-for-website>" # looks like... /<group>/<semester>/<file>
 #:   inst: [<instructor_1>, <instructor_2>, ...]
 #:   date: "<MM>/<DD>"
 #:   desc: >- # the ">-" specifies to YAML its a multi-line string
 #:     <meeting-description>
-#: supplementary: ... (same format, just a different key)
 #: #############################################################################
 - name: "Welcome back! Introducing Data Science"
   file: "welcome-back"
@@ -96,6 +94,15 @@
     and makes it look like something similar (zebras). Come and learn the secret behind these type of networks,
     you will be suprised how intuitive it is! The lecture will cover the basics of GANs and different types,
     with the workshop covering how we can generate human faces, cats, dogs, and other cute creatures!
+- name: "Training Machines to Learn From Experience"
+  file: "rl"
+  covr: "https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg"
+  tags: ["reinforcement learning","machine learning"]
+  inst: ["cg021"]
+  desc: >- 
+    We all remember when DeepMind’s AlphaGo beat Lee Sedol, but what actually made the program 
+    powerful enough to outperform an international champion? In this lecture, we’ll dive into the mechanics 
+    of reinforcement learning and its applications. 
 - name: "Learning by Doing, This Time With Neural Networks"
   file: "deep-rl"
   covr: "https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/06/dota2-768x476.png"
