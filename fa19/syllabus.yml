@@ -8,7 +8,6 @@
 #:     <meeting-description>
 #: supplementary: ... (same format, just a different key)
 #: #############################################################################
-primary:
 - name: "Welcome back! Introducing Data Science"
   file: "welcome-back"
   covr: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
@@ -107,11 +106,3 @@ primary:
     how exactly do we extend that to play video games with millions of pixels as input, or 
     board games like Go with more states than particals in the observable universe? The answer,
     as it often is, is deep reinforcement learning.
-    
-supplementary:
-- name: ""
-  file: ""
-  covr: ""
-  tags: [""]
-  inst: [""]
-  desc: >-
