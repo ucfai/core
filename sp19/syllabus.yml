@@ -99,17 +99,21 @@ primary:
   tags: ["random-forests", "boosting", "weak-models", ]
   inst: ["ionlights"]
   desc: >-
-    Neural Nets are not the end all be all of Machine Learning. In this lecutre, 
+    Neural Nets are not the end all be all of Machine Learning. In this lecture, 
     we will see how a decision tree works, and see how powerful a collection of 
-    them can. From there, we will see how to utilize Random Forests to do digit 
+    them can be. From there, we will see how to utilize Random Forests to do digit 
     recognition.
 - name: "Support Vector Machines"
   file: "svms"
-  covr: ""
+  covr: "https://monkeylearn.com/blog/wp-content/uploads/2017/06/Post_1e_social.png"
   tags: ["support-vector-machines", "non-deep-learning", ]
   inst: ["ionlights"]
   desc: >-
-
+    Support Vector Machines were among the most highly used ML algorithms before
+    Neural Nets came back into the foreground. Unlike Neural Nets, SVMs can explain
+    themselves quite well and allow us to use these ML mdels in fields like medicine,
+    finance, and the like – where regulations require that we can inquire about our
+    models.
 - name: "Making sense of high-dimensional data"
   file: "dimensionality-reduction"
   covr: ""
