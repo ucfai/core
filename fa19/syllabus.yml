@@ -1,115 +1,230 @@
-#: #############################################################################
-#: - name: "<full-lecture-title>"
-#:   file: "<url-for-website>" # looks like... /<group>/<semester>/<file>
-#:   inst: [<instructor_1>, <instructor_2>, ...]
-#:   date: "<MM>/<DD>"
-#:   desc: >- # the ">-" specifies to YAML its a multi-line string
-#:     <meeting-description>
-#: #############################################################################
-- name: "Welcome back! Introducing Data Science"
-  file: "welcome-back"
-  covr: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
-  tags: ["club"]
-  inst: ["sirroboto"]
-  desc: >-
-    Welcome back or welcome aboard to AI@UCF! We'll be covering what we do, 
-    how we do it, and what opportunities are available for you. Food and drink
-    will be provided, so take the time to eat, chat, and learn about our club.
-    See you there!
-- name: "Getting Started, Regression"
-  file: "regression"
-  covr: "https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg"
-  tags: ["Regresssion","Linear Regression", "Logistic Regression", "non-nn"]
-  inst: ["JarvisEQ"]
-  desc: >- 
-    You always start with the basics, and in this meeting we are doing just that! 
-    We will be going over what Machine Learning consists of and how we can use 
-    models to do awesome stuff! 
-    
-- name: "A Walk Through the Random Forest"
-  file: "rf-svm"
-  covr: "https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg"
-  tags: ["random-forests", "svms", "weak-models", "non-nn"]
-  inst: ["JarvisEQ"]
-  desc: >-
-    In this lecture, we explore powerful yet lightweight models that are often 
-    overlooked. We will see the power of combining multiple simple models together
-    and how they can yield amazing results. You won't believe how easy it is to 
-    classify with just a line!
-    
-- name: "Getting Started with Neural Networks"
-  file: "nns"
-  covr: "https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg"
-  tags: ["neural-nets",]
-  inst: ["JarvisEQ"]
-  desc: >-
-    You've heard about them: Beating humans at all types of games, driving cars,
-    and recommending your next Netflix series to watch, but what ARE neural 
-    networks? In this lecture, you'll actually learn step by step how neural
-    networks function and learn. Then, you'll deploy one yourself!
+- required:
+    title: "Welcome back! Introducing Data Science"
+    filename: "welcome-back"
+    cover: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
+    instructors: ["sirroboto"]
+    description: >-
+      Welcome back or welcome aboard to AI@UCF! We'll be covering what we do, 
+      how we do it, and what opportunities are available for you. Food and drink
+      will be provided, so take the time to eat, chat, and learn about our club.
+      See you there!
+  optional:
+    date: ""
+    tags: ["club"]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
 
-- name: "Applications"
-  file: "applications"
-  covr: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
-  tags: ["neural-nets", "applications", "random-forest", "svms"]
-  inst: ["JarvisEQ"]
-  desc: >-
-    You know what they are, but "how do?" In this meeting, we let you loose on a   
-    dataset to help you apply your newly developed or honed data science skills. 
-    Along the way, we go over the importance of visulisations and why it is 
-    important to be able to pick apart a dataset. 
+- required:
+    title: "Getting Started, Regression"
+    filename: "regression"
+    cover: "https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg"
+    instructors: ["JarvisEQ"]
+    description: >-
+      You always start with the basics, and in this meeting we are doing just that! 
+      We will be going over what Machine Learning consists of and how we can use 
+      models to do awesome stuff! 
+  optional:
+    date: ""
+    tags: ["Regresssion","Linear Regression", "Logistic Regression", "non-nn"]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: ["uciml/adult-census-income"]
+      competitions: ["house-prices-advanced-regression-techniques"]
+      kernels: []
+      
+- required:
+    title: "A Walk Through the Random Forest"
+    filename: "rf-svm"
+    cover: "https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg"
+    instructors: ["JarvisEQ"]
+    description: >-
+      In this lecture, we explore powerful yet lightweight models that are often 
+      overlooked. We will see the power of combining multiple simple models together
+      and how they can yield amazing results. You won't believe how easy it is to 
+      classify with just a line!
+  optional:
+    date: ""
+    tags: ["random-forests", "svms", "weak-models", "non-nn"]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
+    
+- required:
+    title: "Getting Started with Neural Networks"
+    filename: "nns"
+    cover: "https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg"
+    instructors: ["JarvisEQ"]
+    description: >-
+      You've heard about them: Beating humans at all types of games, driving cars,
+      and recommending your next Netflix series to watch, but what ARE neural 
+      networks? In this lecture, you'll actually learn step by step how neural
+      networks function and learn. Then, you'll deploy one yourself!
+  optional:
+    date: ""
+    tags: ["neural-nets",]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
 
-- name: "How We Can Give Our Computers Eyes and Ears"
-  file: "cnns"
-  covr: "https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png"
-  tags: ["Computer Vision","CNNs", "Convolutional Neural Networks"]
-  inst: ["danielzgsilva", "brandons209"]
-  desc: >- 
-    Ever wonder how Facebook tells you which friends to tag in your photos,
-    or how Siri can even understand your request? In this meeting we'll dive
-    into convolutional neural networks and give you all the tools to build
-    smart systems such as these. Join us in learning how we can grant our 
-    computers the gifts of hearing and sight!
-- name: "Writer's Block? RNNs can help!"
-  file: "rnns"
-  covr: "https://i.imgur.com/EIt4Ilr.png"
-  tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
-  inst: ["brandons209", "ionlights"]
-  desc: >-
-    This lecture is all about Recurrent Neural Networks. These are networks
-    with memory, which means they can learn from sequential data such as speech,
-    text, videos, and more. Different types of RNNs and strategies for building 
-    them will also be covered. The project will be building a LSTM-RNN to generate
-    new original scripts for the TV series “The Simpsons”. Come and find out if our
-    networks can become better writers for the show!
-- name: "A look behind DeepFake - GANs"
-  file: "gans"
-  covr: "https://i1.wp.com/cyxu.tv/wp-content/uploads/2019/03/horse2zebra.jpg?resize=386%2C385"
-  tags: ["GANs", "generative", "adversial", "cyclegan", "deepfake", "cGAN"]
-  inst: ["brandons209"]
-  desc: >-
-    GANs are relativity new in the machine learning world, but they have proven to be a very
-    powerful model. Recently, they made headlines in the DeepFake network, being able to mimic
-    someone else in real time video and audio. There has also been cycleGAN, which takes one domain (horses)
-    and makes it look like something similar (zebras). Come and learn the secret behind these type of networks,
-    you will be suprised how intuitive it is! The lecture will cover the basics of GANs and different types,
-    with the workshop covering how we can generate human faces, cats, dogs, and other cute creatures!
-- name: "Training Machines to Learn From Experience"
-  file: "rl"
-  covr: "https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg"
-  tags: ["reinforcement learning","machine learning"]
-  inst: ["cg021"]
-  desc: >- 
-    We all remember when DeepMind’s AlphaGo beat Lee Sedol, but what actually made the program 
-    powerful enough to outperform an international champion? In this lecture, we’ll dive into the mechanics 
-    of reinforcement learning and its applications. 
-- name: "Learning by Doing, This Time With Neural Networks"
-  file: "deep-rl"
-  covr: "https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/06/dota2-768x476.png"
-  tags: ["machine learning", "deep learning", "reinforcement learning", "DoTA"]
-  inst: ["AHKerrigan"]
-  desc: >-
-    It's easy enough to navigate a 16x16 maze with tables and some dynamic programming, but
-    how exactly do we extend that to play video games with millions of pixels as input, or 
-    board games like Go with more states than particals in the observable universe? The answer,
-    as it often is, is deep reinforcement learning.
+- required:
+    title: "Applications"
+    filename: "applications"
+    cover: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
+    instructors: ["JarvisEQ"]
+    description: >-
+      You know what they are, but "how do?" In this meeting, we let you loose on a   
+      dataset to help you apply your newly developed or honed data science skills. 
+      Along the way, we go over the importance of visulisations and why it is 
+      important to be able to pick apart a dataset. 
+  optional:
+    date: ""
+    tags: ["neural-nets", "applications", "random-forest", "svms"]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
+
+- required:
+    title: "How We Can Give Our Computers Eyes and Ears"
+    filename: "cnns"
+    cover: "https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png"
+    instructors: ["danielzgsilva", "brandons209"]
+    description: >-
+      Ever wonder how Facebook tells you which friends to tag in your photos,
+      or how Siri can even understand your request? In this meeting we'll dive
+      into convolutional neural networks and give you all the tools to build
+      smart systems such as these. Join us in learning how we can grant our 
+      computers the gifts of hearing and sight!
+  optional:
+    date: ""
+    tags: ["Computer Vision","CNNs", "Convolutional Neural Networks"]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
+
+- required:
+    title: "Writer's Block? RNNs can help!"
+    filename: "rnns"
+    cover: "https://i.imgur.com/EIt4Ilr.png"
+    instructors: ["brandons209", "ionlights"]
+    description: >-
+      This lecture is all about Recurrent Neural Networks. These are networks
+      with memory, which means they can learn from sequential data such as speech,
+      text, videos, and more. Different types of RNNs and strategies for building 
+      them will also be covered. The project will be building a LSTM-RNN to generate
+      new original scripts for the TV series “The Simpsons”. Come and find out if our
+      networks can become better writers for the show!
+  optional:
+    date: ""
+    tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
+
+- required:
+    title: "A look behind DeepFake - GANs"
+    filename: "gans"
+    cover: "https://i1.wp.com/cyxu.tv/wp-content/uploads/2019/03/horse2zebra.jpg?resize=386%2C385"
+    instructors: ["brandons209"]
+    description: >-
+      GANs are relativity new in the machine learning world, but they have proven to be a very
+      powerful model. Recently, they made headlines in the DeepFake network, being able to mimic
+      someone else in real time video and audio. There has also been cycleGAN, which takes one domain (horses)
+      and makes it look like something similar (zebras). Come and learn the secret behind these type of networks,
+      you will be suprised how intuitive it is! The lecture will cover the basics of GANs and different types,
+      with the workshop covering how we can generate human faces, cats, dogs, and other cute creatures!
+  optional:
+    date: ""
+    tags: ["GANs", "generative", "adversial", "cyclegan", "deepfake", "cGAN"]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
+
+- required:
+    title: "Training Machines to Learn From Experience"
+    filename: "rl"
+    cover: "https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg"
+    instructors: ["cg021"]
+    description: >-
+      We all remember when DeepMind’s AlphaGo beat Lee Sedol, but what actually made the program 
+      powerful enough to outperform an international champion? In this lecture, we’ll dive into the mechanics 
+      of reinforcement learning and its applications. 
+  optional:
+    date: ""
+    tags: ["reinforcement learning","machine learning"]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
+
+- required:
+    title: "Learning by Doing, This Time With Neural Networks"
+    filename: "deep-rl"
+    cover: "https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/06/dota2-768x476.png"
+    instructors: ["AHKerrigan"]
+    description: >-
+      It's easy enough to navigate a 16x16 maze with tables and some dynamic programming, but
+      how exactly do we extend that to play video games with millions of pixels as input, or 
+      board games like Go with more states than particals in the observable universe? The answer,
+      as it often is, is deep reinforcement learning.
+  optional:
+    date: ""
+    tags: ["machine learning", "deep learning", "reinforcement learning", "DoTA"]
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
+
+- required:
+    title: "Understanding the Nature of [Human] Intelligence"
+    filename: "ccn"
+    cover: "https://neuroscape.ucsf.edu/wp-content/uploads/glassbrain-gazzaleylab-neuroscapelab-18-1024x542.jpg"
+    instructors: ["ionlights"]
+    description: >-
+      A temporary placeholder.
+  optional:
+    date: ""
+    tags: []
+    slides: ""
+    papers: []
+    kaggle:
+      inclass: ""
+      datasets: []
+      competitions: []
+      kernels: []
