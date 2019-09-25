@@ -30,7 +30,7 @@
   optional:
     date: ""
     tags: ["Regresssion","Linear Regression", "Logistic Regression", "non-nn"]
-    slides: ""
+    slides: "https://docs.google.com/presentation/d/1PYhhxC4u6uAlZ9lbfuF_kiflC41-NBvDPTeHnVb6O4I/edit?usp=sharing"
     papers: []
     kaggle:
       datasets: ["uciml/adult-census-income"]
