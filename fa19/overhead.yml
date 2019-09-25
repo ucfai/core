@@ -28,5 +28,5 @@ coordinators:
 meetings:
   start_offset: 3  # how many weeks into the semester should we start?
   wday: "Wed"  # what day of the week? (Mon, Tue, Wed, Thu, Fri, Sat, Sun)
-  time: "1630-1800"  # military time
-  room: "HEC 103"  # e.g. HEC 119
+  time: "1730-1930"  # military time
+  room: "MSB 359"  # e.g. HEC 119
