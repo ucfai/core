@@ -171,7 +171,8 @@
       We all remember when DeepMind’s AlphaGo beat Lee Sedol, but what actually
       made the program powerful enough to outperform an international champion?
       In this lecture, we’ll dive into the mechanics of reinforcement learning
-      and its applications. optional:
+      and its applications.
+  optional:
     date: ""
     tags: ["reinforcement learning","machine learning"]
     slides: ""
