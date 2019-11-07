@@ -166,7 +166,7 @@
     title: "Training Machines to Learn From Experience"
     filename: "rl"
     cover: "https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg"
-    instructors: ["cg021"]
+    instructors: ["cg021", "danielzgsilva", "JarvisEQ"]
     description: >-
       We all remember when DeepMind’s AlphaGo beat Lee Sedol, but what actually
       made the program powerful enough to outperform an international champion?
