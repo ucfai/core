@@ -1,0 +1,13 @@
+{
+    "id": "ucfaibot/core-fa19-regression",
+    "title": "core-fa19-regression",
+    "code_file": "2019-09-18-regression.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": false,
+    "enable_internet": true,
+    "dataset_sources": ["uciml/adult-census-income"],
+    "competition_sources": ["ucfai-core-fa19-regression", "house-prices-advanced-regression-techniques"],
+    "kernel_sources": []
+}
