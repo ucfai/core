@@ -1,0 +1,13 @@
+{
+    "id": "ucfaibot/core-fa19-ccn",
+    "title": "core-fa19-ccn",
+    "code_file": "2019-11-20-ccn.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": false,
+    "enable_internet": true,
+    "dataset_sources": [],
+    "competition_sources": ["ucfai-core-fa19-ccn"],
+    "kernel_sources": []
+}
