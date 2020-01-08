@@ -1,0 +1,17 @@
+- required:
+    title: ""
+    cover: ""
+    filename: ""
+    instructors: []
+    description: >-
+
+  optional:
+    date: ""
+    room: ""
+    tags: []
+    slides: ""
+    papers: []
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
