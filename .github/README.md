@@ -1,4 +1,4 @@
-# AI@UCF/course
+# AI@UCF/core
 
 These meetings are offered every semester, and are tailored for the newcomers to the club. These are what, initially, [@flxsosa][felix-git], [@ionlights][john-git], and [@thedibaccle][richard-git], offered at club meetings.
 
