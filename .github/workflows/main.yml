@@ -13,3 +13,5 @@ jobs:
       uses: actions/checkout@v1
     - name: Get PR Branch Name
       run: echo ${{ github.head_ref }}
+    - name: Force Fail
+      run: exit -1
