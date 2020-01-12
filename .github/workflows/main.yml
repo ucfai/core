@@ -12,4 +12,4 @@ jobs:
     - name: Checkout PR
       uses: actions/checkout@v1
     - name: Get PR Branch Name
-      run: echo ${{ github.ref }}
+      run: echo ${{ github.head_ref }}
