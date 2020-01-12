@@ -12,6 +12,6 @@ jobs:
     - name: Checkout PR
       uses: actions/checkout@v1
     - name: Get PR Branch Name
-      run: echo ${{ github.head_ref }}
+      run: git diff --name-only HEAD ${{ github.head_ref }}
     - name: Force Fail
       run: exit -1
