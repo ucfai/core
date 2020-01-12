@@ -8,8 +8,8 @@
 #:   room: <building-code> <room-number>
 #: #############################################################################
 coordinators:
-  - github: ""
-    role: ""
+  - github: "ionlights"
+    role: "Coordinator"
 
 meetings:
   start_offset: 3  # how many weeks into the semester should we start?
