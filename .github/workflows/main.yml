@@ -2,6 +2,8 @@ name: CI
 
 on:
   pull_request:
+    paths:
+      - "*/overhead.yml"
     branches: 
       - master
 
@@ -12,6 +14,10 @@ jobs:
     - name: Checkout PR
       uses: actions/checkout@v1
     - name: Get PR Branch Name
-      run: git diff --name-only ${{ github.base_ref }} ${{ github.head_ref }}
+      run: |
+        echo ${{ github.base_ref }}
+        echo ${{ github.head_ref }}
+        git diff --name-only ${{ github.base_ref }} ${{ github.head_ref }}
+      shell: bash
     - name: Force Fail
       run: exit -1
