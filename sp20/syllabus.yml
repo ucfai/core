@@ -62,11 +62,15 @@ meeting02:
       enable_gpu: false
 meeting03:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    title: 'How We Can Give Our Computers Eyes and Ears'
+    cover: 'https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png'
+    filename: 'cnns'
+    instructors: [danielzgsilva]
+    description: 'Ever wonder how Facebook tells you which friends to tag in your photos,
+      or how Siri can even understand your request? In this meeting we'll dive
+      into convolutional neural networks and give you all the tools to build
+      smart systems such as these. Join us in learning how we can grant our 
+      computers the gifts of hearing and sight!'
   optional:
     date: 02-12
     room: HPA1 112
@@ -79,7 +83,7 @@ meeting03:
       datasets: []
       competitions: []
       kernels: []
-      enable_gpu: false
+      enable_gpu: true
 meeting04:
   required:
     title: ''
