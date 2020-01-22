@@ -1,17 +1,240 @@
-- required:
-    title: ""
-    cover: ""
-    filename: ""
+meeting00:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
     instructors: []
-    description: >-
-
+    description: ''
   optional:
-    date: ""
-    room: ""
+    date: 01-22
+    room: HPA1 112
     tags: []
-    slides: ""
-    papers: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
     kaggle:
       datasets: []
       competitions: []
       kernels: []
+      enable_gpu: false
+meeting01:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 01-29
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting02:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 02-05
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting03:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 02-12
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting04:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 02-19
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting05:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 02-26
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting06:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 03-04
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting07:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 03-18
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting08:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 03-25
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting09:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 04-01
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting10:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 04-08
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
+meeting11:
+  required:
+    title: ''
+    cover: ''
+    filename: ''
+    instructors: []
+    description: ''
+  optional:
+    date: 04-15
+    room: HPA1 112
+    tags: []
+    papers: null
+    urls:
+      slides: ''
+      youtube: ''
+    kaggle:
+      datasets: []
+      competitions: []
+      kernels: []
+      enable_gpu: false
