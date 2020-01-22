@@ -1,15 +1,29 @@
 directors:
-  - "" # fill in your github username
+  - "brandons209" # fill in your github username
 
 
 coordinators:
-  - "" # fill in your github username
+  - "danielzgsilva" # fill in your github username
+  - "DillonNotDylan"
+  - "bb912"
+  - "JarvisEQ"
+  - "jordanstarkey95"
+  - "nspeer12"
 
 
 office_hours:
-  - name: ""  # fill in your github username
-    time: ""
-    wday: ""
+  - name: "danielzgsilva"  # fill in your github username
+    time: "1900-2000"
+    wday: "Thu"
+  - name: "bb912"
+    time: "1200-1300"
+    wday: "Mon"
+  - name: "calvinyong"
+    time: "1900-2000"
+    wday: "Fri"
+  - name: "DillonNotDylan"
+    time: "1200-1300"
+    wday: "Tue"
 
 
 meetings:

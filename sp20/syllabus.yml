@@ -1,17 +1,19 @@
 meeting00:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    title: 'Starting with the Basics, Regression'
+    cover: 'https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg'
+    filename: 'linear-regression'
+    instructors: ["JarvisEQ", "bb912"]
+    description: "You always start with the basics, and with AI it's no different!
+    We'll be getting our feet wet with some simple, but powerful, models and 
+    demonstrate their power by applying them to real world data."
   optional:
     date: 01-22
     room: HPA1 112
-    tags: []
+    tags: ["linear-regression", "basics", "logistic-regression", "regression"]
     papers: null
     urls:
-      slides: ''
+      slides: 'https://docs.google.com/presentation/d/1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s/edit#slide=id.g5de2dc5efd_1_277'
       youtube: ''
     kaggle:
       datasets: []
