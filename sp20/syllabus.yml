@@ -16,8 +16,8 @@ meeting00:
       slides: 'https://drive.google.com/open?id=1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s'
       youtube: ''
     kaggle:
-      datasets: []
-      competitions: []
+      datasets: ['OakyTree/ucfai-core-sp20-regression']
+      competitions: ['ucfai-core-sp20-regression']
       kernels: []
       enable_gpu: false
 meeting01:
