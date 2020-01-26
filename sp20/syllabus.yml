@@ -22,22 +22,25 @@ meeting00:
       enable_gpu: false
 meeting01:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    title: 'A Walk Through the Random Forest'
+    cover: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg'
+    filename: 'rf-svm'
+    instructors: ["JarvisEQ", "nspeer12"]
+    description: ' In this lecture, we explore powerful yet lightweight models that are often 
+      overlooked. We will see the power of combining multiple simple models together
+      and how they can yield amazing results. You won't believe how easy it is to 
+      classify with just a line!'
   optional:
     date: 01-29
     room: HPA1 112
-    tags: []
+    tags: ["random-forests", "svms", "weak-models", "non-nn", "nearest-neighbor]
     papers: null
     urls:
       slides: ''
       youtube: ''
     kaggle:
       datasets: []
-      competitions: []
+      competitions: ["ucfai-core-sp20-rf-svm"]
       kernels: []
       enable_gpu: false
 meeting02:
