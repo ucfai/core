@@ -5,7 +5,7 @@ meeting00:
     filename: 'linear-regression'
     instructors: ["JarvisEQ", "bb912"]
     description: "You always start with the basics, and with AI it's no different!
-    We'll be getting our feet wet with some simple, but powerful, models and 
+    We'll be getting our feet wet with some simple, but powerful, models and
     demonstrate their power by applying them to real world data."
   optional:
     date: 01-22
@@ -26,14 +26,14 @@ meeting01:
     cover: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg'
     filename: 'rf-svm'
     instructors: ["JarvisEQ", "nspeer12"]
-    description: ' In this lecture, we explore powerful yet lightweight models that are often 
+    description: ' In this lecture, we explore powerful yet lightweight models that are often
       overlooked. We will see the power of combining multiple simple models together
-      and how they can yield amazing results. You won't believe how easy it is to 
+      and how they can yield amazing results. You won't believe how easy it is to
       classify with just a line!'
   optional:
     date: 01-29
     room: HPA1 112
-    tags: ["random-forests", "svms", "weak-models", "non-nn", "nearest-neighbor]
+    tags: ["random-forests", "svms", "weak-models", "non-nn", "nearest-neighbor"]
     papers: null
     urls:
       slides: ''
