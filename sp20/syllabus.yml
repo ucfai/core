@@ -81,7 +81,7 @@ meeting03:
       youtube: ''
     kaggle:
       datasets: []
-      competitions: []
+      competitions: [ucfai-core-sp20-cnns]
       kernels: []
       enable_gpu: true
 meeting04:
