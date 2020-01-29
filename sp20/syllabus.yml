@@ -6,9 +6,9 @@ meeting00:
     instructors:
     - JarvisEQ
     - bb912
-    description: You always start with the basics, and with AI it's no different!
+    description: "You always start with the basics, and with AI it's no different!
       We'll be getting our feet wet with some simple, but powerful, models and demonstrate
-      their power by applying them to real world data.
+      their power by applying them to real world data."
   optional:
     date: '2020-01-22T17:30:00'
     room: HPA1 112
@@ -19,7 +19,7 @@ meeting00:
     - regression
     papers: null
     urls:
-      slides: https://docs.google.com/presentation/d/1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s/edit#slide=id.g5de2dc5efd_1_277
+      slides: https://docs.google.com/presentation/d/1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s/edit
       youtube: youtu.be/0vCF6S3mfQg
     kaggle:
       datasets: []
@@ -28,15 +28,18 @@ meeting00:
       enable_gpu: false
 meeting01:
   required:
-    title: ''
-    cover: ''
-    filename: rf-svm
-    instructors: []
-    description: ''
+    title: 'A Walk Through the Random Forest'
+    cover: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg'
+    filename: 'rf-svm'
+    instructors: ["JarvisEQ", "nspeer12"]
+    description: "In this lecture, we explore powerful yet lightweight models that are often 
+      overlooked. We will see the power of combining multiple simple models together
+      and how they can yield amazing results. You won't believe how easy it is to 
+      classify with just a line!"
   optional:
     date: '2020-01-29T17:30:00'
     room: HPA1 112
-    tags: []
+    tags: ["random-forests", "svms", "weak-models", "non-nn", "nearest-neighbor"]
     papers: null
     urls:
       slides: ''
