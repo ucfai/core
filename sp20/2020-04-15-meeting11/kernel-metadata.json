@@ -1,0 +1,13 @@
+{
+    "id": "ucfaibot/core-sp20-meeting11",
+    "title": "core-sp20-meeting11",
+    "code_file": "2020-04-15-meeting11.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": false,
+    "enable_internet": true,
+    "dataset_sources": [],
+    "competition_sources": ["ucfai-core-sp20-meeting11"],
+    "kernel_sources": []
+}
