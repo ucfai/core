@@ -1,20 +1,26 @@
 meeting00:
   required:
-    title: 'Starting with the Basics, Regression'
-    cover: 'https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg'
-    filename: 'linear-regression'
-    instructors: ["JarvisEQ", "bb912"]
-    description: "You always start with the basics, and with AI it's no different!
-    We'll be getting our feet wet with some simple, but powerful, models and 
-    demonstrate their power by applying them to real world data."
+    title: Starting with the Basics, Regression
+    cover: https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg
+    filename: linear-regression
+    instructors:
+    - JarvisEQ
+    - bb912
+    description: You always start with the basics, and with AI it's no different!
+      We'll be getting our feet wet with some simple, but powerful, models and demonstrate
+      their power by applying them to real world data.
   optional:
-    date: 01-22
+    date: '2020-01-22T17:30:00'
     room: HPA1 112
-    tags: ["linear-regression", "basics", "logistic-regression", "regression"]
+    tags:
+    - linear-regression
+    - basics
+    - logistic-regression
+    - regression
     papers: null
     urls:
-      slides: 'https://docs.google.com/presentation/d/1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s/edit#slide=id.g5de2dc5efd_1_277'
-      youtube: ''
+      slides: https://docs.google.com/presentation/d/1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s/edit#slide=id.g5de2dc5efd_1_277
+      youtube: youtu.be/0vCF6S3mfQg
     kaggle:
       datasets: []
       competitions: []
@@ -24,11 +30,11 @@ meeting01:
   required:
     title: ''
     cover: ''
-    filename: ''
+    filename: rf-svm
     instructors: []
     description: ''
   optional:
-    date: 01-29
+    date: '2020-01-29T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -48,7 +54,7 @@ meeting02:
     instructors: []
     description: ''
   optional:
-    date: 02-05
+    date: '2020-02-05T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -68,7 +74,7 @@ meeting03:
     instructors: []
     description: ''
   optional:
-    date: 02-12
+    date: '2020-02-12T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -88,7 +94,7 @@ meeting04:
     instructors: []
     description: ''
   optional:
-    date: 02-19
+    date: '2020-02-19T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -108,7 +114,7 @@ meeting05:
     instructors: []
     description: ''
   optional:
-    date: 02-26
+    date: '2020-02-26T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -128,7 +134,7 @@ meeting06:
     instructors: []
     description: ''
   optional:
-    date: 03-04
+    date: '2020-03-04T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -148,7 +154,7 @@ meeting07:
     instructors: []
     description: ''
   optional:
-    date: 03-18
+    date: '2020-03-18T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -168,7 +174,7 @@ meeting08:
     instructors: []
     description: ''
   optional:
-    date: 03-25
+    date: '2020-03-25T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -188,7 +194,7 @@ meeting09:
     instructors: []
     description: ''
   optional:
-    date: 04-01
+    date: '2020-04-01T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -208,7 +214,7 @@ meeting10:
     instructors: []
     description: ''
   optional:
-    date: 04-08
+    date: '2020-04-08T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
@@ -228,7 +234,7 @@ meeting11:
     instructors: []
     description: ''
   optional:
-    date: 04-15
+    date: '2020-04-15T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
