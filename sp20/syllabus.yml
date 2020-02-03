@@ -58,15 +58,21 @@ meeting01:
       enable_gpu: false
 meeting02:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    title: 'Introduction to Neural Networks'
+    cover: 'https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg'
+    filename: 'nns'
+    instructors: ["Dillon", "Jarvis"]
+    description: 'You've heard about them: Beating humans at all types of games, driving cars,
+      and recommending your next Netflix series to watch, but what ARE neural 
+      networks? In this lecture, you'll actually learn step by step how neural
+      networks function and learn. Then, you'll deploy one yourself!'
   optional:
     date: '2020-02-05T17:30:00'
     room: HPA1 112
-    tags: []
+    tags:
+    - Neural Networks
+    - Gradient Decent
+    - Back Propegation
     papers: null
     urls:
       slides: ''
