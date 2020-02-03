@@ -50,7 +50,7 @@ meeting01:
     papers: null
     urls:
       slides: ''
-      youtube: ''
+      youtube: 'https://youtu.be/sIKNRSSYPX4'
     kaggle:
       datasets: []
       competitions: []
