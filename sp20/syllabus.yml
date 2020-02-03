@@ -58,15 +58,24 @@ meeting01:
       enable_gpu: false
 meeting02:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    title: Introduction to Neural Networks
+    cover: https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg
+    filename: nns
+    instructors:
+    - JarvisEQ
+    - DillonNotDylan
+    description: You've heard about them: Beating humans at all types of games, driving cars,
+      and recommending your next Netflix series to watch, but what ARE neural 
+      networks? In this lecture, you'll actually learn step by step how neural
+      networks function and learn. Then, you'll deploy one yourself!
   optional:
     date: '2020-02-05T17:30:00'
     room: HPA1 112
-    tags: []
+    tags:
+    - neural-networks
+    - gradient-decent
+    - back-propagation
+    - nns
     papers: null
     urls:
       slides: ''
@@ -75,18 +84,19 @@ meeting02:
       datasets: []
       competitions: []
       kernels: []
-      enable_gpu: false
+      enable_gpu: true
 meeting03:
   required:
-    title: "How We Can Give Our Computers Eyes and Ears"
-    cover: "https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png"
-    filename: "cnns"
-    instructors: ["danielzgsilva"]
-    description: "Ever wonder how Facebook tells you which friends to tag in your photos,
+    title: How We Can Give Our Computers Eyes and Ears
+    cover: https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png
+    filename: cnns
+    instructors: 
+    - danielzgsilva
+    description: Ever wonder how Facebook tells you which friends to tag in your photos,
       or how Siri can even understand your request? In this meeting we'll dive
       into convolutional neural networks and give you all the tools to build
       smart systems such as these. Join us in learning how we can grant our 
-      computers the gifts of hearing and sight!"
+      computers the gifts of hearing and sight!
   optional:
     date: '2020-02-12T17:30:00'
     room: HPA1 112
