@@ -65,7 +65,7 @@ meeting02:
     - JarvisEQ
     - DillonNotDylan
     description: You've heard about them: Beating humans at all types of games, driving cars,
-      and recommending your next Netflix series to watch, but what ARE neural 
+      and recommending your next Netflix series to watch, but what ARE neural
       networks? In this lecture, you'll actually learn step by step how neural
       networks function and learn. Then, you'll deploy one yourself!
   optional:
@@ -90,12 +90,12 @@ meeting03:
     title: How We Can Give Our Computers Eyes and Ears
     cover: https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png
     filename: cnns
-    instructors: 
+    instructors:
     - danielzgsilva
     description: Ever wonder how Facebook tells you which friends to tag in your photos,
       or how Siri can even understand your request? In this meeting we'll dive
       into convolutional neural networks and give you all the tools to build
-      smart systems such as these. Join us in learning how we can grant our 
+      smart systems such as these. Join us in learning how we can grant our
       computers the gifts of hearing and sight!
   optional:
     date: '2020-02-12T17:30:00'
@@ -152,11 +152,14 @@ meeting05:
       enable_gpu: false
 meeting06:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    instructors: []
-    description: ''
+    title: Time Series Analysis
+    cover: https://s31888.pcdn.co/wp-content/uploads/2018/07/index.jpg
+    filename: time-series
+    instructors:
+    - nspeer12
+    description: How can we infer on the past to predict the future?
+    In this meeting, we're going to be uncovering time series data to learn how
+    to solve problems like predicting the stock market or the weather.
   optional:
     date: '2020-03-04T17:30:00'
     room: HPA1 112
