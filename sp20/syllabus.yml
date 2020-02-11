@@ -78,8 +78,8 @@ meeting02:
     - nns
     papers: null
     urls:
-      slides: ''
-      youtube: ''
+      slides: 'https://docs.google.com/presentation/d/17Kw1gwzo5YmXbHdHac-j8TnpIt4Re76u7uzjhfEEmQA/'
+      youtube: 'https://youtu.be/-3-nasQMyEk'
     kaggle:
       datasets: []
       competitions: []
