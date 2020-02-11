@@ -64,10 +64,10 @@ meeting02:
     instructors:
     - JarvisEQ
     - DillonNotDylan
-    description: You've heard about them: Beating humans at all types of games, driving cars,
-      and recommending your next Netflix series to watch, but what ARE neural
+    description: "You've heard about them: Beating humans at all types of games, driving cars,
+      and recommending your next Netflix series to watch, but what ARE neural 
       networks? In this lecture, you'll actually learn step by step how neural
-      networks function and learn. Then, you'll deploy one yourself!
+      networks function and learn. Then, you'll deploy one yourself!"
   optional:
     date: '2020-02-05T17:30:00'
     room: HPA1 112
