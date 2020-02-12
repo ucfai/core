@@ -1,13 +1,13 @@
 {
-    "id": "ucfaibot/core-sp20-meeting06",
-    "title": "core-sp20-meeting06",
-    "code_file": "meeting06.ipynb",
+    "id": "ucfaibot/core-sp20-time-series",
+    "title": "core-sp20-time-series",
+    "code_file": "time-series.ipynb",
     "language": "python",
     "kernel_type": "notebook",
     "is_private": false,
     "enable_gpu": false,
     "enable_internet": true,
     "dataset_sources": [],
-    "competition_sources": [],
+    "competition_sources": ["ucfai-core-sp20-time-series"],
     "kernel_sources": []
 }

@@ -92,11 +92,11 @@ meeting03:
     filename: cnns
     instructors:
     - danielzgsilva
-    description: Ever wonder how Facebook tells you which friends to tag in your photos,
+    description: "Ever wonder how Facebook tells you which friends to tag in your photos,
       or how Siri can even understand your request? In this meeting we'll dive
       into convolutional neural networks and give you all the tools to build
       smart systems such as these. Join us in learning how we can grant our
-      computers the gifts of hearing and sight!
+      computers the gifts of hearing and sight!"
   optional:
     date: '2020-02-12T17:30:00'
     room: HPA1 112
@@ -157,9 +157,9 @@ meeting06:
     filename: time-series
     instructors:
     - nspeer12
-    description: How can we infer on the past to predict the future?
+    description: "How can we infer on the past to predict the future?
     In this meeting, we're going to be uncovering time series data and learning how
-    to solve problems like predicting the stock market or the weather.
+    to solve problems like predicting the stock market or the weather."
   optional:
     date: '2020-03-04T17:30:00'
     room: HPA1 112
