@@ -8,6 +8,6 @@
     "enable_gpu": true,
     "enable_internet": true,
     "dataset_sources": [],
-    "competition_sources": [],
+    "competition_sources": ["ucfai-core-sp20-nns"],
     "kernel_sources": []
 }
