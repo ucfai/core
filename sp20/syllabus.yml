@@ -19,7 +19,7 @@ meeting00:
     - regression
     papers: null
     urls:
-      slides: https://docs.google.com/presentation/d/1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s/edit
+      slides: https://docs.google.com/presentation/d/1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s/
       youtube: youtu.be/0vCF6S3mfQg
     kaggle:
       datasets: []
@@ -49,7 +49,7 @@ meeting01:
     - nearest-neighbor
     papers: null
     urls:
-      slides: ''
+      slides: 'https://docs.google.com/presentation/d/1hoICW_Y9b85H5P2OVMZyUs-vsMPnsF0sTIzb-11auqM'
       youtube: 'https://youtu.be/sIKNRSSYPX4'
     kaggle:
       datasets: []
@@ -131,7 +131,7 @@ meeting04:
     papers: null
     urls:
       slides: 'https://docs.google.com/presentation/d/1fFRGIzIBP_cSpv2NiP3map1vWn-FXjaTfircPauG3WE'
-      youtube: ''
+      youtube: 'https://youtu.be/lGizWY2w_Aw'
     kaggle:
       datasets: []
       competitions: []
