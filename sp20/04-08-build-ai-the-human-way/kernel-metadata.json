@@ -1,13 +1,13 @@
 {
-    "id": "ucfaibot/core-sp20-meeting10",
-    "title": "core-sp20-meeting10",
-    "code_file": "meeting10.ipynb",
+    "id": "ucfaibot/core-sp20-build-ai-the-human-way",
+    "title": "core-sp20-build-ai-the-human-way",
+    "code_file": "build-ai-the-human-way.ipynb",
     "language": "python",
     "kernel_type": "notebook",
     "is_private": false,
     "enable_gpu": false,
     "enable_internet": true,
     "dataset_sources": [],
-    "competition_sources": ["ucfai-core-sp20-meeting10"],
+    "competition_sources": [],
     "kernel_sources": []
 }
