@@ -1,7 +1,6 @@
 meeting00:
   required:
-    title: Starting with the Basics, Regression
-    cover: https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg
+    title: Starting with the Basics, Regression cover: https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg
     filename: linear-regression
     authors:
     - JarvisEQ
@@ -64,10 +63,10 @@ meeting02:
     authors:
     - JarvisEQ
     - DillonNotDylan
-    description: 'You''ve heard about them: Beating humans at all types of games,
+    description: "You've heard about them: Beating humans at all types of games,
       driving cars, and recommending your next Netflix series to watch, but what ARE
-      neural networks? In this lecture, you''ll actually learn step by step how neural
-      networks function and learn. Then, you''ll deploy one yourself!'
+      neural networks? In this lecture, you'll actually learn step by step how neural
+      networks function and learn. Then, you'll deploy one yourself!"
   optional:
     date: '2020-02-05T17:30:00'
     room: HPA1 112
@@ -145,7 +144,8 @@ meeting05:
     authors:
     - Brandons209
     - nspeer12
-    description: Its time to put what you have learned into action. Here, we have
+    description: >-
+      It's time to put what you have learned into action. Here, we have
       prepared some datasets for you to build a a model to solve. This is different
       from past meetings, as it will be a full workshop. We provide the data sets
       and a notebook that gets you started, but it is up to you to build a model to
