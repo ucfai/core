@@ -3,7 +3,7 @@ meeting00:
     title: Starting with the Basics, Regression
     cover: https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg
     filename: linear-regression
-    instructors:
+    authors:
     - JarvisEQ
     - bb912
     description: You always start with the basics, and with AI it's no different!
@@ -31,7 +31,7 @@ meeting01:
     title: A Walk Through the Random Forest
     cover: https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg
     filename: rf-svm
-    instructors:
+    authors:
     - JarvisEQ
     - nspeer12
     description: In this lecture, we explore powerful yet lightweight models that
@@ -49,8 +49,8 @@ meeting01:
     - nearest-neighbor
     papers: null
     urls:
-      slides: 'https://docs.google.com/presentation/d/1hoICW_Y9b85H5P2OVMZyUs-vsMPnsF0sTIzb-11auqM'
-      youtube: 'https://youtu.be/sIKNRSSYPX4'
+      slides: https://docs.google.com/presentation/d/1hoICW_Y9b85H5P2OVMZyUs-vsMPnsF0sTIzb-11auqM
+      youtube: https://youtu.be/sIKNRSSYPX4
     kaggle:
       datasets: []
       competitions: []
@@ -61,13 +61,13 @@ meeting02:
     title: Introduction to Neural Networks
     cover: https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg
     filename: nns
-    instructors:
+    authors:
     - JarvisEQ
     - DillonNotDylan
-    description: "You've heard about them: Beating humans at all types of games, driving cars,
-      and recommending your next Netflix series to watch, but what ARE neural 
-      networks? In this lecture, you'll actually learn step by step how neural
-      networks function and learn. Then, you'll deploy one yourself!"
+    description: 'You''ve heard about them: Beating humans at all types of games,
+      driving cars, and recommending your next Netflix series to watch, but what ARE
+      neural networks? In this lecture, you''ll actually learn step by step how neural
+      networks function and learn. Then, you''ll deploy one yourself!'
   optional:
     date: '2020-02-05T17:30:00'
     room: HPA1 112
@@ -78,8 +78,8 @@ meeting02:
     - nns
     papers: null
     urls:
-      slides: 'https://docs.google.com/presentation/d/17Kw1gwzo5YmXbHdHac-j8TnpIt4Re76u7uzjhfEEmQA/'
-      youtube: 'https://youtu.be/-3-nasQMyEk'
+      slides: https://docs.google.com/presentation/d/17Kw1gwzo5YmXbHdHac-j8TnpIt4Re76u7uzjhfEEmQA/
+      youtube: https://youtu.be/-3-nasQMyEk
     kaggle:
       datasets: []
       competitions: []
@@ -90,21 +90,21 @@ meeting03:
     title: How We Can Give Our Computers Eyes and Ears
     cover: https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png
     filename: cnns
-    instructors:
+    authors:
     - danielzgsilva
-    description: "Ever wonder how Facebook tells you which friends to tag in your photos,
-      or how Siri can even understand your request? In this meeting we'll dive
-      into convolutional neural networks and give you all the tools to build
-      smart systems such as these. Join us in learning how we can grant our
-      computers the gifts of hearing and sight!"
+    description: Ever wonder how Facebook tells you which friends to tag in your photos,
+      or how Siri can even understand your request? In this meeting we'll dive into
+      convolutional neural networks and give you all the tools to build smart systems
+      such as these. Join us in learning how we can grant our computers the gifts
+      of hearing and sight!
   optional:
     date: '2020-02-12T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
     urls:
-      slides: 'https://docs.google.com/presentation/d/1BpYClnt2HdEceNSfzKN8ULbN6r8q8a0MFSrZu58alVk/'
-      youtube: 'https://youtu.be/2IEF1iSqTVY'
+      slides: https://docs.google.com/presentation/d/1BpYClnt2HdEceNSfzKN8ULbN6r8q8a0MFSrZu58alVk/
+      youtube: https://youtu.be/2IEF1iSqTVY
     kaggle:
       datasets: []
       competitions: []
@@ -112,26 +112,26 @@ meeting03:
       enable_gpu: true
 meeting04:
   required:
-    title: 'Writer's Block? RNNs can help!'
-    cover: 'https://i.imgur.com/EIt4Ilr.png'
-    filename: 'rnns'
-    instructors:
+    title: Writer's Block? RNNs can help!
+    cover: https://i.imgur.com/EIt4Ilr.png
+    filename: rnns
+    authors:
     - Brandons209
     - DillionNotDylan
-    description: 'This lecture is all about Recurrent Neural Networks. These are networks
+    description: "This lecture is all about Recurrent Neural Networks. These are networks
       with memory, which means they can learn from sequential data such as speech,
-      text, videos, and more. Different types of RNNs and strategies for building 
+      text, videos, and more. Different types of RNNs and strategies for building
       them will also be covered. The project will be building a LSTM-RNN to generate
-      new original scripts for the TV series “The Simpsons”. Come and find out if our
-      networks can become better writers for the show!'
+      new original scripts for the TV series \u201CThe Simpsons\u201D. Come and find
+      out if our networks can become better writers for the show!"
   optional:
     date: '2020-02-19T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
     urls:
-      slides: 'https://docs.google.com/presentation/d/1fFRGIzIBP_cSpv2NiP3map1vWn-FXjaTfircPauG3WE'
-      youtube: 'https://youtu.be/lGizWY2w_Aw'
+      slides: https://docs.google.com/presentation/d/1fFRGIzIBP_cSpv2NiP3map1vWn-FXjaTfircPauG3WE
+      youtube: https://youtu.be/lGizWY2w_Aw
     kaggle:
       datasets: []
       competitions: []
@@ -139,23 +139,27 @@ meeting04:
       enable_gpu: true
 meeting05:
   required:
-    title: 'Machine Learning Applications'
-    cover: 'https://www.cubix.co/wp-content/uploads/2017/11/Guide-to-Machine-Learning-and-AI.jpg'
-    filename: 'ml-apps'
-    instructors:
+    title: Machine Learning Applications
+    cover: https://www.cubix.co/wp-content/uploads/2017/11/Guide-to-Machine-Learning-and-AI.jpg
+    filename: ml-apps
+    authors:
     - Brandons209
     - nspeer12
-    description: 'Its time to put what you have learned into action. Here, we have prepared some datasets for you to build a
-    a model to solve. This is different from past meetings, as it will be a full workshop. We provide the data sets and a
-    notebook that gets you started, but it is up to you to build a model to solve the problem. So, what will you be doing?
-    We have two datasets; one is using planetary data to predict if a planet is an exoplanet or not, so your model can help
-    us find more Earth-like planets that could contain life! The second dataset will be used to build a model that mimics a
-    pokedex! Well, not fully, but the goal is to predict the name of a pokemon and also predict its type (such as electric,
-    fire, etc.) This will be extremely fun and give you a chance to apply what you have learned, with us here to help!'
+    description: Its time to put what you have learned into action. Here, we have
+      prepared some datasets for you to build a a model to solve. This is different
+      from past meetings, as it will be a full workshop. We provide the data sets
+      and a notebook that gets you started, but it is up to you to build a model to
+      solve the problem. So, what will you be doing? We have two datasets; one is
+      using planetary data to predict if a planet is an exoplanet or not, so your
+      model can help us find more Earth-like planets that could contain life! The
+      second dataset will be used to build a model that mimics a pokedex! Well, not
+      fully, but the goal is to predict the name of a pokemon and also predict its
+      type (such as electric, fire, etc.) This will be extremely fun and give you
+      a chance to apply what you have learned, with us here to help!
   optional:
     date: '2020-02-26T17:30:00'
     room: HPA1 112
-    tags: 
+    tags:
     - applications
     - pokemon
     - pokedex
@@ -175,18 +179,18 @@ meeting06:
     title: Time Series Analysis
     cover: https://s31888.pcdn.co/wp-content/uploads/2018/07/index.jpg
     filename: time-series
-    instructors:
+    authors:
     - nspeer12
-    description: "How can we infer on the past to predict the future?
-    In this meeting, we're going to be uncovering time series data and learning how
-    to solve problems like predicting the stock market or the weather."
+    description: How can we infer on the past to predict the future? In this meeting,
+      we're going to be uncovering time series data and learning how to solve problems
+      like predicting the stock market or the weather.
   optional:
     date: '2020-03-04T17:30:00'
     room: HPA1 112
     tags: []
     papers: null
     urls:
-      slides: 'https://docs.google.com/presentation/d/16Gp1QBEB9faVjxICC4Cpi8dZ-TTE1FZjr0gBjZ8Y_cU/'
+      slides: https://docs.google.com/presentation/d/16Gp1QBEB9faVjxICC4Cpi8dZ-TTE1FZjr0gBjZ8Y_cU/
       youtube: ''
     kaggle:
       datasets: []
@@ -198,7 +202,7 @@ meeting07:
     title: ''
     cover: ''
     filename: ''
-    instructors: []
+    authors: []
     description: ''
   optional:
     date: '2020-03-18T17:30:00'
@@ -218,7 +222,7 @@ meeting08:
     title: ''
     cover: ''
     filename: ''
-    instructors: []
+    authors: []
     description: ''
   optional:
     date: '2020-03-25T17:30:00'
@@ -238,7 +242,7 @@ meeting09:
     title: ''
     cover: ''
     filename: ''
-    instructors: []
+    authors: []
     description: ''
   optional:
     date: '2020-04-01T17:30:00'
@@ -258,7 +262,7 @@ meeting10:
     title: ''
     cover: ''
     filename: ''
-    instructors: []
+    authors: []
     description: ''
   optional:
     date: '2020-04-08T17:30:00'
@@ -278,7 +282,7 @@ meeting11:
     title: ''
     cover: ''
     filename: ''
-    instructors: []
+    authors: []
     description: ''
   optional:
     date: '2020-04-15T17:30:00'
