@@ -259,41 +259,34 @@ meeting09:
       enable_gpu: false
 meeting10:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    authors: []
-    description: ''
+    title: 'Building AI, the Human Way'
+    cover: 'https://neuroscape.ucsf.edu/wp-content/uploads/glassbrain-gazzaleylab-neuroscapelab-18-1024x542.jpg'
+    filename: 'build-ai-the-human-way'
+    authors: ["ionlights"]
+    description: >-
+      We’ve learned about linear and statistical models as well as different training paradigms, but we’ve yet to think about how it all began. In Cognitive Computational Neuroscience, we look at AI and ML from the perspective of using them as tools to learn about human cognition, in the hopes of building better AI systems, but more importantly, in the hopes of better understanding ourselves.asdf
   optional:
     date: '2020-04-08T17:30:00'
     room: HPA1 112
-    tags: []
-    papers: null
+    tags:
+      - machine learning
+      - common sense reasoning
+      - computational cognitive science
+      - cognitive science
+      - probabilistic programming
+      - program induction
+      - intuitive theories
+      - intuitive physics
+      - intuitive psychology
+    papers:
+      how-to-grow-a-mind: https://pdfs.semanticscholar.org/e7e4/bc08c9c746fda4721ac9e2206b4472e44b85.pdf
+      machines-learn-think-people: https://arxiv.org/pdf/1604.00289.pdf
+      machines-learn-think-themselves: https://arxiv.org/pdf/1711.08378.pdf
     urls:
       slides: ''
       youtube: ''
     kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
-meeting11:
-  required:
-    title: ''
-    cover: ''
-    filename: ''
-    authors: []
-    description: ''
-  optional:
-    date: '2020-04-15T17:30:00'
-    room: HPA1 112
-    tags: []
-    papers: null
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle:
-      datasets: []
-      competitions: []
-      kernels: []
-      enable_gpu: false
+      datasets: false
+      competitions: false
+      kernels: false
+      enable_gpu: true
