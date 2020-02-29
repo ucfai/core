@@ -1,8 +1,9 @@
 name: "Validate Syllabus"
 
 on:
-  path:
-    - "**/semester.yml"
+  pull_request:
+    paths: 
+      - "**/semester.yml"
 
 jobs:
   update-solutions:
