@@ -14,11 +14,11 @@ jobs:
 
     steps:
       # Checkout repositories
-      - name: "${GROUP}: Checkout latest master branch"
+      - name: "${{ env.GROUP }}: Checkout latest master branch"
         uses: actions/checkout@v2
         with:
-          repository: "ionlights/${GROUP}"
-          path: "${GROUP}"
+          repository: "ionlights/${{ env.GROUP }}"
+          path: "${{ env.GROUP }}"
 
       - name: "ucfai/tasks: Checkout latest master branch"
         uses: actions/checkout@v2
@@ -28,5 +28,5 @@ jobs:
 
       - name: Purposely Fail
         run: |
-          ls -l ${WORKSPACE}
+          ls -l ${{ env.WORKSPACE }}
           exit -1
