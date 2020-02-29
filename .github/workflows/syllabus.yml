@@ -2,8 +2,9 @@ name: "Validate Syllabus"
 
 on:
   pull_request:
-    paths: 
-      - "**/semester.yml"
+    paths:
+      - "**/syllabus.yml"
+      - "!.github/workflows/syllabus.yml"
 
 jobs:
   update-solutions:
