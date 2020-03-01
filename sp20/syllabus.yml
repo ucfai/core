@@ -181,9 +181,11 @@ meeting06:
     filename: time-series
     authors:
     - nspeer12
-    description: How can we infer on the past to predict the future? In this meeting,
-      we're going to be uncovering time series data and learning how to solve problems
-      like predicting the stock market or the weather.
+    description: How can we infer on the past to predict the future? In this meeting
+    we are going to be learning about time series data and its unique qualities.
+    After we sharpen up our data science skills, we will be putting them to good use
+    by analyzing and predicting the spread of the Coronavirus!
+
   optional:
     date: '2020-03-04T17:30:00'
     room: HPA1 112
