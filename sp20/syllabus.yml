@@ -193,7 +193,7 @@ meeting06:
     papers: null
     urls:
       slides: https://docs.google.com/presentation/d/16Gp1QBEB9faVjxICC4Cpi8dZ-TTE1FZjr0gBjZ8Y_cU/
-      youtube: ''
+      youtube: https://youtu.be/pjIyWiRssLQ
     kaggle:
       datasets: []
       competitions: []
