@@ -201,24 +201,36 @@ meeting06:
       enable_gpu: false
 meeting07:
   required:
-    title: ''
-    cover: ''
-    filename: ''
-    authors: []
-    description: ''
+    title: A look behind DeepFake - GANs
+    cover: https://i1.wp.com/cyxu.tv/wp-content/uploads/2019/03/horse2zebra.jpg
+    filename: gans
+    authors:
+      - brandons209
+      - bb912
+    description: >-
+      GANs are relativity new in the machine learning world, but they have proven to be a very
+      powerful architecture. Recently, they made headlines in the DeepFake network, being able to mimic someone else in real time in both video and audio.
+      There has also been cycleGAN, which takes one domain (horses) and makes it look like something similar (zebras).
+      Come and learn the secret behind these type of networks, you will be suprised how intuitive it is! The lecture will cover the basics of GANs and different types, with the workshop covering how we can generate human faces, cats, dogs, and other cute creatures!
   optional:
     date: '2020-03-18T17:30:00'
     room: HPA1 112
-    tags: []
+    tags:
+      - deepfake
+      - gans
+      - cycleGAN
+      - generative
+      - generate
+      - fake
     papers: null
     urls:
-      slides: ''
+      slides: 'https://docs.google.com/presentation/d/1kgO5dgnWDM-3oJTVSJeOwY8u__bWC7lvQUxCPAbpSfE'
       youtube: ''
     kaggle:
       datasets: []
       competitions: []
       kernels: []
-      enable_gpu: false
+      enable_gpu: true
 meeting08:
   required:
     title: ''
