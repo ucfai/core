@@ -183,7 +183,7 @@
   optional:  # all keys are listed in the docs
     urls:
       slides: 'https://docs.google.com/presentation/d/1kgO5dgnWDM-3oJTVSJeOwY8u__bWC7lvQUxCPAbpSfE'
-      youtube: ''
+      youtube: https://youtu.be/CvOFuN-NnM0
     kaggle:
       enable_gpu: true
 
