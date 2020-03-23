@@ -191,13 +191,17 @@
   required:
     id: 837db621fff88ee37f86a35779977be1d30435140d1df10c306906327f6a6860
     date: '2020-03-25 17:30:00'
-    title: meeting08
-    authors: []
+    title: Training Machines to Learn From Experience
+    authors: [danielzgsilva, JarvisEQ]
     filename: meeting08
-    cover-image: ''
-    tags: []
+    cover-image: 'https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg'
+    tags: [Reinforcement Learning, Q learning, OpenAI Gym]
     room: HPA1 112
     abstract: >-
+      We all remember when DeepMind’s AlphaGo beat Lee Sedol, but what actually
+      made the program powerful enough to outperform an international champion?
+      In this lecture, we’ll dive into the mechanics of reinforcement learning
+      and its applications.
 
   optional:  # all keys are listed in the docs
     urls:
@@ -211,7 +215,7 @@
     date: '2020-04-01 17:30:00'
     title: meeting09
     authors: []
-    filename: meeting09
+    filename: rl
     cover-image: ''
     tags: []
     room: HPA1 112
