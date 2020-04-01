@@ -193,7 +193,7 @@
     date: '2020-03-25 17:30:00'
     title: Training Machines to Learn From Experience
     authors: [danielzgsilva, JarvisEQ]
-    filename: meeting08
+    filename: rl
     cover-image: 'https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg'
     tags: [Reinforcement Learning, Q learning, OpenAI Gym]
     room: HPA1 112
