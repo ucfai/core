@@ -190,7 +190,7 @@
 - !Meeting
   required:
     id: 837db621fff88ee37f86a35779977be1d30435140d1df10c306906327f6a6860
-    date: '2020-03-25 17:30:00'
+    date: '2020-04-01 17:30:00'
     title: Training Machines to Learn From Experience
     authors: [danielzgsilva, JarvisEQ]
     filename: rl
@@ -207,25 +207,8 @@
     urls:
       slides: ''
       youtube: ''
-    kaggle: true
-
-- !Meeting
-  required:
-    id: 871a74c6ea80bcbe819aa8c7c598d61da809fd6eacc7cc43f3af8fa6a394b3ec
-    date: '2020-04-01 17:30:00'
-    title: meeting09
-    authors: []
-    filename: rl
-    cover-image: ''
-    tags: []
-    room: HPA1 112
-    abstract: >-
-
-  optional:  # all keys are listed in the docs
-    urls:
-      slides: ''
-      youtube: ''
-    kaggle: true
+    kaggle:
+      competitions: false
 
 - !Meeting
   required:
