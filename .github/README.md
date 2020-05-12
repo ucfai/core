@@ -1,10 +1,10 @@
 # AI@UCF/core
 
-These meetings are offered every semester, and are tailored for the newcomers to the club. These are what, initially, [@flxsosa][felix-git], [@ionlights][john-git], and [@thedibaccle][richard-git], offered at club meetings.
+These meetings are offered every semester, and are tailored for the newcomers to the club. These are what, initially, [@flxsosa][felix-git], [@ionlights][john-git], and [@dibaccory][richard-git], offered at club meetings.
 
 [felix-git]: https://github.com/flxsosoa
 [john-git]: https://github.com/ionlights
-[richard-git]: https://github.com/thedibaccle
+[richard-git]: https://github.com/dibaccory
 
 The goal of this `course` is to compensate for the lack of UCF undergraduate coursework in intelligence and related fields (e.g. machine learning, computational neuroscience, etc.). As a semester offering, the overarching idea is that the course material won't change much, but each semester will entail a slight twist on the presentation, as expected with rotating instructors.
 
