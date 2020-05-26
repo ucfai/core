@@ -1,0 +1,73 @@
+name: "Monitors dates to setup semeseter."
+
+on:
+  push:
+    branches:
+      - pyinvoke-migration
+  # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#onschedule
+  schedule:
+    - cron: "0 */6 * 12 *"  # run for the Spring semester
+    # - cron: "* */6 * 5 *"  # run for the Summer semester
+    - cron: "0 */6 * 8 *" # run for the Fall semester
+
+env:
+  GROUP: core
+
+jobs:
+  build:
+    name: Seed Group Repository
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: "Checkout `ucfai/${{ env.GROUP }}`"
+      uses: actions/checkout@v2
+      with:
+        repository: ionlights/ucfai-${{ env.GROUP }}
+        path: ${{ env.GROUP }}
+
+    - name: "Checkout `ucfai/tasks`"
+      uses: actions/checkout@v2
+      with:
+        repository: ionlights/ucfai-tasks
+        path: tasks
+
+    - name: "Cache Anaconda Environment"
+      uses: actions/cache@v1
+      env:
+        CACHE_NUMBER: 0
+      with:
+        path: ~/conda_pkgs_dir
+        key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('tasks/env/macos.yml') }}
+
+    - name: "Setup Miniconda Environment"
+      uses: goanpeca/setup-miniconda@v1.3.1
+      with:
+        activate-environment: ucfai-tasks
+        environment-file: tasks/env/macos.yml
+        use-only-tar-bz2: true
+
+    - name: "Begin Seeding `${{ env.GROUP }}`"
+      shell: bash -l {0}
+      run: |
+        inv semester.seed -g ${{ env.GROUP }} -s fa20
+
+    - name: "Commit new entries to `${{ env.GROUP }}`"
+      run: |
+        cd ${{ env.GROUP }}
+        semester=$(grep -i "semester" invoke.yml | cut -d " " -f 2)
+        git checkout -b setup-${{ env.GROUP }}-${semester}
+        git config --local user.name "John Muchovej"
+        git config --local user.email "ionlights@users.noreply.github.com"
+        git add -A
+        git commit -m "Seeding \`${semester}\` Semester"
+        git remote set-url origin https://x-access-token:${{ secrets.MY_TOKEN }}@github.com/ionlights/ucfai-${{ env.GROUP }}
+        git push origin setup-${{ env.GROUP }}-${semester}
+
+    # - name: "Push new semester to `${{ env.GROUP }}`"
+    #   uses: ad-m/github-push-action@master
+    #   with:
+    #     github_token: ${{ secrets.MY_TOKEN }}
+    #     repository: ionlights/ucfai-${{ env.GROUP }}
+    #     branch: new-semester-${{ env.GROUP }}
+    #     directory: ${{ env.GROUP }}
