@@ -16,7 +16,7 @@ env:
 
 jobs:
   build:
-    name: Seed Group Repository
+    name: "Create new semester for `${{ env.GROUP }}`"
 
     runs-on: ubuntu-latest
 
@@ -53,7 +53,7 @@ jobs:
       id: seed
       shell: bash -l {0}
       run: |
-        echo ::set-output name=status::"$(inv semester.seed -g ${{ env.GROUP }} -s fa20)"
+        echo ::set-output name=status::$(inv semester.seed -g ${{ env.GROUP }})
         echo ::set-env name=SEMESTER::$(grep -i semester ${{ env.GROUP }}/invoke.yml | cut -d " " -f 2)
 
     - name: "Commit & submit PR for `${{ env.SEMESTER }}` Semester"
@@ -64,14 +64,7 @@ jobs:
         title: "Seeding ${{ env.SEMESTER }} Semester"
         commit-message: "Seed `${{ env.SEMESTER }}` Semester"
         author: "AI@UCF <ucfaibot@users.noreply.github.com>"
+        committer: "AI@UCF <ucfaibot@users.noreply.github.com>"
         branch: "setup-${{ env.GROUP }}-${{ env.SEMESTER }}"
         body: |
             ${{ steps.seed.outputs.status }}
-
-    # - name: "Push new semester to `${{ env.GROUP }}`"
-    #   uses: ad-m/github-push-action@master
-    #   with:
-    #     github_token: ${{ secrets.MY_TOKEN }}
-    #     repository: ionlights/ucfai-${{ env.GROUP }}
-    #     branch: new-semester-${{ env.GROUP }}
-    #     directory: ${{ env.GROUP }}
