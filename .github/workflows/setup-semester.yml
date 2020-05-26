@@ -1,4 +1,4 @@
-name: "Monitors dates to setup semeseter"
+name: "Setup new Semester on cron"
 
 on:
   push:
@@ -16,7 +16,7 @@ env:
 
 jobs:
   build:
-    name: "Create new semester for `${{ env.GROUP }}`"
+    name: "Seed new Semester's contents"
 
     runs-on: ubuntu-latest
 
