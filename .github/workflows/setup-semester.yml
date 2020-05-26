@@ -3,6 +3,7 @@ name: "Monitors dates to setup semeseter."
 on:
   push:
     branches:
+      - master
       - pyinvoke-migration
   # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#onschedule
   schedule:
