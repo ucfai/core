@@ -61,7 +61,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         title: "Seeding ${{ env.SEMESTER }} Semester"
-        commit-message: "Seed \`${{ env.SEMESTER }}\` Semester"
+        commit-message: "Seed `${{ env.SEMESTER }}` Semester"
         author: "AI@UCF <ucfaibot@users.noreply.github.com>"
         branch: "setup-${{ env.GROUP }}-${{ env.SEMESTER }}"
         body: |
