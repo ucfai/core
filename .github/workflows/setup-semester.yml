@@ -32,7 +32,7 @@ jobs:
       with:
         repository: ionlights/ucfai-tasks
         path: tasks
-        branch: pyinvoke-migration
+        ref: pyinvoke-migration
 
     - name: "Cache Anaconda Environment"
       uses: actions/cache@v1
