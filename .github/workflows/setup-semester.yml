@@ -56,11 +56,11 @@ jobs:
         echo ::set-output name=status::$(inv semester.seed -g ${{ env.GROUP }} -s fa20
         echo ::set-env name=SEMESTER::$(grep -i "semester" invoke.yml | cut -d " " -f 2)
 
-    - name: "Commit & submit PR for \`${{ env.SEMESTER }}\` Semester"
+    - name: "Commit & submit PR for `${{ env.SEMESTER }}` Semester"
       uses: peter-evans/create-pull-request@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        title: "Seeding \`${{ env.SEMESTER }}\` Semester"
+        title: "Seeding ${{ env.SEMESTER }} Semester"
         commit-message: "Seed \`${{ env.SEMESTER }}\` Semester"
         author: "AI@UCF <ucfaibot@users.noreply.github.com>"
         branch: "setup-${{ env.GROUP }}-${{ env.SEMESTER }}"
