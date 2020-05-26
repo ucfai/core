@@ -53,7 +53,7 @@ jobs:
       id: seed
       shell: bash -l {0}
       run: |
-        echo ::set-output name=status::$(inv semester.seed -g ${{ env.GROUP }} -s fa20)
+        echo ::set-output name=status::"$(inv semester.seed -g ${{ env.GROUP }} -s fa20)"
         echo ::set-env name=SEMESTER::$(grep -i semester ${{ env.GROUP }}/invoke.yml | cut -d " " -f 2)
 
     - name: "Commit & submit PR for `${{ env.SEMESTER }}` Semester"
