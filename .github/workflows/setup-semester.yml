@@ -23,7 +23,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: "Use `autobot` Action to Seed Semester"
-      uses: ionlights/tasks@v0.1.a
+      uses: ionlights/tasks@v0.2.a
       id: autobot
       with:
         workdir: ${{ github.workspace }}
