@@ -33,8 +33,6 @@ jobs:
     - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
       uses: peter-evans/create-pull-request@v2
       with:
-        path: ${{ env.GROUP }}
-        token: ${{ secrets.GITHUB_TOKEN }}
         title: "Seeding ${{ steps.autobot.outputs.semester }} Semester"
         commit-message: "Seed `${{ steps.autobot.outputs.semester }}` Semester"
         author: "AI@UCF <ucfaibot@users.noreply.github.com>"
