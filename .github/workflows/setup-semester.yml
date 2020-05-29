@@ -1,70 +1,44 @@
-name: "Setup new Semester on cron"
+name: "Monitor Date/Time to Spawn New Semesters"
 
 on:
   push:
     branches:
-      - master
-      - pyinvoke-migration
+    - "*"
   # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#onschedule
   schedule:
     - cron: "0 */6 * 12 *"  # run for the Spring semester
     # - cron: "* */6 * 5 *"  # run for the Summer semester
     - cron: "0 */6 * 8 *" # run for the Fall semester
 
-env:
-  GROUP: core
-
 jobs:
   build:
     name: "Seed new Semester's contents"
-
     runs-on: ubuntu-latest
-
     steps:
-    - name: "Checkout `ucfai/${{ env.GROUP }}`"
-      uses: actions/checkout@v2
-      with:
-        repository: ionlights/ucfai-${{ env.GROUP }}
-        path: ${{ env.GROUP }}
-
-    - name: "Checkout `ucfai/tasks`"
-      uses: actions/checkout@v2
-      with:
-        repository: ionlights/ucfai-tasks
-        path: tasks
-        ref: pyinvoke-migration
-
-    - name: "Cache Anaconda Environment"
-      uses: actions/cache@v1
-      env:
-        CACHE_NUMBER: 0
-      with:
-        path: ~/conda_pkgs_dir
-        key: ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{ hashFiles('tasks/env/macos.yml') }}
-
-    - name: "Setup Miniconda Environment"
-      uses: goanpeca/setup-miniconda@v1.3.1
-      with:
-        activate-environment: ucfai-tasks
-        environment-file: tasks/env/macos.yml
-        use-only-tar-bz2: true
-
-    - name: "Begin Seeding `${{ env.GROUP }}`"
-      id: seed
-      shell: bash -l {0}
+    - name: "Set $GROUP"
       run: |
-        echo ::set-output name=status::$(inv semester.seed -g ${{ env.GROUP }})
-        echo ::set-env name=SEMESTER::$(grep -i semester ${{ env.GROUP }}/invoke.yml | cut -d " " -f 2)
+        echo "::set-env name=GROUP::$(basename ${{ github.repository }})"
 
-    - name: "Commit & submit PR for `${{ env.SEMESTER }}` Semester"
+    - name: "Checkout `${{ github.repository }}`"
+      uses: actions/checkout@v2
+
+    - name: "Use `autobot` Action to Seed Semester"
+      uses: ionlights/tasks@master
+      id: autobot
+      with:
+        workdir: ${{ github.workspace }}
+        commands: >- 
+          semester.seed -g ${{ env.GROUP }}
+
+    - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
       uses: peter-evans/create-pull-request@v2
       with:
         path: ${{ env.GROUP }}
         token: ${{ secrets.GITHUB_TOKEN }}
-        title: "Seeding ${{ env.SEMESTER }} Semester"
-        commit-message: "Seed `${{ env.SEMESTER }}` Semester"
+        title: "Seeding ${{ steps.autobot.outputs.semester }} Semester"
+        commit-message: "Seed `${{ steps.autobot.outputs.semester }}` Semester"
         author: "AI@UCF <ucfaibot@users.noreply.github.com>"
         committer: "AI@UCF <ucfaibot@users.noreply.github.com>"
-        branch: "setup-${{ env.GROUP }}-${{ env.SEMESTER }}"
+        branch: "setup-${{ env.GROUP }}-${{ steps.autobot.outputs.semester }}"
         body: |
-            ${{ steps.seed.outputs.status }}
+            ${{ steps.autobot.outputs.status }}
