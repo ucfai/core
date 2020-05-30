@@ -39,4 +39,4 @@ jobs:
         committer: "AI@UCF <ucfaibot@users.noreply.github.com>"
         branch: "setup-${{ env.GROUP }}-${{ steps.autobot.outputs.semester }}"
         body: |
-            ${{ steps.autobot.outputs.status }}
+          ${{ steps.autobot.outputs.status }}
