@@ -1,0 +1,238 @@
+- !Meeting
+  required:
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: !Timestamp 2020-08-31 00:00:00
+    title: meeting00
+    authors: []
+    filename: meeting00
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
+    date: !Timestamp 2020-09-14 00:00:00
+    title: meeting01
+    authors: []
+    filename: meeting01
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: !Timestamp 2020-09-21 00:00:00
+    title: meeting02
+    authors: []
+    filename: meeting02
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: !Timestamp 2020-09-28 00:00:00
+    title: meeting03
+    authors: []
+    filename: meeting03
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
+    date: !Timestamp 2020-10-05 00:00:00
+    title: meeting04
+    authors: []
+    filename: meeting04
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
+    date: !Timestamp 2020-10-12 00:00:00
+    title: meeting05
+    authors: []
+    filename: meeting05
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 3e589fcdc955f69df131662e4428e5ba2a97cd1e6c2efe62037de2ee3b950bca
+    date: !Timestamp 2020-10-19 00:00:00
+    title: meeting06
+    authors: []
+    filename: meeting06
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: b914b7d0fd34cbfcf7807e5aaa89c8275cb76b66d879e223d684f26635a44f7e
+    date: !Timestamp 2020-10-26 00:00:00
+    title: meeting07
+    authors: []
+    filename: meeting07
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
+    date: !Timestamp 2020-11-02 00:00:00
+    title: meeting08
+    authors: []
+    filename: meeting08
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 43c316921632d149a2e626c58f8ad5e4fd4aec01bef6970954cddd72f0235c3e
+    date: !Timestamp 2020-11-09 00:00:00
+    title: meeting09
+    authors: []
+    filename: meeting09
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: be2082a49b5867880566a74492f4bcf4a20e621b3752451b44ec788f328b6210
+    date: !Timestamp 2020-11-16 00:00:00
+    title: meeting10
+    authors: []
+    filename: meeting10
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 5dab7d867ea5cbb561f27a2631b44ea16014565bd4c10cfd95df8cd9f99668ba
+    date: !Timestamp 2020-11-23 00:00:00
+    title: meeting11
+    authors: []
+    filename: meeting11
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: cfa79e64c53785c99ccdc0b73eb4e48ba2418f19d4bcece24d4901808593853d
+    date: !Timestamp 2020-11-30 00:00:00
+    title: meeting12
+    authors: []
+    filename: meeting12
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 6bda729966abe6c0510c0b0ef721eb6be455413a85d7959dff31cbd354b022b3
+    date: !Timestamp 2020-12-07 00:00:00
+    title: meeting13
+    authors: []
+    filename: meeting13
+    cover-image: ''
+    tags: []
+    room: ''
+    abstract: >-
+      We're filling this out!
+    needs-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
