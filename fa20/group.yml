@@ -1,12 +1,12 @@
 !Group
 name: core
-room: ''
+room: 'Online'
 semester: fa20
 startdate: !Timestamp 2020-08-31 00:00:00
 frequency: 1
-directors: []
-coordinators: []
+directors: [ionlights, brandons209]
+coordinators: [danielzgsilva, sirroboto, bb912, paullunis, sagejacob]
 guests: []
-push_kaggle: true
-needs_notebooks: true
-pull_papers: true
+push_kaggle: false
+needs_notebooks: false
+pull_papers: false
