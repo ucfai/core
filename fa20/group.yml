@@ -1,0 +1,12 @@
+!Group
+name: core
+room: ''
+semester: fa20
+startdate: !Timestamp 2020-08-31 00:00:00
+frequency: 1
+directors: []
+coordinators: []
+guests: []
+push_kaggle: true
+needs_notebooks: true
+pull_papers: true
