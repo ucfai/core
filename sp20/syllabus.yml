@@ -1,100 +1,97 @@
-
 - !Meeting
   required:
-    id: 69145fca3e2562dc3a56d423fdc662c958a50562e97ae4f5d8735457552de94a
-    date: '2020-01-22 17:30:00'
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: !Timestamp 2020-01-22 17:30:00
     title: Starting with the Basics, Regression
     authors: [JarvisEQ, bb912]
-    filename: linear-regression
+    filename: regression
     cover-image: https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg
-    tags: [Linear Regression, Basics, Logistic Regression, Regression]
+    tags: [regression, linear regression, logistic regression]
     room: HPA1 112
     abstract: >-
       You always start with the basics, and with AI it's no different! We'll be
       getting our feet wet with some simple, but powerful, models and
       demonstrate their power by applying them to real world data.
-  optional:  # all keys are listed in the docs
+  optional:  # All `optional` keys are enumerated in the Documentation
     urls:
-      slides: https://docs.google.com/presentation/d/1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s/
-      youtube: youtu.be/0vCF6S3mfQg
-    kaggle: true
-
+      slides: 1oDo8_RpLqBdq5BcE-mWFGkKAsxY5cns5FN19hZDl42s
+      youtube: 0vCF6S3mfQ
+    kaggle:
+      enable_gpu: false
 - !Meeting
   required:
-    id: c7c4d353093252694f61d485742fe270bd744f0df7f7e1c4de79c149deed39ae
-    date: '2020-01-29 17:30:00'
+    id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
+    date: !Timestamp 2020-01-29 17:30:00
     title: A Walk Through the Random Forest
     authors: [JarvisEQ, nspeer12]
     filename: rf-svm
     cover-image: https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg
-    tags: [Random Forests, SVMs, Weak Models, Non-NN, Nearest Neighbors]
+    tags: [Random Forests, SVMs, Nearest Neighbors]
     room: HPA1 112
     abstract: >-
       In this lecture, we explore powerful yet lightweight models that are often
       overlooked. We will see the power of combining multiple simple models
       together and how they can yield amazing results. You won't believe how
       easy it is to classify with just a line!
-  optional:  # all keys are listed in the docs
+  optional:  # All `optional` keys are enumerated in the Documentation
     urls:
-      slides: https://docs.google.com/presentation/d/1hoICW_Y9b85H5P2OVMZyUs-vsMPnsF0sTIzb-11auqM
-      youtube: https://youtu.be/sIKNRSSYPX4
-    kaggle: true
-
+      slides: 1hoICW_Y9b85H5P2OVMZyUs-vsMPnsF0sTIzb-11auqM
+      youtube: sIKNRSSYPX
+    kaggle:
+      enable_gpu: false
 - !Meeting
   required:
-    id: a594c1d231253a5455c611c1968cec3ed6d38a6dc7d99b0daf98cbc1c878bd31
-    date: '2020-02-05 17:30:00'
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: !Timestamp 2020-02-05 17:30:00
     title: Introduction to Neural Networks
     authors: [JarvisEQ, DillonNotDylan]
-    filename: nns
+    filename: neural-nets
     cover-image: https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg
-    tags: [Neural Networks, Gradient Descent, Back-Propagation, NNs]
+    tags: [Neural Networks, Gradient Descent, Backpropagation, Deep Learning]
     room: HPA1 112
     abstract: >-
       You've heard about them: Beating humans at all types of games, driving cars,
       and recommending your next Netflix series to watch, but what ARE neural networks?
       In this lecture, you'll actually learn step by step how neural networks function
       and learn. Then, you'll deploy one yourself!
-  optional:  # all keys are listed in the docs
+    use-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
     urls:
-      slides: https://docs.google.com/presentation/d/17Kw1gwzo5YmXbHdHac-j8TnpIt4Re76u7uzjhfEEmQA/
-      youtube: https://youtu.be/-3-nasQMyEk
+      slides: 17Kw1gwzo5YmXbHdHac-j8TnpIt4Re76u7uzjhfEEmQA
+      youtube: -3-nasQMyEk
     kaggle:
       enable_gpu: true
-
 - !Meeting
   required:
-    id: 902c59d9d562cc1f9b67f00adfaddff39bdd516d33164789b1ccfb3f80d11058
-    date: '2020-02-12 17:30:00'
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: !Timestamp 2020-02-12 17:30:00
     title: How We Can Give Our Computers Eyes and Ears
     authors: [danielzgsilva]
-    filename: cnns
-    cover-image: https://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png
-    tags: [Convolutional Neural Networks, Image Processing, Feature Extraction]
+    filename: conv-nets
+    cover-image: ttps://cdn-5b4e2f92f911c85e6c496f87.closte.com/wp-content/uploads/2018/10/computer_vision-400x208.png
+    tags: [Convolutional Networks, Image Processing, Feature Extraction]
     room: HPA1 112
     abstract: >-
       Ever wonder how Facebook tells you which friends to tag in your photos, or
       how Siri can even understand your request? In this meeting we'll dive into
       convolutional neural networks and give you all the tools to build smart
       systems such as these. Join us in learning how we can grant our computers
-      the gifts of hearing and sight! optional:  # all keys are listed in the
-      docs
-  optional:  # all keys are listed in the docs
+      the gifts of hearing and sight!
+  optional:  # All `optional` keys are enumerated in the Documentation
     urls:
-      slides: https://docs.google.com/presentation/d/1BpYClnt2HdEceNSfzKN8ULbN6r8q8a0MFSrZu58alVk/
-      youtube: https://youtu.be/2IEF1iSqTVY
+      slides: 1BpYClnt2HdEceNSfzKN8ULbN6r8q8a0MFSrZu58alVk
+      youtube: 2IEF1iSqTVY
     kaggle:
-      enable_gpu: true
-
+      enable_gpu: trueu
 - !Meeting
   required:
-    id: 86d79e18fe91fe5e54a0a5d0b398ad96b83f449e1cffd8ff6fddb3ffd58c809c
-    date: '2020-02-19 17:30:00'
-    title: Writer's Block? RNNs can help!
-    authors: [brandons209, DillonNotDylan]
-    filename: rnns
+    id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
+    date: !Timestamp 2020-02-19 17:30:00
+    title: Writer's Block? RNNs Can Help!
+    authors: [brandons209, DillonNotDylan, ionlights]
+    filename: recurrent-nets
     cover-image: https://i.imgur.com/EIt4Ilr.png
-    tags: [Natural Language Processing, Text Generation]
+    tags: [Recurrent Networks, Natural Language Processing, Text Generation]
     room: HPA1 112
     abstract: >-
       This lecture is all about Recurrent Neural Networks. These are networks
@@ -104,22 +101,21 @@
       LSTM-RNN to generate new original scripts for the TV series "The
       Simpsons". Come and find out if our networks can become better writers
       for the show!
-  optional:  # all keys are listed in the docs
+  optional:  # All `optional` keys are enumerated in the Documentation
     urls:
-      slides: https://docs.google.com/presentation/d/1fFRGIzIBP_cSpv2NiP3map1vWn-FXjaTfircPauG3WE
-      youtube: https://youtu.be/lGizWY2w_Aw
+      slides: 1fFRGIzIBP_cSpv2NiP3map1vWn-FXjaTfircPauG3WE
+      youtube: lGizWY2w_Aw
     kaggle:
       enable_gpu: true
-
 - !Meeting
   required:
-    id: dd107b3b017aabde2d296c352d4caae13ee40fdf1e65c891a40442b6196a53af
-    date: '2020-02-26 17:30:00'
+    id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
+    date: !Timestamp 2020-02-26 17:30:00
     title: Machine Learning Applications
     authors: [brandons209, nspeer12]
     filename: ml-apps
     cover-image: https://www.cubix.co/wp-content/uploads/2017/11/Guide-to-Machine-Learning-and-AI.jpg
-    tags: [Applications, Pokemon, Pokedex, Exoplanets, Machine Learning]
+    tags: [Applications, Pokémon, Pokédex, Expolanets, Machine Learning]
     room: HPA1 112
     abstract: >-
       It's time to put what you have learned into action. Here, we have prepared
@@ -134,19 +130,18 @@
       and also predict its type (such as electric, fire, etc.) This will be
       extremely fun and give you a chance to apply what you have learned, with
       us here to help!
-  optional:  # all keys are listed in the docs
+  optional:  # All `optional` keys are enumerated in the Documentation
     kaggle:
       enable_gpu: true
-
 - !Meeting
   required:
-    id: d2bd6f7caa3805ff341800745132593dd8b174f429b9b7930c29baa8c760fbd1
-    date: '2020-03-04 17:30:00'
+    id: 3e589fcdc955f69df131662e4428e5ba2a97cd1e6c2efe62037de2ee3b950bca
+    date: !Timestamp 2020-03-04 17:30:00
     title: Time Series Analysis
     authors: [nspeer12]
     filename: time-series
     cover-image: https://s31888.pcdn.co/wp-content/uploads/2018/07/index.jpg
-    tags: [Time Series, Temporal Predictions]
+    tags: [Time Series, Temporal Predictions, Coronavirus]
     room: HPA1 112
     abstract: >-
       How can we infer on the past to predict the future? In this meeting
@@ -154,21 +149,21 @@
       qualities. After we sharpen up our data science skills, we will be
       putting them to good use by analyzing and predicting the spread of the
       Coronavirus!
-  optional:  # all keys are listed in the docs
+  optional:  # All `optional` keys are enumerated in the Documentation
     urls:
-      slides: https://docs.google.com/presentation/d/16Gp1QBEB9faVjxICC4Cpi8dZ-TTE1FZjr0gBjZ8Y_cU/
-      youtube: ''
-    kaggle: true
-
+      slides: 16Gp1QBEB9faVjxICC4Cpi8dZ-TTE1FZjr0gBjZ8Y_cU
+    kaggle:
+      enable_gpu: false
+    papers: {}
 - !Meeting
   required:
-    id: 37ce948b0dfd929ed2eb161781fc8f934351e3ee7e6530c86a3fbb54259b1252
-    date: '2020-03-18 17:30:00'
-    title: A look behind DeepFake - GANs
-    authors: [brandons209, bb912,]
+    id: b914b7d0fd34cbfcf7807e5aaa89c8275cb76b66d879e223d684f26635a44f7e
+    date: !Timestamp 2020-03-18 17:30:00
+    title: A Look Behind DeepFake ~ GANs
+    authors: [brandons209, bb912]
     filename: gans
-    cover-image: 'https://i1.wp.com/cyxu.tv/wp-content/uploads/2019/03/horse2zebra.jpg'
-    tags: [deepfake, gans, cycleGAN, generative models]
+    cover-image: https://i1.wp.com/cyxu.tv/wp-content/uploads/2019/03/horse2zebra.jpg
+    tags: [DeepFake, GANs, CycleGANs, generative models]
     room: HPA1 112
     abstract: >-
       GANs are relativity new in the machine learning world, but they have
@@ -180,48 +175,45 @@
       intuitive it is! The lecture will cover the basics of GANs and different
       types, with the workshop covering how we can generate human faces, cats,
       dogs, and other cute creatures!
-  optional:  # all keys are listed in the docs
+  optional:  # All `optional` keys are enumerated in the Documentation
     urls:
-      slides: 'https://docs.google.com/presentation/d/1kgO5dgnWDM-3oJTVSJeOwY8u__bWC7lvQUxCPAbpSfE'
-      youtube: https://youtu.be/CvOFuN-NnM0
+      slides: 1kgO5dgnWDM-3oJTVSJeOwY8u__bWC7lvQUxCPAbpSfE
+      youtube: CvOFuN-NnM0
     kaggle:
       enable_gpu: true
-
 - !Meeting
   required:
-    id: 837db621fff88ee37f86a35779977be1d30435140d1df10c306906327f6a6860
-    date: '2020-04-01 17:30:00'
+    id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
+    date: !Timestamp 2020-04-01 17:30:00
     title: Training Machines to Learn From Experience
-    authors: [danielzgsilva, JarvisEQ]
-    filename: rl
-    cover-image: 'https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg'
-    tags: [Reinforcement Learning, Q learning, OpenAI Gym]
+    authors: [danielzgsilva, JarvisEQ, ionlights]
+    filename: reinforcement-learning
+    cover-image: https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg
+    tags: [Reinforcement Learning, Q-learning, OpenAI Gym]
     room: HPA1 112
     abstract: >-
       We all remember when DeepMind’s AlphaGo beat Lee Sedol, but what actually
       made the program powerful enough to outperform an international champion?
       In this lecture, we’ll dive into the mechanics of reinforcement learning
       and its applications.
-
-  optional:  # all keys are listed in the docs
+  optional:  # All `optional` keys are enumerated in the Documentation
     urls:
       slides: ''
       youtube: ''
     kaggle:
       competitions: false
-
 - !Meeting
   required:
-    id: e8b8255d64236331a945ab545781039ddb4e6e6c1760d46c8ba9d90a6719e4e9
-    date: '2020-04-08 17:30:00'
+    id: 43c316921632d149a2e626c58f8ad5e4fd4aec01bef6970954cddd72f0235c3e
+    date: !Timestamp 2020-04-08 17:30:00
     title: Building AI, the Human Way
     authors: [ionlights]
     filename: build-ai-the-human-way
-    cover-image: https://neuroscape.ucsf.edu/wp-content/uploads/glassbrain-gazzaleylab-neuroscapelab-18-1024x542.jpg
-    tags: [Machine Learning, Common Sense AI, Computational Cognitive Science, CoCoSci,
-      Cognitive Science, Probabilistic Programming, Program Induction, Intuitive Theories,
-      Intuitive Physics, Intuitive Psychology]
-    room: HPA1 112
+    cover-image: https://neuroscape.ucsf.edu/wp-content/uploads/glassbrain-gazzaleylab-neuroscapelab-18-1024x542.jpg"
+    tags: [common sense ai, intuitive theories, probabilistic programming, program
+        induction, cognitive science, machine learning, computational cognitive science,
+      intuitive psychology, intuitive physics, inverse graphics]
+    room: MSB 359
     abstract: >-
       We've learned about linear and statistical models as well as different
       training paradigms, but we've yet to think about how it all began. In
@@ -229,11 +221,12 @@
       perspective of using them as tools to learn about human cognition, in
       the hopes of building better AI systems, but more importantly, in the
       hopes of better understanding ourselves.
-  optional:  # all keys are listed in the docs
+    use-notebooks: false
+  optional:  # All `optional` keys are enumerated in the Documentation
     urls:
-      slides: ''
-      youtube: ''
+      slides:
+    kaggle: false
     papers:
       how-to-grow-a-mind: https://pdfs.semanticscholar.org/e7e4/bc08c9c746fda4721ac9e2206b4472e44b85.pdf
       machines-learn-think-people: https://arxiv.org/pdf/1604.00289.pdf
-      machines-learn-think-themselves: https://arxiv.org/pdf/1711.08378.pdf
+      machines-learn-think-themselves: https://arxiv.org/pdf/1711.08378.p
