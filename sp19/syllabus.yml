@@ -1,155 +1,198 @@
-#: #############################################################################
-#: primary:
-#: - name: "<full-lecture-title>"
-#:   file: "<url-for-website>" # looks like... /<group>/<semester>/<file>
-#:   inst: [<instructor_1>, <instructor_2>, ...]
-#:   date: "<MM>/<DD>"
-#:   desc: >- # the ">-" specifies to YAML its a multi-line string
-#:     <meeting-description>
-#: supplementary: ... (same format, just a different key)
-#: #############################################################################
-primary:
-- name: "Welcome back! Featuring Supercomputers"
-  file: "welcome-back"
-  covr: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
-  tags: ["club"]
-  inst: ["ionlights"]
-  desc: >-
-    Welcome back to SIGAI! We'll be re-introducing AI@UCF for newcomers and
-    refreshing it for veterans; following that, we'll cover some club logistics,
-    reveal our plans for the semester, and finish off with setting everyone
-    up on the UCF Supercomputer, from which we'll be streaming all future
-    meetings!
-- name: "Starting with the Basics, Regression"
-  file: "linear-regression"
-  covr: "https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg"
-  tags: ["linear-regression", "basics"]
-  inst: ["JarvisEQ", "causallycausal", "ionlights"]
-  desc: >-
-    You always start with the basics, and with Data Science it's no different!
-    We'll be getting our feet wet with some simple, but powerful, models and 
-    demonstrate their power by applying them to real world data.
-- name: "Beyond the Buzzwords: Getting Started with Neural Networks"
-  file: "neural-nets"
-  covr: "https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg"
-  tags: ["neural-nets",]
-  inst: ["AHKerrigan", "ionlights"]
-  desc: >-
-    You've heard about them: Beating humans at all types of games, driving cars,
-    and recommending your next Netflix series to watch, but what ARE neural 
-    networks? In this lecture, you'll actually learn step by step how neural
-    networks function and how they learn. Then, you'll deploy one yourself!
-
-- name: "How Computers Can See and Other Ways Machines Can Think"
-  file: "conv-nets"
-  covr: "https://www.dailydot.com/wp-content/uploads/7da/6e/fc3aa93d4cf68ff5406f291efcd81b08.jpg"
-  tags: ["neural-nets", "conv-nets", ]
-  inst: ["irenelt97", "brandons209", "ionlights"]
-  desc: >-
-    Ever wonder how Facebook can tell you which friends to tag in your photos
-    or how Google automatically makes collages and animations for you? This
-    lecture is all about that: We'll teach you the basics of computer vision 
-    using convolutional neural networks so you can make your own algorithm to
-    automatically analyze your visual data!
-
-- name: "Who Needs Show Writers Nowadays?"
-  file: "recurrent-nets"
-  covr: "https://i.imgur.com/EIt4Ilr.png"
-  tags: ["neural-nets", "recurrent-nets", "LSTMs", "Embeddings"]
-  inst: ["brandons209", "ionlights"]
-  desc: >-
-    This lecture is all about Recurrent Neural Networks. These are networks
-    with with added memory, which means they can learn from sequential data such as speech,
-    text, videos, and more. Different types of RNNs and strategies for building 
-    them will also be covered. The project will be building a LSTM-RNN to generate
-    new original scripts for the TV series “The Simpsons”. Come and find out if our
-    networks can become better writers for the show!
-
-- name: "What Makes Deep Learning More of an Art Than a Science?"
-  file: "hyperparam-tuning"
-  covr: "https://cdn-images-1.medium.com/max/1200/1*b7nswbO9BHxFvO4TfFCU_Q@2x.jpeg"
-  tags: ["neural-nets", "hyperparameters", ]
-  inst: ["irenelt97", "ionlights"]
-  desc: >-
-    Some of the hardest aspects of Machine Learning are the details. Almost every
-    algorithm we use is sensitive to "hyperparameters" which affect the initialization,
-    optimization speed, and even the possibility of becoming accurate. We'll cover the
-    general heuristics you can use to figure out what hyperparameters to use, how to 
-    find the optimal ones, what you can do to make models more resilient, and the like.
-    This workshop will be pretty "down-in-the-weeds" but will give you a better intuition
-    about Machine Learning and its shortcomings.
-
-- name: "Cleaning and Manipulating a Dataset with Python"
-  file: "data-curation"
-  covr: "https://analyticsindiamag.com/wp-content/uploads/2018/01/data-cleaning.png"
-  tags: ["data-science", "data-curation", "data cleaning", "data manipulation"]
-  inst: ["danielzgsilva", "ionlights"]
-  desc: >- 
-    In the fields of Data Science and Artificial Intelligence, your models and 
-    analyses will only be as good as the data behind them. Unfortunately, you
-    will find that the majority of datasets you encounter will be filled with 
-    missing, malformed, or erroneous data. Thankfully, Python provides a number 
-    of handy libraries to help you clean and manipulate your data into a usable
-    state. In today's lecture, we will leverage these Python libraries to turn
-    a messy dataset into a gold mine of value!
-  
-- name: "A Walk Through the Random Forest"
-  file: "random-forests"
-  covr: "https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg"
-  tags: ["random-forests", "boosting", "weak-models", ]
-  inst: ["ionlights"]
-  desc: >-
-    Neural Nets are not the end all be all of Machine Learning. In this lecture, 
-    we will see how a decision tree works, and see how powerful a collection of 
-    them can be. From there, we will see how to utilize Random Forests to do digit 
-    recognition.
-- name: "Support Vector Machines"
-  file: "svms"
-  covr: "https://monkeylearn.com/blog/wp-content/uploads/2017/06/Post_1e_social.png"
-  tags: ["support-vector-machines", "non-deep-learning", ]
-  inst: ["ionlights"]
-  desc: >-
-    Support Vector Machines were among the most highly used ML algorithms before
-    Neural Nets came back into the foreground. Unlike Neural Nets, SVMs can explain
-    themselves quite well and allow us to use these ML mdels in fields like medicine,
-    finance, and the like – where regulations require that we can inquire about our
-    models.
-- name: "Making sense of high-dimensional data"
-  file: "dimensionality-reduction"
-  covr: ""
-  tags: ["data-science", "big-data", "compression", ]
-  inst: ["cg021", "ionlights"]
-  desc: >-
-
-- name: "Applications 1"
-  file: "applications-01"
-  covr: ""
-  tags: ["applications"]
-  inst: ["AHKerrigan", "ionlights"]
-  desc: >-
-
-supplementary:
-- name: "A Math Refresher and Intro to Scientific Python Programming"
-  file: "programming-math-camp"
-  date: "02/07"
-  covr: "https://www.olcf.ornl.gov/wp-content/uploads/2017/11/iStock_Patton_small.jpg"
-  tags: ["python", "basics", "linear-algebra", "calculus", "derivatives", "gradients"]
-  inst: ["ionlights"]
-  desc: >-
-    We'll be covering the foundational mathematics for Machine Learning, spanning
-    Multivariate Calculus to Linear Algebra and sprinkle in some Statistics. 
-    Followed by coverage of fundamental programming ideas for Data Science, 
-    Machine Learning, and generally AI research and engineering.
-
-- name: "Getting into Machine Learning Research"
-  file: "getting-into-research"
-  date: "02/21"
-  covr: "https://www.olcf.ornl.gov/wp-content/uploads/2017/11/iStock_Patton_small.jpg"
-  tags: ["research", "machine-learning", "cold-emailing", "artificial-intelligence"]
-  inst: ["ionlights"]
-  desc: >-
-    Some of your best time spent as an undergrad happens right through research. You have
-    the opportunity to work with experts in their field just by attending a university.
-    Despite this, most of us squander that opportunity because reaching out is daunting. Let's
-    overcome that challenge together with some tips and tricks from current undergrad
-    researchers at UCF! 
+- !Meeting
+  required:
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: !Timestamp 2019-02-06 19:30:00
+    title: Starting with the Basics, Regression
+    authors: [jarviseq, causallycausal, ionlights]
+    filename: regression
+    cover-image: https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg
+    tags: [regression, linear regression, logistic regression, statistics]
+    room: HEC 119
+    abstract: >-
+      You always start with the basics, and with Data Science it's no different!
+      We'll be getting our feet wet with some simple, but powerful, models and  demonstrate
+      their power by applying them to real world data.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: false
+- !Meeting
+  required:
+    id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
+    date: !Timestamp 2019-02-13 19:30:00
+    title: 'Beyond the Buzzwords: Getting Started with Neural Networks'
+    authors: [ahkerrigan, ionlights]
+    filename: neural-nets
+    cover-image: https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg
+    tags: [neural networks, deep learning, machine learning]
+    room: HEC 119
+    abstract: >-
+      You've heard about them: Beating humans at all types of games, driving cars,
+      and recommending your next Netflix series to watch, but what ARE neural  networks?
+      In this lecture, you'll actually learn step by step how neural
+      networks function and how they learn. Then, you'll deploy one yourself!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: true
+- !Meeting
+  required:
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: !Timestamp 2019-02-20 19:30:00
+    title: How Computers Can see and Other Ways Machines Can Think
+    authors: [irene-l-tanner, brandons209, ionlights]
+    filename: conv-nets
+    cover-image: https://www.dailydot.com/wp-content/uploads/7da/6e/fc3aa93d4cf68ff5406f291efcd81b08.jpg
+    tags: [neural networks, convolutional networks, deep learning, computer vision]
+    room: HEC 119
+    abstract: >-
+      Ever wonder how Facebook can tell you which friends to tag in your photos
+      or how Google automatically makes collages and animations for you? This
+      lecture is all about that: We'll teach you the basics of computer vision  using
+      convolutional neural networks so you can make your own algorithm to
+      automatically analyze your visual data!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: true
+- !Meeting
+  required:
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: !Timestamp 2019-02-27 19:30:00
+    title: Who Needs Show Writers Nowadays?
+    authors: [brandons209, ionlights]
+    filename: recurrent-nets
+    cover-image: https://i.imgur.com/EIt4Ilr.png
+    tags: [neural networks, recurrent networks, long short-term memory, embeddings,
+      character generation, text generation]
+    room: HEC 119
+    abstract: >-
+      This lecture is all about Recurrent Neural Networks. These are networks
+      with with added memory, which means they can learn from sequential data such
+      as speech,
+      text, videos, and more. Different types of RNNs and strategies for building  them
+      will also be covered. The project will be building a LSTM-RNN to generate
+      new original scripts for the TV series “The Simpsons”. Come and find out if
+      our
+      networks can become better writers for the show!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: true
+- !Meeting
+  required:
+    id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
+    date: !Timestamp 2019-03-06 19:30:00
+    title: What Makes Deep Learning More of an Art Than a Science?
+    authors: [ionlights]
+    filename: hyperparamter-tuning
+    cover-image: ''
+    tags: [neural networks, convolutional networks, recurrent networks, hyperparamter
+        tuning, gridsearch]
+    room: HEC 119
+    abstract: >-
+      Some of the hardest aspects of Machine Learning are the details. Almost every
+      algorithm we use is sensitive to "hyperparameters" which affect the initialization,
+      optimization speed, and even the possibility of becoming accurate. We'll cover
+      the
+      general heuristics you can use to figure out what hyperparameters to use, how
+      to  find the optimal ones, what you can do to make models more resilient, and
+      the like.
+      This workshop will be pretty "down-in-the-weeds" but will give you a better
+      intuition
+      about Machine Learning and its shortcomings.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: true
+- !Meeting
+  required:
+    id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
+    date: !Timestamp 2019-03-20 19:30:00
+    title: Cleaning and Manipulation a Dataset with Python
+    authors: [danielzgsilva, ionlights]
+    filename: data-curation
+    cover-image: https://analyticsindiamag.com/wp-content/uploads/2018/01/data-cleaning.png
+    tags: [data science, data curation, data cleaning, data manipulation, data engineering]
+    room: HEC 119
+    abstract: >-
+      In the fields of Data Science and Artificial Intelligence, your models and  analyses
+      will only be as good as the data behind them. Unfortunately, you
+      will find that the majority of datasets you encounter will be filled with  missing,
+      malformed, or erroneous data. Thankfully, Python provides a number  of handy
+      libraries to help you clean and manipulate your data into a usable
+      state. In today's lecture, we will leverage these Python libraries to turn
+      a messy dataset into a gold mine of value!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: false
+- !Meeting
+  required:
+    id: 3e589fcdc955f69df131662e4428e5ba2a97cd1e6c2efe62037de2ee3b950bca
+    date: !Timestamp 2019-03-27 19:30:00
+    title: A Walk Through the Random Forest
+    authors: [jarviseq, ionlights]
+    filename: random-forests
+    cover-image: https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg
+    tags: [random forests, boosting, statistics]
+    room: HEC 119
+    abstract: >-
+      Neural Nets are not the end all be all of Machine Learning. In this lecture,  we
+      will see how a decision tree works, and see how powerful a collection of  them
+      can be. From there, we will see how to utilize Random Forests to do digit  recognition.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: false
+- !Meeting
+  required:
+    id: b914b7d0fd34cbfcf7807e5aaa89c8275cb76b66d879e223d684f26635a44f7e
+    date: !Timestamp 2019-04-03 19:30:00
+    title: Support Vector Machines
+    authors: [jarviseq, ionlights]
+    filename: svms
+    cover-image: https://monkeylearn.com/blog/wp-content/uploads/2017/06/Post_1e_social.png
+    tags: [support vector machines, traditional approaches]
+    room: HEC 119
+    abstract: >-
+      Support Vector Machines were among the most highly used ML algorithms before
+      Neural Nets came back into the foreground. Unlike Neural Nets, SVMs can explain
+      themselves quite well and allow us to use these ML mdels in fields like medicine,
+      finance, and the like – where regulations require that we can inquire about
+      our
+      models.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: false
+- !Meeting
+  required:
+    id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
+    date: !Timestamp 2019-04-10 19:30:00
+    title: Making sense of high-dimensional data
+    authors: [cg021, ionlights]
+    filename: dimensionality-reduction
+    cover-image: ''
+    tags: [data science, big data, compression, dimensionality reduction]
+    room: HEC 119
+    abstract: >-
+      We're filling this out!
+    use-notebooks: false
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+- !Meeting
+  required:
+    id: 43c316921632d149a2e626c58f8ad5e4fd4aec01bef6970954cddd72f0235c3e
+    date: !Timestamp 2019-04-17 19:30:00
+    title: Machine Learning Applications
+    authors: [ahkerrigan, ]
+    filename: applications
+    cover-image: ''
+    tags: []
+    room: HEC 119
+    abstract: >-
+      We're filling this out!
+    use-notebooks: false
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
