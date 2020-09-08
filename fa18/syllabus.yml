@@ -1,131 +1,164 @@
-# - unit: <N>
-#   name: "<unit-title>"
-#   list:
-#     - name: "<full-lecture-title>"
-#       file: "<url-for-website>" # looks like... /<group>/<semester>/<file>
-#       covr: "<url-to-image>" # this will be added to the banner for each meeting
-#       inst: [<instructor_1>, <instructor_2>, ...]
-#       date: "<MM>/<DD>"
-#       desc: > # the ">" specifies to YAML its a multi-line string
-#         <meeting-description>
-
-meet_day: "Wed"
-meet_time: "4:30pm"
-meet_room: "PSY 105"
-
-signup_url: "https://docs.google.com/forms/d/e/1FAIpQLSdZ5ZZ49gUaDD2LbvRMuRgx3_AscFTWHpWDDuQOISTC1MnwIg/viewform"
-signin_url: "https://docs.google.com/forms/d/e/1FAIpQLSdZ5ZZ49gUaDD2LbvRMuRgx3_AscFTWHpWDDuQOISTC1MnwIg/viewform"
-
-teach:
-- unit: 0
-  name: "Basics"
-  list:
-    - name: "Welcome back! Featuring Plotting & Supercomputers"
-      file: "welcome-back"
-      covr: "https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg"
-      inst: [ionlights, Waldmannly]
-      date: "08/29"
-      desc: >
-        Welcome back to SIGAI! We'll be re-introducing SIGAI for newcomers and
-        refreshing it for veterans. Following that, we'll cover some basics of
-        generating graphs (a very common task for data science and research). If
-        you're enticed, we'll also get you setup on the university's
-        supercomputer, as all following meetings will stream from there! :smiley:
-    - name: "Intro to Data Analysis with Pandas & Numpy"
-      file: "learn-numpy-pandas"
-      covr: "https://www.cfertech.com/sites/cfertech.com/files/nodefiles/822/RLX_Data_Analysis_banner.jpg"
-      inst: [ionlights]
-      date: "09/12"
-      desc: >
-        Data is arguably more important than the algorithms we'll be learning
-        this semester - and that data almost always needs to be curated and
-        finagled to really develop an understanding of what the data is trying
-        to tell you.
-    - name: "Let Data Speak Using Regression & Plots"
-      file: "linear-regression"
-      covr: "http://www.sthda.com/english/sthda-upload/figures/machine-learning-essentials/027-logistic-regression-probabilities-curve-1.png"
-      inst: [ahl98]
-      date: "09/19"
-      desc: >
-        Neural Networks are all the rage, nowadays, but simpler models are
-        always great places to start! We'll cover how to do Linear/Logistic
-        Regression as well as preparing data for such a function to work.
-- unit: 1
-  name: "neural-nets"
-  list:
-    - name: "Flowering your Pokémon Predictions, with Neural Networks"
-      file: "neural-nets"
-      inst: [ionlights, ChasKane]
-      covr: ""
-      date: "09/26"
-      desc: >
-        With some basic ideas in mind about how one might tackle a task, we'll
-        now go and explore a Tensor framework (PyTorch) and build a Neural
-        Network that can accurately predict XXXX from our dataset.
-    - name: "Convolutional Neural Networks"
-      file: "conv-nets"
-      covr: ""
-      inst: [thedibaccle]
-      date: "10/03"
-      desc: >
-
-    - name: "Machines That Write Papers for You"
-      file: "recurrent-nets"
-      covr: ""
-      inst: [ionlights]
-      date: "10/10"
-      desc: >
-
-    - name: "Who Made this Face?"
-      file: "gans"
-      covr: ""
-      inst: [thedibaccle]
-      date: "10/17"
-      desc: >
-
-- unit: 2
-  name: "alt-methods"
-  list:
-    - name: "Solving the Computationally Impossible with Heuristics"
-      file: "heuristics"
-      covr: "https://nomaneveati.files.wordpress.com/2015/06/bird_example.png?w=518&h=233&zoom=2"
-      inst: [Waldmannly]
-      date: "10/24"
-      desc: >
-        The world is complex, making it difficult for algorithms to come to solutions in reasonable amounts of time. 
-        To speed them along, we can employ Heuristics to get us significantly closer, faster.  
-        Today, we’ll try to approximate the Traveling Salesman Problem by using Simulated Annealing and Particle Swarm Optimization – 
-        two Heuristics which move us towards finding the shortest path we can use to visit all the destinations.
-
-    - name: "Decision Trees"
-      file: "decision-trees"
-      covr: "http://dataaspirant.com/wp-content/uploads/2017/01/B03905_05_01-compressor.png"
-      inst: [ChasKane]
-      date: "10/31"
-      desc: >
-        Sometimes the algorithms we use to predict the future can be difficult to interpret and trust.
-        A Decision Tree is a learning algorithm that does a half decent job at prediction, but, more importantly,
-        is very easy to understand and interpret. No black boxes here... untill we start talking about Random Forests ;)
-
-    - name: "Support Vector Machines"
-      file: "svms"
-      covr: "https://monkeylearn.com/blog/wp-content/uploads/2017/06/Post_1e_thumb.png"
-      inst: [ahl98]
-      date: "11/07"
-      desc: >
-        Support Vector Machines are a simple and powerful classification algorithm that perform well in nearly every situation. 
-        They're commonly used in image recognition, face detection, bioinformatics, handwriting recognition, and text categorization.
-        The math behind it is pretty cool, as it relies upon embedding data into higher dimensional space to create linear divisions between categories.
-        SVMs are a great resource to add to your data science toolkit, as they're relatively simple to understand and are also one 
-        of the best classification algorithms that do not involve neural networks.
-
-- unit: 3
-  name: "implementation"
-  list:
-    - name: "Practice Makes Permanent, but Data's Messy"
-      file: "practice-data-cleaning"
-      covr: ""
-      inst: [ionlights]
-      date: "11/14"
-      desc: >
-        
+- !Meeting
+  required:
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: !Timestamp 2018-08-29 18:00:00
+    title: "Welcome back! Featuring Plotting & Supercomputers"
+    authors: [ionlights, waldmannly, ]
+    filename: welcome-back
+    cover-image: 'https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg'
+    tags: []
+    room: VAB 107
+    abstract: >-
+      Welcome back to SIGAI! We'll be re-introducing SIGAI for newcomers and
+      refreshing it for veterans. Following that, we'll cover some basics of
+      generating graphs (a very common task for data science and research). If
+      you're enticed, we'll also get you setup on the university's
+      supercomputer, as all following meetings will stream from there! :smiley:
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle:
+      datasets: ["uciml/iris", "abcsds/pokemon", ]
+- !Meeting
+  required:
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: !Timestamp 2018-09-12 16:30:00
+    title: "Intro to Data Analysis with Pandas & Numpy"
+    authors: [ionlights, ]
+    filename: learn-numpy-pandas
+    cover-image: 'https://www.cfertech.com/sites/cfertech.com/files/nodefiles/822/RLX_Data_Analysis_banner.jpg'
+    tags: []
+    room: BA1 122
+    abstract: >-
+      Data is arguably more important than the algorithms we'll be learning
+      this semester - and that data almost always needs to be curated and
+      finagled to really develop an understanding of what the data is trying
+      to tell you.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
+- !Meeting
+  required:
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: !Timestamp 2018-09-19 16:30:00
+    title: "Let Data Speak Using Regression & Plots"
+    authors: [ahl98, ]
+    filename: linear-regression
+    cover-image: 'http://www.sthda.com/english/sthda-upload/figures/machine-learning-essentials/027-logistic-regression-probabilities-curve-1.png'
+    tags: []
+    room: PSY 105
+    abstract: >-
+      Neural Networks are all the rage, nowadays, but simpler models are
+      always great places to start! We'll cover how to do Linear/Logistic
+      Regression as well as preparing data for such a function to work.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
+- !Meeting
+  required:
+    id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
+    date: !Timestamp 2018-09-26 16:30:00
+    title: "Intro the Neural Nets, featuring PyTorch"
+    authors: [ionlights, ]
+    filename: neural-nets
+    cover-image: ''
+    tags: []
+    room: PSY 105
+    abstract: >-
+      With some basic ideas in mind about how one might tackle a task, we'll now go and explore a Tensor framework (PyTorch) and build a Neural Network which can accurately classify handwritten digits, as well as articles of clothing.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
+- !Meeting
+  required:
+    id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
+    date: !Timestamp 2018-10-03 16:30:00
+    title: Teaching Machines to Make Sense of Images
+    authors: [ionlights, ]
+    filename: conv-nets
+    cover-image: ''
+    tags: []
+    room: PSY 105
+    abstract: >-
+      Convolutional Neural Networks are at the forefront of Deep Learning and they enable machines to "see" much more effectively than they used to. So well, in fact, that they can tell what's in an image, or even place points onto them.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
+- !Meeting
+  required:
+    id: 3e589fcdc955f69df131662e4428e5ba2a97cd1e6c2efe62037de2ee3b950bca
+    date: !Timestamp 2018-10-10 16:30:00
+    title: Machines that Write as Well as Shakespeare
+    authors: [ionlights, ]
+    filename: recurrent-nets
+    cover-image: ''
+    tags: []
+    room: PSY 105
+    abstract: >-
+      Fully Connect Neural Networks and Convolutional Neural Networks are absolutely wonderful, but they miss out on one key component of our world, time. This week we'll look at Networks which also model time as part of their inputs – because of this, they'll be able to write nearly as well as Shakespeare! 😃
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
+- !Meeting
+  required:
+    id: b914b7d0fd34cbfcf7807e5aaa89c8275cb76b66d879e223d684f26635a44f7e
+    date: !Timestamp 2018-10-17 16:30:00
+    title: "Who Made this Face?"
+    authors: [thedibaccle, ]
+    filename: gans
+    cover-image: ''
+    tags: []
+    room: PSY 105
+    abstract: >-
+      We're filling this out!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
+- !Meeting
+  required:
+    id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
+    date: !Timestamp 2018-10-24 16:30:00
+    title: "Solving the Computationally Impossible with Heuristics"
+    authors: []
+    filename: heuristics
+    cover-image: 'https://nomaneveati.files.wordpress.com/2015/06/bird_example.png?w=518&h=233&zoom=2'
+    tags: []
+    room: PSY 105
+    abstract: >-
+      The world is complex, making it difficult for algorithms to come to solutions in reasonable amounts of time. To speed them along, we can employ Heuristics to get us significantly closer, faster.  Today, we’ll try to approximate the Traveling Salesman Problem by using Simulated Annealing and Particle Swarm Optimization – two Heuristics which move us towards finding the shortest path we can use to visit all the destinations.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
+- !Meeting
+  required:
+    id: 43c316921632d149a2e626c58f8ad5e4fd4aec01bef6970954cddd72f0235c3e
+    date: !Timestamp 2018-10-31 16:30:00
+    title: Decision Trees
+    authors: [chaskane, ]
+    filename: decision-trees
+    cover-image: 'http://dataaspirant.com/wp-content/uploads/2017/01/B03905_05_01-compressor.png'
+    tags: []
+    room: PSY 105
+    abstract: >-
+      Sometimes the algorithms we use to predict the future can be difficult to interpret and trust. A Decision Tree is a learning algorithm that does a half decent job at prediction, but, more importantly, is very easy to understand and interpret. No black boxes here... until we start talking about Random Forests.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
+- !Meeting
+  required:
+    id: be2082a49b5867880566a74492f4bcf4a20e621b3752451b44ec788f328b6210
+    date: !Timestamp 2018-11-07 16:30:00
+    title: Support Vector Machines
+    authors: [ahl98, ]
+    filename: svms
+    cover-image: 'https://monkeylearn.com/blog/wp-content/uploads/2017/06/Post_1e_thumb.png'
+    tags: []
+    room: PSY 105
+    abstract: >-
+      Support Vector Machines are a simple and powerful classification algorithm that perform well in nearly every situation. They're commonly used in image recognition, face detection, bioinformatics, handwriting recognition, and text categorization. The math behind it is pretty cool, as it relies upon embedding data into higher dimensional space to create linear divisions between categories. SVMs are a great resource to add to your data science toolkit, as they're relatively simple to understand and are also one of the best classification algorithms that do not involve neural networks.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
+- !Meeting
+  required:
+    id: 5dab7d867ea5cbb561f27a2631b44ea16014565bd4c10cfd95df8cd9f99668ba
+    date: !Timestamp 2018-11-14 16:30:00
+    title: Practice Makes Permanent, but Data's Messy
+    authors: [ionlights, ]
+    filename: practicing-data-cleaning
+    cover-image: ''
+    tags: []
+    room: PSY 105
+    abstract: >-
+      We're filling this out!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    kaggle: true
