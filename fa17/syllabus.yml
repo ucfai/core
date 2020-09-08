@@ -1,0 +1,138 @@
+- !Meeting
+  required:
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: !Timestamp 2017-09-27 19:30:00
+    title: 'Lecture: Introductions & An Intro to Neural Networks'
+    authors: [ionlights]
+    filename: intro-and-neural-nets
+    cover-image: ''
+    tags: [neural networks, deep learning, backpropagation, gradient descent, optimization, ]
+    room: VAB 113
+    abstract: >-
+      Welcome back to SIGAI! 😃
+
+      Tonight we'll go over some changes that have happened over the summer, how we'll
+      handle things after moving forward, then dive into our classic first lecture/workshop
+      series, An Intro to Neural Nets. This time, though, we'll go into significantly
+      more depth, historically and mathematically, than we have in the past.
+
+      See you there!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+- !Meeting
+  required:
+    id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
+    date: !Timestamp 2017-10-04 19:30:00
+    title: 'Workshop: An Intro to Neural Nets'
+    authors: [ionlights, ]
+    filename: neural-nets-workshop
+    cover-image: ''
+    tags: [neural networks, deep learning, machine learning, MNIST, TensorFlow, numpy]
+    room: VAB 113
+    abstract: >-
+      UPDATE: We've partnered with TechKnights to throw a lecture+workshop combo during
+      KnightHacks!
+
+      To finish Unit 0 for the Fall series, we're following up our lecture last week
+      with a workshop.
+
+      Here, we'll build a neural network to classify hand-written digits using a popular
+      dataset, MNIST, with some help from Google's Tensorflow library.
+
+      ***Everything will be provided in a self-contained environment for you but you
+      will need to come prepared with the below requirements before the workshop begins.
+    use-notebooks: true
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+- !Meeting
+  required:
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: !Timestamp 2017-10-11 19:30:00
+    title: 'Lecture: Introduction to Reinforcement Learning'
+    authors: [flxsosa]
+    filename: intro-to-rl
+    cover-image: ''
+    tags: []
+    room: VAB 113
+    abstract: >-
+      We're starting Unit 1 on Reinforcement Learning!
+
+      This is the lecture for that series. Here, we'll cover the problem of learning
+      through interaction, what RL is, how it's different from Supervised Learning,
+      how RL is formalized (math), and what Markov Decision Processes are Dynamic
+      Programming is.
+
+      There is no background knowledge needed for this lecture other than simple arithmetic,
+      college algebra, and basic probability theory. We'll be doing a short refresher
+      on the necessary concepts if need be 🙂.
+
+      Hope to see you there!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+- !Meeting
+  required:
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: !Timestamp 2017-10-18 19:30:00
+    title: 'Lecture: Intro to Reinforcement Learning, Part 2'
+    authors: [dibaccory]
+    filename: intro-to-rl-p2
+    cover-image: ''
+    tags: []
+    room: VAB 113
+    abstract: >-
+      Hey! This will be our second lecture in Unit 1 on Reinforcement Learning! We'll
+      be reviewing what we learned about Markov Decision Processes and then go over
+      Dynamic Programming, a method of solving Markov Decision Problems and the theoretical
+      foundation for most solutions to modern RL problems.
+
+      Come on out!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+- !Meeting
+  required:
+    id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
+    date: !Timestamp 2017-10-25 19:30:00
+    title: 'Guest Lecture: Intro to Evolutionary Computation'
+    authors: [aswu]
+    filename: intro-evo-comp
+    cover-image: ''
+    tags: [evolutionary computation, reinforcement learning, multi-agent systems]
+    room: VAB 113
+    abstract: >-
+      Hey SIGAI,
+
+      We're beginning our Unit 2 on Advanced Topics with a lecture on evolutionary
+      computation by Dr. Annie Wu from UCF's Computer Science Department!
+
+      She'll be giving the introductory lecture she gives to her graduate students
+      in her Evolutioanry Computation course here at UCF.
+
+      There will be no slides for this lecture so if you're curious to know, come
+      out! It is going to be a great primer for our following lecture on neuroevolution.
+
+      More about Dr. Wu:
+      Dr. Wu is the Director of the Evolutionary Computation Lab at UCF and an Associate
+      Professor in the Department of Computer Science. Find more here: http://www.cs.ucf.edu/~aswu/
+  optional:
+- !Meeting
+  required:
+    id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
+    date: !Timestamp 2017-11-01 19:30:00
+    title: 'Lecture: Introduction to Neuroevolution'
+    authors: [flxsosa]
+    filename: intro-neuro-evo
+    cover-image: ''
+    tags: [neuroevolution, evolutionary computation, neural networks, NEAT, HyperNEAT]
+    room: VAB 113
+    abstract: >-
+      Welcome to our second to last lecture for Fall 2017!
+
+      We will be giving an introduction to neuroevolution, one of the most active
+      subfields in evolutionary computation!
+
+      We will be covering history, prominent algorithms and frameworks, current state-of-the-art
+      research going on in the field here at UCF, and the recent attention this field
+      has gotten from big names such as Google Brain, DeepMind, FAIR, Uber, MIT, and
+      more!
+  optional:  # All `optional` keys are enumerated in the Documentation
