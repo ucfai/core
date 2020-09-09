@@ -1,7 +1,7 @@
 {
-  "id": "ucfaibot/core-sp20-time-series",
-  "title": "core-sp20-time-series",
-  "code_file": "time-series.ipynb",
+  "id": "ucfaibot/core-sp20-regression",
+  "title": "core-sp20-regression",
+  "code_file": "regression.ipynb",
   "language": "python",
   "kernel_type": "notebook",
   "is_private": false,
@@ -9,7 +9,7 @@
   "enable_internet": true,
   "dataset_sources": [],
   "competition_sources": [
-    "ucfai-core-sp20-time-series"
+    "ucfai-core-sp20-regression"
   ],
   "kernel_sources": []
 }
