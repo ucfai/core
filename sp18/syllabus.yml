@@ -160,6 +160,7 @@
     room: HEC 103
     abstract: >-
       We're filling this out!
+    use-notebooks: false
   optional:  # All `optional` keys are enumerated in the Documentation
     urls: {}
     kaggle: {}

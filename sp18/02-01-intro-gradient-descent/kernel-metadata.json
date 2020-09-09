@@ -1,0 +1,15 @@
+{
+  "id": "ucfaibot/core-sp18-intro-gradient-descent",
+  "title": "core-sp18-intro-gradient-descent",
+  "code_file": "intro-gradient-descent.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "ucfai-core-sp18-intro-gradient-descent"
+  ],
+  "kernel_sources": []
+}
