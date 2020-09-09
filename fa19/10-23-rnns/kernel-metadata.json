@@ -1,0 +1,15 @@
+{
+  "id": "ucfaibot/core-fa19-rnns",
+  "title": "core-fa19-rnns",
+  "code_file": "rnns.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "ucfai-core-fa19-rnns"
+  ],
+  "kernel_sources": []
+}

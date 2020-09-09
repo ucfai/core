@@ -1,0 +1,15 @@
+{
+  "id": "ucfaibot/core-fa19-rf-svm",
+  "title": "core-fa19-rf-svm",
+  "code_file": "rf-svm.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "ucfai-core-fa19-rf-svm"
+  ],
+  "kernel_sources": []
+}

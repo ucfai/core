@@ -1,0 +1,15 @@
+{
+  "id": "ucfaibot/core-fa19-applications",
+  "title": "core-fa19-applications",
+  "code_file": "applications.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "ucfai-core-fa19-applications"
+  ],
+  "kernel_sources": []
+}
