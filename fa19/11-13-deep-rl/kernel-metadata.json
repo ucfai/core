@@ -1,0 +1,15 @@
+{
+  "id": "ucfaibot/core-fa19-deep-rl",
+  "title": "core-fa19-deep-rl",
+  "code_file": "deep-rl.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "ucfai-core-fa19-deep-rl"
+  ],
+  "kernel_sources": []
+}

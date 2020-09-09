@@ -1,0 +1,15 @@
+{
+  "id": "ucfaibot/core-fa19-rl",
+  "title": "core-fa19-rl",
+  "code_file": "rl.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "ucfai-core-fa19-rl"
+  ],
+  "kernel_sources": []
+}
