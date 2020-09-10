@@ -1,9 +1,6 @@
 name: "Monitor Date/Time to Spawn New Semesters"
 
 on:
-  push:
-    branches:
-    - "*"
   # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#onschedule
   schedule:
     - cron: "0 */6 * 12 *"  # run for the Spring semester
