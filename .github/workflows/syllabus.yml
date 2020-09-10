@@ -10,27 +10,35 @@ on:
       - "**/syllabus.yml"
       - "!.github/workflows/syllabus.yml"
 
+
 jobs:
-  update-solutions:
+  build:
+    name: "Validate Syllabus changes are acceptable"
     runs-on: ubuntu-latest
-    env:
-      GROUP: "core"
-
     steps:
-      # Checkout repositories
-      - name: "${{ env.GROUP }}: Checkout latest master branch"
-        uses: actions/checkout@v2
-        with:
-          repository: "ionlights/${{ env.GROUP }}"
-          path: "${{ env.GROUP }}"
+    - name: "Set $GROUP"
+      run: |
+        echo "::set-env name=GROUP::$(basename ${{ github.repository }})"
 
-      - name: "ucfai/tasks: Checkout latest master branch"
-        uses: actions/checkout@v2
-        with:
-          repository: "ionlights/tasks"
-          path: "tasks"
+    - name: "Checkout `${{ github.repository }}`"
+      uses: actions/checkout@v2
 
-      - name: Purposely Fail
-        run: |
-          ls -l ${{ env.WORKSPACE }}
-          exit -1
+    - name: "Use `autobot` Action to Seed Semester"
+      uses: ionlights/tasks@v0.5.0.rc1
+      id: autobot
+      with:
+        workdir: ${{ github.workspace }}
+        commands: >- 
+          group.validate-syllabus
+
+    - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
+      uses: peter-evans/create-pull-request@v2
+      with:
+        token: ${{ secrets.UCFAIBOT_PAT }}
+        title: "Seeding ${{ steps.autobot.outputs.semester }} Semester"
+        commit-message: "Seed `${{ steps.autobot.outputs.semester }}` Semester"
+        author: "AI@UCF <ucfaibot@users.noreply.github.com>"
+        committer: "AI@UCF <ucfaibot@users.noreply.github.com>"
+        branch: "setup-${{ env.GROUP }}-${{ steps.autobot.outputs.semester }}"
+        body: |
+          ${{ steps.autobot.outputs.status }}
