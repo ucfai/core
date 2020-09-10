@@ -1,0 +1,183 @@
+- !Meeting
+  required:
+    id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
+    date: !Timestamp 2018-02-01 19:30:00
+    title: "Welcome back to SIGAI, featuring Gradient Descent"
+    authors: [ionlights, ]
+    filename: intro-gradient-descent
+    cover-image: ''
+    tags: [gradient descent, optimization, machine learning]
+    room: HEC 103
+    abstract: >-
+      Welcome back to SIGAI! We'll be covering some administrative needs – like how we're doing lectures/workshops and what we expect of coordinators, since we'll have elections in March. Then we'll go over some math to check everyone's background so you're uber prepared for next week! Once we've covered that, we'll go over Gradient Descent and get a rough idea of how it works – this is integral to almost all our content this semester.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: false
+    papers: {}
+- !Meeting
+  required:
+    id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
+    date: !Timestamp 2018-02-08 19:30:00
+    title: "Lecture: An Intro to Neural Networks (ANNs)"
+    authors: [ionlights, ]
+    filename: neural-nets-lecture
+    cover-image: ''
+    tags: [neural networks, deep learning, MNIST, ]
+    room: HEC 103
+    abstract: >-
+      Here, we'll dive, head first, into the nitty-gritty of Neural Networks,
+      how they work, what Gradient Descent achieves for them, and how Neural
+      Networks act on the feedback that Gradient Descent derives.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle:
+      enable_gpu: true
+- !Meeting
+  required:
+    id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
+    date: !Timestamp 2018-02-15 19:30:00
+    title: "Workshop: Building an Extensible ANN"
+    authors: [ionlights, ]
+    filename: neural-nets-workshop
+    cover-image: ''
+    tags: []
+    room: HEC 103
+    abstract: >-
+      We'll take what we learned last week and actually write up a Neural Network to train on the MNIST dataset, to recognize hand-written digits with about 92% accuracy.
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
+    date: !Timestamp 2018-02-22 19:30:00
+    title: "Lecture: Deconvoluting Convolutional Neural Networks"
+    authors: [dibaccory]
+    filename: conv-nets-lecture
+    cover-image: ''
+    tags: [convolutional networks, deep learning, machine learning, computer vision, ]
+    room: HEC 103
+    abstract: >-
+      We're filling this out!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
+    date: !Timestamp 2018-03-01 19:30:00
+    title: "Workshop: Convolving a Neural Network"
+    authors: [dibaccory, ]
+    filename: conv-nets-workshop
+    cover-image: ''
+    tags: [convolutional networks, deep learning, machine learning, computer vision, ]
+    room: HEC 103
+    abstract: >-
+      We're filling this out!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: b914b7d0fd34cbfcf7807e5aaa89c8275cb76b66d879e223d684f26635a44f7e
+    date: !Timestamp 2018-03-22 19:30:00
+    title: "Lecture: Seriesly, Neural Networks (RNNs)"
+    authors: []
+    filename: recurrent-nets-background
+    cover-image: ''
+    tags: []
+    room: HEC 103
+    abstract: >-
+      We're filling this out!
+    use-notebooks: false
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
+    date: !Timestamp 2018-03-29 19:30:00
+    title: "Workshop: Do We Need English Lit Anymore?"
+    authors: [ionlights, ]
+    filename: recurrent-nets-workshop
+    cover-image: ''
+    tags: []
+    room: HEC 103
+    abstract: >-
+      We're filling this out!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 43c316921632d149a2e626c58f8ad5e4fd4aec01bef6970954cddd72f0235c3e
+    date: !Timestamp 2018-04-05 19:30:00
+    title: "Lecture: Can Machines Learn from Experience?"
+    authors: [ionlights, ]
+    filename: reinforcement-learning-p1
+    cover-image: ''
+    tags: []
+    room: HEC 103
+    abstract: >-
+      We're filling this out!
+    use-notebooks: false
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: be2082a49b5867880566a74492f4bcf4a20e621b3752451b44ec788f328b6210
+    date: !Timestamp 2018-04-12 19:30:00
+    title: "Lecture: Can Machines Learn from Experience? (Part 2)"
+    authors: [dibaccory, ionlights, ]
+    filename: reinforcement-learning-p2
+    cover-image: ''
+    tags: []
+    room: HEC 103
+    abstract: >-
+      We're filling this out!
+    use-notebooks: false
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: 5dab7d867ea5cbb561f27a2631b44ea16014565bd4c10cfd95df8cd9f99668ba
+    date: !Timestamp 2018-04-17 18:00:00
+    title: "Lecture: An Intro to Computational Neuroscience"
+    authors: [jbowren, ]
+    filename: intro-comp-neuro
+    cover-image: ''
+    tags: []
+    room: HEC 103
+    abstract: >-
+      We're filling this out!
+    use-notebooks: false
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}
+- !Meeting
+  required:
+    id: cfa79e64c53785c99ccdc0b73eb4e48ba2418f19d4bcece24d4901808593853d
+    date: !Timestamp 2018-04-19 19:30:00
+    title: "Workshop: Overcoming Car Troubles with Q-Learning"
+    authors: []
+    filename: q-learning-workshop
+    cover-image: ''
+    tags: []
+    room: HEC 103
+    abstract: >-
+      We're filling this out!
+  optional:  # All `optional` keys are enumerated in the Documentation
+    urls: {}
+    kaggle: {}
+    papers: {}

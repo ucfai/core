@@ -1,13 +1,15 @@
 {
-    "id": "ucfaibot/core-sp20-rf-svm",
-    "title": "core-sp20-rf-svm",
-    "code_file": "rf-svm.ipynb",
-    "language": "python",
-    "kernel_type": "notebook",
-    "is_private": false,
-    "enable_gpu": false,
-    "enable_internet": true,
-    "dataset_sources": [],
-    "competition_sources": ["ucfai-core-sp20-rf-svm"],
-    "kernel_sources": []
+  "id": "ucfaibot/core-sp20-rf-svm",
+  "title": "core-sp20-rf-svm",
+  "code_file": "rf-svm.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "ucfai-core-sp20-rf-svm"
+  ],
+  "kernel_sources": []
 }

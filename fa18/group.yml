@@ -1,0 +1,17 @@
+!Group
+required:
+  name: core
+  room: "PSY 105"
+  semester: fa18
+  startdate: !Timestamp 2018-08-29 16:30:00
+  frequency: 1
+  directors: [ionlights, ]
+  coordinators: [waldmannly, ahl98, dibaccory, chaskane]
+  guests: []
+  advisors: []
+  summary: >
+
+optional:
+  use-kaggle: true
+  use-notebooks: true
+  use-papers: true

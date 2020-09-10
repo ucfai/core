@@ -1,0 +1,17 @@
+!Group
+required:
+  name: core
+  room: "HPA1 112"
+  semester: sp20
+  startdate: !Timestamp 2020-01-22 17:30:00
+  frequency: 1
+  directors: [brandons209, ]
+  coordinators: [danielzgsilva, dillonnotdylan, bb912, jarviseq, nspeer12]
+  guests: [ionlights, ]
+  advisors: [ionlights, ]
+  summary: >-
+  
+optional:
+  use-kaggle: true
+  use-notebooks: true
+  use-papers: true

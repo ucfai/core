@@ -1,0 +1,13 @@
+{
+  "id": "ucfaibot/core-sp20-reinforcement-learning",
+  "title": "core-sp20-reinforcement-learning",
+  "code_file": "reinforcement-learning.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

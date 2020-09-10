@@ -1,0 +1,17 @@
+!Group
+required:
+  name: core
+  room: 'HEC 103'
+  semester: sp18
+  startdate: !Timestamp 2018-02-01 19:30:00
+  frequency: 1
+  directors: [ionlights, ]
+  coordinators: [dibaccory, ]
+  guests: [jbowren, ]
+  advisors: []
+  summary: >
+
+optional:
+  use-kaggle: false
+  use-notebooks: true
+  use-papers: false

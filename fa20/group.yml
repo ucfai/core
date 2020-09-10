@@ -1,0 +1,17 @@
+!Group
+required:
+  name: core
+  room: 'Online'
+  semester: fa20
+  startdate: !Timestamp 2020-08-31 00:00:00
+  frequency: 1
+  directors: []
+  coordinators: [brandons209, danielzgsilva, sirroboto, bb912, paullunis, sagejacob]
+  guests: []
+  advisors: [ionlights, flxsosa]
+  summary: >-
+
+optional:
+  use-kaggle: false
+  use-notebooks: false
+  use-papers: false

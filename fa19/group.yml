@@ -1,0 +1,17 @@
+!Group
+required:
+  name: core
+  room: "MSB 359"
+  semester: fa19
+  startdate: !Timestamp 2019-09-18 17:30:00
+  frequency: 1
+  directors: [brandons209, ]
+  coordinators: [danielzgsilva, ahkerrigan, jarviseq]
+  guests: [ionlights]
+  advisors: [ionlights]
+  summary: >-
+
+optional:
+  use-kaggle: true
+  use-notebooks: true
+  use-papers: true
