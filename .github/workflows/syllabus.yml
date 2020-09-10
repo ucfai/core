@@ -35,11 +35,10 @@ jobs:
           group.validate-syllabus
 
     - uses: mshick/add-pr-comment@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.UCFAIBOT_PAT }}
       with:
+        repo-token: "${{ secrets.UCFAIBOT_PAT }}"
         message: |
-          ${{ steps.autobot.outputs.stats }}
+          ${{ steps.autobot.outputs.status }}
         allow-repeats: false
 
     # - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
