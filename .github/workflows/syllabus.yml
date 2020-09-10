@@ -13,7 +13,7 @@ on:
 
 jobs:
   build:
-    name: "Check that changes are acceptable"
+    name: "Check that Syllabus Changes are Acceptable"
     runs-on: ubuntu-latest
     steps:
     - name: "Set $GROUP"
@@ -23,9 +23,6 @@ jobs:
     - name: "Checkout `${{ github.repository }}`"
       uses: actions/checkout@v2
 
-    # - name: "Debugging"
-    #   uses: mxschmitt/action-tmate@v2
-
     - name: "Use `autobot` Action to Validate Syllabus Changes"
       uses: ionlights/tasks@v0.5.0.rc1
       id: autobot
@@ -33,22 +30,12 @@ jobs:
         workdir: /github/workspace
         commands: >- 
           group.validate-syllabus
+          group.touch
 
-    - uses: mshick/add-pr-comment@v1
+    - name: "Post `status` as PR Comment"
+      uses: mshick/add-pr-comment@v1
       with:
         repo-token: "${{ secrets.UCFAIBOT_PAT }}"
         message: |
           ${{ steps.autobot.outputs.status }}
-        allow-repeats: false
-
-    # - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
-    #   uses: peter-evans/create-pull-request@v2
-    #   with:
-    #     token: ${{ secrets.UCFAIBOT_PAT }}
-    #     title: "Seeding ${{ steps.autobot.outputs.semester }} Semester"
-    #     commit-message: "Seed `${{ steps.autobot.outputs.semester }}` Semester"
-    #     author: "AI@UCF <ucfaibot@users.noreply.github.com>"
-    #     committer: "AI@UCF <ucfaibot@users.noreply.github.com>"
-    #     branch: "setup-${{ env.GROUP }}-${{ steps.autobot.outputs.semester }}"
-    #     body: |
-    #       ${{ steps.autobot.outputs.status }}
+        allow-repeats: true

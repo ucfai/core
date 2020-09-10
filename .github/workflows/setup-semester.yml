@@ -23,7 +23,7 @@ jobs:
       uses: ionlights/tasks@v0.2.a
       id: autobot
       with:
-        workdir: ${{ github.workspace }}
+        workdir: /github/workspace
         commands: >- 
           semester.seed -g ${{ env.GROUP }}
 
@@ -31,8 +31,8 @@ jobs:
       uses: peter-evans/create-pull-request@v2
       with:
         token: ${{ secrets.UCFAIBOT_PAT }}
-        title: "Seeding ${{ steps.autobot.outputs.semester }} Semester"
-        commit-message: "Seed `${{ steps.autobot.outputs.semester }}` Semester"
+        title: "🌱 Seeding ${{ steps.autobot.outputs.semester }} Semester"
+        commit-message: "🌱 Seed `${{ steps.autobot.outputs.semester }}` Semester"
         author: "AI@UCF <ucfaibot@users.noreply.github.com>"
         committer: "AI@UCF <ucfaibot@users.noreply.github.com>"
         branch: "setup-${{ env.GROUP }}-${{ steps.autobot.outputs.semester }}"
