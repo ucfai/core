@@ -4,7 +4,7 @@
     date: !Timestamp 2020-08-31 00:00:00
     title: Testing Autobot
     authors: []
-    filename: meeting00
+    filename: test-autobot
     cover-image: ''
     tags: []
     room: Online
