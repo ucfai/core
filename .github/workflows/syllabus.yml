@@ -39,7 +39,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.UCFAIBOT_PAT }}
       with:
         message: |
-          ${{ steups.autobot.outputs.stats }}
+          ${{ setups.autobot.outputs.stats }}
         allow-repeats: false
 
     # - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
