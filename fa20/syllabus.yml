@@ -2,7 +2,7 @@
   required:
     id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
     date: !Timestamp 2020-08-31 00:00:00
-    title: meeting00
+    title: Testing Autobot
     authors: []
     filename: meeting00
     cover-image: ''
