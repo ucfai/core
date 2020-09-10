@@ -34,14 +34,14 @@ jobs:
         commands: >- 
           group.validate-syllabus
 
-    - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
-      uses: peter-evans/create-pull-request@v2
-      with:
-        token: ${{ secrets.UCFAIBOT_PAT }}
-        title: "Seeding ${{ steps.autobot.outputs.semester }} Semester"
-        commit-message: "Seed `${{ steps.autobot.outputs.semester }}` Semester"
-        author: "AI@UCF <ucfaibot@users.noreply.github.com>"
-        committer: "AI@UCF <ucfaibot@users.noreply.github.com>"
-        branch: "setup-${{ env.GROUP }}-${{ steps.autobot.outputs.semester }}"
-        body: |
-          ${{ steps.autobot.outputs.status }}
+    # - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
+    #   uses: peter-evans/create-pull-request@v2
+    #   with:
+    #     token: ${{ secrets.UCFAIBOT_PAT }}
+    #     title: "Seeding ${{ steps.autobot.outputs.semester }} Semester"
+    #     commit-message: "Seed `${{ steps.autobot.outputs.semester }}` Semester"
+    #     author: "AI@UCF <ucfaibot@users.noreply.github.com>"
+    #     committer: "AI@UCF <ucfaibot@users.noreply.github.com>"
+    #     branch: "setup-${{ env.GROUP }}-${{ steps.autobot.outputs.semester }}"
+    #     body: |
+    #       ${{ steps.autobot.outputs.status }}
