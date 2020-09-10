@@ -1,0 +1,36 @@
+name: "Validate Syllabus"
+
+on:
+  pull_request:
+    paths: 
+      - "**/syllabus.yml"
+      - "!.github/workflows/syllabus.yml"
+  push:
+    paths: 
+      - "**/syllabus.yml"
+      - "!.github/workflows/syllabus.yml"
+
+jobs:
+  update-solutions:
+    runs-on: ubuntu-latest
+    env:
+      GROUP: "core"
+
+    steps:
+      # Checkout repositories
+      - name: "${{ env.GROUP }}: Checkout latest master branch"
+        uses: actions/checkout@v2
+        with:
+          repository: "ionlights/${{ env.GROUP }}"
+          path: "${{ env.GROUP }}"
+
+      - name: "ucfai/tasks: Checkout latest master branch"
+        uses: actions/checkout@v2
+        with:
+          repository: "ionlights/tasks"
+          path: "tasks"
+
+      - name: Purposely Fail
+        run: |
+          ls -l ${{ env.WORKSPACE }}
+          exit -1
