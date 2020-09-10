@@ -34,6 +34,14 @@ jobs:
         commands: >- 
           group.validate-syllabus
 
+    - uses: mshick/add-pr-comment@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.UCFAIBOT_PAT }}
+      with:
+        message: |
+          ${{ steups.autobot.outputs.stats }}
+        allow-repeats: false
+
     # - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
     #   uses: peter-evans/create-pull-request@v2
     #   with:
