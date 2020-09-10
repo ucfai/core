@@ -18,9 +18,9 @@
   required:
     id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
     date: !Timestamp 2020-09-07 00:00:00
-    title: meeting01
+    title: Maybe Decepticons?
     authors: []
-    filename: meeting01
+    filename: maybe-decepticons
     cover-image: ''
     tags: []
     room: Online
