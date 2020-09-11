@@ -5,10 +5,10 @@ on:
     paths: 
       - "**/syllabus.yml"
       - "!.github/workflows/syllabus.yml"
-  push:
-    paths: 
-      - "**/syllabus.yml"
-      - "!.github/workflows/syllabus.yml"
+  # push:
+  #   paths: 
+  #     - "**/syllabus.yml"
+  #     - "!.github/workflows/syllabus.yml"
 
 
 jobs:
