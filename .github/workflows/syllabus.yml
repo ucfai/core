@@ -69,3 +69,12 @@ jobs:
         message: |
           ${{ steps.autobot.outputs.status }}
         allow-repeats: true
+
+    - name: "Push Changes to PR"
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "🚚 Ran `group.touch` to create/rename files"
+        commit_user_name: "AI@UCF"
+        commit_user_email: ucfaibot@users.noreply.github.com
+        commit_author: "AI@UCF <ucfaibot@users.noreply.github.com>"
+
