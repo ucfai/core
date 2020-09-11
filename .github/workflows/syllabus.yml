@@ -77,4 +77,6 @@ jobs:
         commit_user_name: "AI@UCF"
         commit_user_email: ucfaibot@users.noreply.github.com
         commit_author: "AI@UCF <ucfaibot@users.noreply.github.com>"
+        skip_dirty_check: true
+
 
