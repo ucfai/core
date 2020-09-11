@@ -34,9 +34,9 @@
   required:
     id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
     date: !Timestamp 2020-09-14 00:00:00
-    title: meeting02
+    title: Humble Mumble Bumble Bee
     authors: []
-    filename: meeting02
+    filename: bumblebee
     cover-image: ''
     tags: []
     room: Online
