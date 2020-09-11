@@ -1,0 +1,40 @@
+name: "Monitor Date/Time to Spawn New Semesters"
+
+on:
+  # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#onschedule
+  schedule:
+    - cron: "0 */6 * 12 *"  # run for the Spring semester
+    # - cron: "* */6 * 5 *"  # run for the Summer semester
+    - cron: "0 */6 * 8 *" # run for the Fall semester
+
+jobs:
+  build:
+    name: "Seed new Semester's contents"
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Set $GROUP"
+      run: |
+        echo "::set-env name=GROUP::$(basename ${{ github.repository }})"
+
+    - name: "Checkout `${{ github.repository }}`"
+      uses: actions/checkout@v2
+
+    - name: "Use `autobot` Action to Seed Semester"
+      uses: ionlights/tasks@v0.2.a
+      id: autobot
+      with:
+        workdir: /github/workspace
+        commands: >- 
+          semester.seed -g ${{ env.GROUP }}
+
+    - name: "Commit & submit PR@master for `${{ steps.autobot.outputs.semester }}` Semester"
+      uses: peter-evans/create-pull-request@v2
+      with:
+        token: ${{ secrets.UCFAIBOT_PAT }}
+        title: "🌱 Seeding ${{ steps.autobot.outputs.semester }} Semester"
+        commit-message: "🌱 Seed `${{ steps.autobot.outputs.semester }}` Semester"
+        author: "AI@UCF <ucfaibot@users.noreply.github.com>"
+        committer: "AI@UCF <ucfaibot@users.noreply.github.com>"
+        branch: "setup-${{ env.GROUP }}-${{ steps.autobot.outputs.semester }}"
+        body: |
+          ${{ steps.autobot.outputs.status }}

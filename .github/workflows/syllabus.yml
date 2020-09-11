@@ -1,0 +1,84 @@
+name: "React to Syllabus Changes"
+
+on:
+  pull_request:
+    paths: 
+      - "**/syllabus.yml"
+      - "!.github/workflows/syllabus.yml"
+  # push:
+  #   paths: 
+  #     - "**/syllabus.yml"
+  #     - "!.github/workflows/syllabus.yml"
+
+
+jobs:
+  validate:
+    name: "Validate Syllabus (Assert Changes are Acceptable)"
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Set $GROUP"
+      run: |
+        echo "::set-env name=GROUP::$(basename ${{ github.repository }})"
+
+    - name: "Checkout `${{ github.repository }}`"
+      uses: actions/checkout@v2
+
+    - name: "Use `autobot` to Validate the Syllabus"
+      uses: ionlights/tasks@v0.5.0.rc1
+      id: autobot
+      with:
+        workdir: /github/workspace
+        commands: >- 
+          group.validate-syllabus
+
+    - name: "Post `status` as PR Comment"
+      uses: mshick/add-pr-comment@v1
+      with:
+        repo-token: "${{ secrets.UCFAIBOT_PAT }}"
+        message: |
+          ${{ steps.autobot.outputs.status }}
+        allow-repeats: true
+
+    - name: "Manually Exit (Signals Success / Failure)"
+      run: exit ${{ steps.autobot.outputs.exitcode }}
+
+  touch:
+    needs: [validate, ]
+    name: "Touch Semester (Create / Update Meetings)"
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Set $GROUP"
+      run: |
+        echo "::set-env name=GROUP::$(basename ${{ github.repository }})"
+
+    - name: "Checkout `${{ github.repository }}`"
+      uses: "actions/checkout@v2"
+      with:
+        ref: ${{ github.head_ref }}
+
+    - name: "Use `autobot` to `touch` the Semester"
+      uses: ionlights/tasks@v0.5.0.rc1
+      id: autobot
+      with:
+        workdir: /github/workspace
+        commands: >-
+          group.touch
+
+    - name: "Post `status` as PR Comment"
+      uses: mshick/add-pr-comment@v1
+      with:
+        repo-token: "${{ secrets.UCFAIBOT_PAT }}"
+        message: |
+          ${{ steps.autobot.outputs.status }}
+        allow-repeats: true
+
+    - name: "Push Changes to PR"
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "🚚 Ran `group.touch` to create/rename files"
+        commit_user_name: "AI@UCF"
+        commit_user_email: ucfaibot@users.noreply.github.com
+        commit_author: "AI@UCF <ucfaibot@users.noreply.github.com>"
+        skip_dirty_check: true
+
+

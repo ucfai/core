@@ -1,23 +1,23 @@
-name: CI
+# name: CI
 
-on:
-  pull_request:
-    paths:
-      - "*/overhead.yml"
-    branches: 
-      - master
+# on:
+#   pull_request:
+#     paths:
+#       - "*/overhead.yml"
+#     branches: 
+#       - master
 
-jobs:
-  validate_syllabus:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout PR
-      uses: actions/checkout@v2
-    - name: Get PR Branch Name
-      run: |
-        echo ${{ github.base_ref }}
-        echo ${{ github.head_ref }}
-        git diff --name-only ${{ github.base_ref }}..${{ github.head_ref }}
-      shell: bash
-    - name: Force Fail
-      run: exit -1
+# jobs:
+#   validate_syllabus:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Checkout PR
+#       uses: actions/checkout@v2
+#     - name: Get PR Branch Name
+#       run: |
+#         echo ${{ github.base_ref }}
+#         echo ${{ github.head_ref }}
+#         git diff --name-only ${{ github.base_ref }}..${{ github.head_ref }}
+#       shell: bash
+#     - name: Force Fail
+#       run: exit -1
