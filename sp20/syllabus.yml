@@ -88,7 +88,7 @@
     id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
     date: !Timestamp 2020-02-19 17:30:00
     title: Writer's Block? RNNs Can Help!
-    authors: [brandons209, DillonNotDylan, ionlights]
+    authors: [brandons209, DillonNotDylan, jmuchovej]
     filename: recurrent-nets
     cover-image: https://i.imgur.com/EIt4Ilr.png
     tags: [Recurrent Networks, Natural Language Processing, Text Generation]
@@ -186,7 +186,7 @@
     id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
     date: !Timestamp 2020-04-01 17:30:00
     title: Training Machines to Learn From Experience
-    authors: [danielzgsilva, JarvisEQ, ionlights]
+    authors: [danielzgsilva, JarvisEQ, jmuchovej]
     filename: reinforcement-learning
     cover-image: https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg
     tags: [Reinforcement Learning, Q-learning, OpenAI Gym]
@@ -207,7 +207,7 @@
     id: 43c316921632d149a2e626c58f8ad5e4fd4aec01bef6970954cddd72f0235c3e
     date: !Timestamp 2020-04-08 17:30:00
     title: Building AI, the Human Way
-    authors: [ionlights]
+    authors: [jmuchovej]
     filename: build-ai-the-human-way
     cover-image: https://neuroscape.ucsf.edu/wp-content/uploads/glassbrain-gazzaleylab-neuroscapelab-18-1024x542.jpg"
     tags: [common sense ai, intuitive theories, probabilistic programming, program

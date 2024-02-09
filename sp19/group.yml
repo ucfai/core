@@ -5,7 +5,7 @@ required:
   semester: sp19
   startdate: !Timestamp 2019-02-06 19:30:00
   frequency: 1
-  directors: [ionlights, ]
+  directors: [jmuchovej, ]
   coordinators: [brandons209, jarviseq, irene-l-tanner, danielzgsilva, cg021, ahkerrigan, ]
   guests: []
   advisors: []

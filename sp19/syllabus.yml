@@ -3,7 +3,7 @@
     id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
     date: !Timestamp 2019-02-06 19:30:00
     title: Starting with the Basics, Regression
-    authors: [jarviseq, causallycausal, ionlights]
+    authors: [jarviseq, causallycausal, jmuchovej]
     filename: regression
     cover-image: https://pbs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg
     tags: [regression, linear regression, logistic regression, statistics]
@@ -21,7 +21,7 @@
     id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
     date: !Timestamp 2019-02-13 19:30:00
     title: 'Beyond the Buzzwords: Getting Started with Neural Networks'
-    authors: [ahkerrigan, ionlights]
+    authors: [ahkerrigan, jmuchovej]
     filename: neural-nets
     cover-image: https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg
     tags: [neural networks, deep learning, machine learning]
@@ -40,7 +40,7 @@
     id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
     date: !Timestamp 2019-02-20 19:30:00
     title: How Computers Can see and Other Ways Machines Can Think
-    authors: [irene-l-tanner, brandons209, ionlights]
+    authors: [irene-l-tanner, brandons209, jmuchovej]
     filename: conv-nets
     cover-image: https://www.dailydot.com/wp-content/uploads/7da/6e/fc3aa93d4cf68ff5406f291efcd81b08.jpg
     tags: [neural networks, convolutional networks, deep learning, computer vision]
@@ -60,7 +60,7 @@
     id: f29fd30d995b70644cc34d151e5547f7da5c92fd1c1fb501ffd9fdfc4f0e3c04
     date: !Timestamp 2019-02-27 19:30:00
     title: Who Needs Show Writers Nowadays?
-    authors: [brandons209, ionlights]
+    authors: [brandons209, jmuchovej]
     filename: recurrent-nets
     cover-image: https://i.imgur.com/EIt4Ilr.png
     tags: [neural networks, recurrent networks, long short-term memory, embeddings,
@@ -84,7 +84,7 @@
     id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
     date: !Timestamp 2019-03-06 19:30:00
     title: What Makes Deep Learning More of an Art Than a Science?
-    authors: [ionlights]
+    authors: [jmuchovej]
     filename: hyperparamter-tuning
     cover-image: ''
     tags: [neural networks, convolutional networks, recurrent networks, hyperparamter
@@ -110,7 +110,7 @@
     id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
     date: !Timestamp 2019-03-20 19:30:00
     title: Cleaning and Manipulation a Dataset with Python
-    authors: [danielzgsilva, ionlights]
+    authors: [danielzgsilva, jmuchovej]
     filename: data-curation
     cover-image: https://analyticsindiamag.com/wp-content/uploads/2018/01/data-cleaning.png
     tags: [data science, data curation, data cleaning, data manipulation, data engineering]
@@ -132,7 +132,7 @@
     id: 3e589fcdc955f69df131662e4428e5ba2a97cd1e6c2efe62037de2ee3b950bca
     date: !Timestamp 2019-03-27 19:30:00
     title: A Walk Through the Random Forest
-    authors: [jarviseq, ionlights]
+    authors: [jarviseq, jmuchovej]
     filename: random-forests
     cover-image: https://upload.wikimedia.org/wikipedia/commons/1/17/Tarvasj%C3%B5gi.jpg
     tags: [random forests, boosting, statistics]
@@ -150,7 +150,7 @@
     id: b914b7d0fd34cbfcf7807e5aaa89c8275cb76b66d879e223d684f26635a44f7e
     date: !Timestamp 2019-04-03 19:30:00
     title: Support Vector Machines
-    authors: [jarviseq, ionlights]
+    authors: [jarviseq, jmuchovej]
     filename: svms
     cover-image: https://monkeylearn.com/blog/wp-content/uploads/2017/06/Post_1e_social.png
     tags: [support vector machines, traditional approaches]
@@ -171,7 +171,7 @@
     id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
     date: !Timestamp 2019-04-10 19:30:00
     title: Making sense of high-dimensional data
-    authors: [cg021, ionlights]
+    authors: [cg021, jmuchovej]
     filename: dimensionality-reduction
     cover-image: ''
     tags: [data science, big data, compression, dimensionality reduction]

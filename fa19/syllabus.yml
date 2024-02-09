@@ -3,7 +3,7 @@
     id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
     date: !Timestamp 2019-09-18 17:30:00
     title: Getting Started, Regression
-    authors: [jarviseq, ionlights, ]
+    authors: [jarviseq, jmuchovej, ]
     filename: regression
     cover-image: 'https://phs.twimg.com/media/Dqb-Nk_XcAAm1_j.jpg'
     tags: [ regression, linear regression, logistic regression, statistics, ]
@@ -43,7 +43,7 @@
     id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
     date: !Timestamp 2019-10-02 17:30:00
     title: Getting Started with Neural Networks
-    authors: [jarviseq, ionlights, ]
+    authors: [jarviseq, jmuchovej, ]
     filename: nns
     cover-image: 'https://cdn-images-1.medium.com/max/1200/1*4V4OU2GEzmOWHgCJ8varUQ.jpeg'
     tags: [neural networks, gradient descent, optimization, ]
@@ -101,7 +101,7 @@
     id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
     date: !Timestamp 2019-10-23 17:30:00
     title: Writer's Block? RNNs Can Help!
-    authors: [brandons209, ionlights, ]
+    authors: [brandons209, jmuchovej, ]
     filename: rnns
     cover-image: 'https://i.imgur.com/EIt4Ilr.png'
     tags: [neural networks, recurrent networks, deep learning, long short-term memory, embeddings, ]
@@ -143,7 +143,7 @@
     id: b914b7d0fd34cbfcf7807e5aaa89c8275cb76b66d879e223d684f26635a44f7e
     date: !Timestamp 2019-11-06 17:30:00
     title: Training Machines to Learn From Experience
-    authors: [danielzgsilva, jarviseq, ionlights, ]
+    authors: [danielzgsilva, jarviseq, jmuchovej, ]
     filename: rl
     cover-image: 'https://nulltx.com/wp-content/uploads/2018/10/robot-maze.jpg'
     tags: [reinforcement learning, machine learning, planning, value iteration, deep reinforcement learning, neural networks, deep learning, ]
@@ -162,7 +162,7 @@
     id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
     date: !Timestamp 2019-11-13 17:30:00
     title: Learning by Doing, This Time with Neural Networks
-    authors: [ahkerrigan, ionlights]
+    authors: [ahkerrigan, jmuchovej]
     filename: deep-rl
     cover-image: ''
     tags: [machine learning, deep learning, reinforcement learning, deep reinforcement learning, neural networks, policy optimization, DoTA, ]
@@ -182,7 +182,7 @@
     id: 43c316921632d149a2e626c58f8ad5e4fd4aec01bef6970954cddd72f0235c3e
     date: !Timestamp 2019-11-20 17:30:00
     title: Building AI, the Human Way
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: build-ai-the-human-way
     cover-image: 'https://neuroscape.ucsf.edu/wp-content/uploads/glassbrain-gazzaleylab-neuroscapelab-18-1024x542.jpg"'
     tags: [common sense ai, intuitive theories, probabilistic programming, program induction, cognitive science, machine learning, computational cognitive science, intuitive psychology, intuitive physics, inverse graphics, ]

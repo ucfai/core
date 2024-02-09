@@ -5,7 +5,7 @@ required:
   semester: sp18
   startdate: !Timestamp 2018-02-01 19:30:00
   frequency: 1
-  directors: [ionlights, ]
+  directors: [jmuchovej, ]
   coordinators: [dibaccory, ]
   guests: [jbowren, ]
   advisors: []

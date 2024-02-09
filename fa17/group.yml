@@ -6,7 +6,7 @@ required:
   startdate: !Timestamp 2017-09-27 19:30:00
   frequency: 1
   directors: [flxsosa]
-  coordinators: [ionlights, dibaccory]
+  coordinators: [jmuchovej, dibaccory]
   guests: [aswu, ]
   advisors: [aswu, ]
   summary: >-

@@ -3,7 +3,7 @@
     id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
     date: !Timestamp 2017-09-27 19:30:00
     title: 'Lecture: Introductions & An Intro to Neural Networks'
-    authors: [ionlights]
+    authors: [jmuchovej]
     filename: intro-and-neural-nets
     cover-image: ''
     tags: [neural networks, deep learning, backpropagation, gradient descent, optimization, ]
@@ -24,7 +24,7 @@
     id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
     date: !Timestamp 2017-10-04 19:30:00
     title: 'Workshop: An Intro to Neural Nets'
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: neural-nets-workshop
     cover-image: ''
     tags: [neural networks, deep learning, machine learning, MNIST, TensorFlow, numpy]

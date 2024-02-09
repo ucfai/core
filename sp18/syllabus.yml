@@ -3,7 +3,7 @@
     id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
     date: !Timestamp 2018-02-01 19:30:00
     title: "Welcome back to SIGAI, featuring Gradient Descent"
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: intro-gradient-descent
     cover-image: ''
     tags: [gradient descent, optimization, machine learning]
@@ -20,7 +20,7 @@
     id: f4e062e38f3af1c13d1bdd69d4316f7f887c276cccd3b6e262382c49dd4b9263
     date: !Timestamp 2018-02-08 19:30:00
     title: "Lecture: An Intro to Neural Networks (ANNs)"
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: neural-nets-lecture
     cover-image: ''
     tags: [neural networks, deep learning, MNIST, ]
@@ -38,7 +38,7 @@
     id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
     date: !Timestamp 2018-02-15 19:30:00
     title: "Workshop: Building an Extensible ANN"
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: neural-nets-workshop
     cover-image: ''
     tags: []
@@ -103,7 +103,7 @@
     id: cebdadd4fdcde94eb6eea2edcbe663d4df6d06f8ef91ca2c1bd3afb1ff4318cb
     date: !Timestamp 2018-03-29 19:30:00
     title: "Workshop: Do We Need English Lit Anymore?"
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: recurrent-nets-workshop
     cover-image: ''
     tags: []
@@ -119,7 +119,7 @@
     id: 43c316921632d149a2e626c58f8ad5e4fd4aec01bef6970954cddd72f0235c3e
     date: !Timestamp 2018-04-05 19:30:00
     title: "Lecture: Can Machines Learn from Experience?"
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: reinforcement-learning-p1
     cover-image: ''
     tags: []
@@ -136,7 +136,7 @@
     id: be2082a49b5867880566a74492f4bcf4a20e621b3752451b44ec788f328b6210
     date: !Timestamp 2018-04-12 19:30:00
     title: "Lecture: Can Machines Learn from Experience? (Part 2)"
-    authors: [dibaccory, ionlights, ]
+    authors: [dibaccory, jmuchovej, ]
     filename: reinforcement-learning-p2
     cover-image: ''
     tags: []

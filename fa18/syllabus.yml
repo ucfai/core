@@ -3,7 +3,7 @@
     id: 8f863b4f2ad5d2600cb549cf885be1065f9423efbd7526a3f3e73457fab26bb7
     date: !Timestamp 2018-08-29 18:00:00
     title: "Welcome back! Featuring Plotting & Supercomputers"
-    authors: [ionlights, waldmannly, ]
+    authors: [jmuchovej, waldmannly, ]
     filename: welcome-back
     cover-image: 'https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2018/04/shutterstock_1011096853.jpg'
     tags: []
@@ -22,7 +22,7 @@
     id: 6dc27ebdfd28b038c01891fea481029ae06bced5aae1c42b91c96609e98a8263
     date: !Timestamp 2018-09-12 16:30:00
     title: "Intro to Data Analysis with Pandas & Numpy"
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: learn-numpy-pandas
     cover-image: 'https://www.cfertech.com/sites/cfertech.com/files/nodefiles/822/RLX_Data_Analysis_banner.jpg'
     tags: []
@@ -55,7 +55,7 @@
     id: 02bd0d1ba8b748d9358b7d92e4026786f78890833071c2067ae912aa2a3d00fe
     date: !Timestamp 2018-09-26 16:30:00
     title: "Intro the Neural Nets, featuring PyTorch"
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: neural-nets
     cover-image: ''
     tags: []
@@ -69,7 +69,7 @@
     id: 1367f61cfe397e862d1c2465bdf4cbea5298c37c980328a36c43556e356119b7
     date: !Timestamp 2018-10-03 16:30:00
     title: Teaching Machines to Make Sense of Images
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: conv-nets
     cover-image: ''
     tags: []
@@ -83,7 +83,7 @@
     id: 3e589fcdc955f69df131662e4428e5ba2a97cd1e6c2efe62037de2ee3b950bca
     date: !Timestamp 2018-10-10 16:30:00
     title: Machines that Write as Well as Shakespeare
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: recurrent-nets
     cover-image: ''
     tags: []
@@ -153,7 +153,7 @@
     id: 5dab7d867ea5cbb561f27a2631b44ea16014565bd4c10cfd95df8cd9f99668ba
     date: !Timestamp 2018-11-14 16:30:00
     title: Practice Makes Permanent, but Data's Messy
-    authors: [ionlights, ]
+    authors: [jmuchovej, ]
     filename: practicing-data-cleaning
     cover-image: ''
     tags: []
